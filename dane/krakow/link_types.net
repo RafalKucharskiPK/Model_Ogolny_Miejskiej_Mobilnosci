@@ -1,0 +1,114 @@
+$VISION
+* Politechnika Krakowska - Wydz. Inzynierii Ladowej Instytut Inzynierii Drogowej i Kolejowej Krakow
+* 03/27/18
+* 
+* Table: Version block
+* 
+$VERSION:VERSNR;FILETYPE;LANGUAGE;UNIT
+10.000;Net;ENG;KM
+
+* 
+* Table: Link types
+* 
+$LINKTYPE:NO;NAME;STRICT;RANK;TSYSSET;NUMLANES;CAPPRT;V0PRT;VMINPRT;COSTRATE1_PUTSYS(M);COSTRATE2_PUTSYS(M);COSTRATE3_PUTSYS(M);HBEFA_ROADTYPE;VMAX_PRTSYS(SC);VMAX_PRTSYS(SD);VDEF_PUTSYS(M);VDEF_PUTSYS(W)
+0;koleje magistralne;0;1;K;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+1;koleje pozosta³e;0;1;K;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+2;Tram KST;0;1;T;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+3;Tram w Alejach wydzielone;0;1;T;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+4;Tram w ulicy niewydzielone;0;1;T;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+5;TTA;0;1;A,M,T;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;27km/h;4km/h
+6;rowery (œcie¿ki);0;1;;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+7;rowery (pasy/kontrapasy);0;1;;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+8;Tram w ulicy 1x4;0;1;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+9;polaczenia piesze;0;1;A,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+10;Autostrada 2x3;0;2;C,SC,SD;3;3600;110km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+11;Autostrada 2x2;0;2;A,C,M,SC,SD;2;2700;110km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+12;Ekspresowa;0;2;A,C,M,SC,SD;2;2700;120km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+13;£¹cznica bezpoœrednia;0;2;A,C,M,SC,SD;1;1800;70km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+14;£¹cznica pó³bezpoœrednia;0;2;A,C,M,SC,SD;1;1800;70km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+15;£¹cznica poœrednia;0;2;A,C,M,SC,SD;1;1800;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;40km/h;4km/h
+16;A + S;0;2;A,C,K,M,SC,SD,T,W;1;1800;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+17;A + S;0;2;A,C,K,M,SC,SD,T,W;1;1800;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+18;A + S;0;2;A,C,K,M,SC,SD,T,W;1;1800;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+19;A + S;0;2;A,C,K,M,SC,SD,T,W;1;1800;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+20;ZEWN: GP 2x2 z wêz³ami;0;3;A,C,M,SC,SD;2;2400;100km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;60km/h;4km/h
+21;ZEWN: GP 2x2 kolizyjne;0;3;A,C,M,SC,SD;2;2400;80km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+22;ZEWN: GP 1x2;0;3;A,C,M,SC,SD;1;1600;70km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;45km/h;4km/h
+23;ZEWN: G 2x2;0;3;A,C,M,SC,SD,W;2;2400;70km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;48km/h;4km/h
+24;ZEWN: G 1x2;0;3;A,C,M,SC,SD,W;1;1600;65km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;42km/h;4km/h
+25;ZEWN: Z 1x2;0;3;A,C,M,SC,SD,W;1;1600;45km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;35km/h;4km/h
+26;ZEWN: L maxy;0;3;A,C,M,SD,W;1;1600;40km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;5km/h;4km/h
+27;ZEWN: krajowe+ wojewódzkie + powiatowe;0;3;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+28;ZEWN: krajowe+ wojewódzkie + powiatowe;0;3;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+29;ZEWN: krajowe+ wojewódzkie + powiatowe;0;3;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+30;KRAKÓW: GP z wêz³ami;0;4;A,C,M,SC,SD;1;2500;70km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;45km/h;4km/h
+31;KRAKÓW: GP z sygnalizacj¹;0;4;A,C,M,SC,SD;1;2200;65km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;35km/h;4km/h
+32;KRAKÓW: £¹cznice (pó³) bezpoœrednie;0;4;A,C,M,SC,SD;1;1800;70km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;30km/h;4km/h
+33;KRAKÓW: £¹cznice ze œwiat³ami;0;4;A,C,M,SC,SD;1;1000;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;27km/h;4km/h
+34;KRAKÓW: G 2x3;0;4;A,C,M,SC,SD,W;3;3200;65km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;30km/h;4km/h
+35;KRAKÓW: G 2x2+buspas;0;4;A,C,M,SC,SD,W;2;2000;65km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;25km/h;4km/h
+36;KRAKÓW: G 2x2;0;4;A,C,M,SC,SD,W;2;2400;65km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;25km/h;4km/h
+37;KRAKÓW: G 1x4;0;4;A,C,M,SC,SD,W;2;2000;65km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;25km/h;4km/h
+38;KRAKÓW: G 1x2;0;4;A,C,M,SC,SD,W;1;1600;65km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;25km/h;4km/h
+39;KRAKÓW: GP + G;0;4;A,C,K,M,SC,SD,T,W;1;1600;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+40;KRAKÓW: Z 2x2;0;5;A,C,M,SC,SD,W;2;1300;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;20km/h;200km/h;27km/h;4km/h
+41;KRAKÓW: Z 1x4;0;5;A,C,M,SC,SD,W;2;1300;45km/h;0km/h;0.00;0.00;0.00;Access-Residential;20km/h;200km/h;27km/h;4km/h
+42;KRAKÓW: Z 1x2;0;5;A,C,M,SC,SD,W;1;1000;45km/h;0km/h;0.00;0.00;0.00;Access-Residential;20km/h;200km/h;27km/h;4km/h
+43;KRAKÓW: Z 1x2 min;0;5;A,C,M,SC,SD,W;1;1000;45km/h;0km/h;0.00;0.00;0.00;Access-Residential;20km/h;200km/h;24km/h;4km/h
+44;KRAKÓW: Z tram;0;5;A,C,M,SC,SD,T,W;1;1000;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;20km/h;200km/h;24km/h;4km/h
+45;KRAKÓW: Z;0;5;A,C,K,M,SC,SD,T,W;1;1000;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;20km/h;200km/h;50km/h;4km/h
+46;KRAKÓW: Z;0;5;A,C,K,M,SC,SD,T,W;1;1000;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;20km/h;200km/h;50km/h;4km/h
+47;KRAKÓW: Z;0;5;A,C,K,M,SC,SD,T,W;1;1000;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;20km/h;200km/h;50km/h;4km/h
+48;KRAKÓW: Z;0;5;A,C,K,M,SC,SD,T,W;1;1000;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;20km/h;200km/h;50km/h;4km/h
+49;KRAKÓW: Z;0;5;A,C,K,M,SC,SD,T,W;1;1000;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;20km/h;200km/h;50km/h;4km/h
+50;KRAKÓW: L max;0;6;A,C,M,SC,SD,W;1;600;40km/h;0km/h;0.00;0.00;0.00;Access-Residential;10km/h;200km/h;24km/h;4km/h
+51;KRAKÓW: L;0;6;C,SC,SD,W;1;400;40km/h;0km/h;0.00;0.00;0.00;Access-Residential;10km/h;200km/h;50km/h;4km/h
+52;KRAKÓW: L min;0;6;C,SC,SD,W;1;300;40km/h;0km/h;0.00;0.00;0.00;Access-Residential;10km/h;200km/h;50km/h;4km/h
+53;KRAKÓW: L max tram;0;6;A,C,M,SC,T,W;1;300;40km/h;0km/h;0.00;0.00;0.00;Access-Residential;10km/h;200km/h;24km/h;4km/h
+54;KRAKÓW: L;0;6;A,C,K,M,SC,SD,T,W;1;300;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;10km/h;200km/h;50km/h;4km/h
+55;KRAKÓW: L;0;6;A,C,K,M,SC,SD,T,W;1;300;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;10km/h;200km/h;50km/h;4km/h
+56;KRAKÓW: L;0;6;A,C,K,M,SC,SD,T,W;1;300;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;10km/h;200km/h;50km/h;4km/h
+57;KRAKÓW: L;0;6;A,C,K,M,SC,SD,T,W;1;300;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;10km/h;200km/h;50km/h;4km/h
+58;KRAKÓW: L;0;6;A,C,K,M,SC,SD,T,W;1;300;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;10km/h;200km/h;50km/h;4km/h
+59;KRAKÓW: L;0;6;A,C,K,M,SC,SD,T,W;1;300;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;10km/h;200km/h;50km/h;4km/h
+60;KRAKÓW: D;0;7;C,SC,W;1;300;20km/h;0km/h;0.00;0.00;0.00;Access-Residential;2km/h;200km/h;50km/h;4km/h
+61;KRAKÓW: D;0;7;A,C,K,M,SC,SD,T,W;1;300;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;2km/h;200km/h;50km/h;4km/h
+62;KRAKÓW: D;0;7;A,C,K,M,SC,SD,T,W;1;300;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;2km/h;200km/h;50km/h;4km/h
+63;KRAKÓW: D;0;7;A,C,K,M,SC,SD,T,W;1;300;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;2km/h;200km/h;50km/h;4km/h
+64;KRAKÓW: D;0;7;A,C,K,M,SC,SD,T,W;1;300;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;2km/h;200km/h;50km/h;4km/h
+65;KRAKÓW: D;0;7;A,C,K,M,SC,SD,T,W;1;300;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;2km/h;200km/h;50km/h;4km/h
+66;KRAKÓW: D;0;7;A,C,K,M,SC,SD,T,W;1;300;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;2km/h;200km/h;50km/h;4km/h
+67;KRAKÓW: D;0;7;A,C,K,M,SC,SD,T,W;1;300;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;2km/h;200km/h;50km/h;4km/h
+68;KRAKÓW: D;0;7;A,C,K,M,SC,SD,T,W;1;300;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;2km/h;200km/h;50km/h;4km/h
+69;KRAKÓW: D;0;7;A,C,K,M,SC,SD,T,W;1;300;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;2km/h;200km/h;50km/h;4km/h
+70;;0;8;A,C,K,M,SC,SD,T,W;1;300;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+71;;0;8;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+72;;0;8;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+73;;0;8;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+74;;0;8;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+75;;0;8;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+76;;0;8;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+77;;0;8;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+78;;0;8;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+79;;0;8;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+80;;0;9;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+81;;0;9;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+82;;0;9;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+83;;0;9;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+84;;0;9;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+85;;0;9;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+86;;0;9;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+87;;0;9;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+88;;0;9;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+89;PRZECIWNE kierunki;0;9;;1;0;0km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+90;projektowane;0;10;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+91;projektowane;0;10;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+92;projektowane;0;10;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+93;projektowane;0;10;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+94;projektowane;0;10;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+95;projektowane;0;10;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+96;projektowane;0;10;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+97;projektowane;0;10;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+98;projektowane;0;10;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+99;projektowane;0;10;A,C,K,M,SC,SD,T,W;1;99999;50km/h;0km/h;0.00;0.00;0.00;Access-Residential;200km/h;200km/h;50km/h;4km/h
+
