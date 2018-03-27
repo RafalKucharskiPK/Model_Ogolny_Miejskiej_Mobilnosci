@@ -1,7 +1,10 @@
 # Model_Ogolny_Miejskiej_Mobilnosci
-## Ogólny model mobilności miejskiej dla miast małych i średnich - (c) Rafal Kucharski, Politechnika Krakowska, 2018
+## Ogólny model mobilności miejskiej dla miast małych i średnich
 
 Model zawiera pliki edytowalne, oraz skompilowane dla modelu mobilności zapisane w programie PTV VISUM (ver. 17.01-05) www.ptvgroup.com/pl
+
+## Cytowanie 
+Przy każdym uzyciu proszę cytować jako jako: *Kucharski R., 2018, Model Ogólny Miejskiej Mobilności, GitHub repository, DOI: 10.5281/zenodo.1208635* [![DOI](https://zenodo.org/badge/126968926.svg)](https://zenodo.org/badge/latestdoi/126968926) 
 
 ## Licencja 
 
@@ -73,8 +76,7 @@ Dane w formie edytowalnej (`link_types.net, procedures.xml, dmd.dmd`), w miarę 
 * Regionalnego Modelu Ruchu (w ramach RID)
 * zapraszam do dodawania swoich (po uprzednim upewnieniu się, że nie pójdziemy za to do więzienia)
 
-## Cytowanie 
-Przy każdym uzyciu proszę cytować jako jako: *Kucharski R., 2018, Model Ogólny Miejskiej Mobilności, GitHub repository, DOI: 10.5281/zenodo.1208635* [![DOI](https://zenodo.org/badge/126968926.svg)](https://zenodo.org/badge/latestdoi/126968926) 
+
 
 
 
