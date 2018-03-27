@@ -76,6 +76,9 @@ Dane w formie edytowalnej (`link_types.net, procedures.xml, dmd.dmd`), w miarę 
 * Regionalnego Modelu Ruchu (w ramach RID)
 * zapraszam do dodawania swoich (po uprzednim upewnieniu się, że nie pójdziemy za to do więzienia)
 
+## Folder dydaktyka
+
+Z materiałami dydaktycznymi - opisy w odpowiednich folderach
 
 
 
