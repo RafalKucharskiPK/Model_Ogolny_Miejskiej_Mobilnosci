@@ -28,16 +28,16 @@ MIEJSCA_W_SZKOLACH
 * parametrach ruchliwości określonych na poziomie `DemandStara'
 
 
- | CODE | NAME | D_RUCHLIWOSC_DOBOWA | D_ASC | U_KZ | D_URANO | D_UPOPO | D_WSPNAPELNIENIA | D_MNOZNIKSEZONOWY
-| 01 D-P | Dom - Praca | 0.40 | 10 | 0.45 | 0.30 | 0.01 | 1.30 | 1.00
-| 02 P-D | Praca - Dom | 0.35 | 10 | 0.45 | 0.00 | 0.32 | 1.30 | 1.00
-| 03 D-N | Dom - Nauka | 0.10 | 10 | 0.80 | 0.15 | 0.01 | 1.30 | 1.00
- | 04 N-D | Nauka - Dom | 0.10 | 10 | 0.80 | 0.00 | 0.10 | 1.30 | 1.00
-| 05 D-U | Dom - Uczelnia | 0.05 | 10 | 0.70 | 0.10 | 0.01 | 1.30 | 1.00
-| 06 U-D | Uczelnia - Dom | 0.05 | 10 | 0.70 | 0.00 | 0.10 | 1.30 | 1.00
-| 07 D-I | Dom - Inne | 0.20 | 10 | 0.30 | 0.10 | 0.10 | 1.30 | 1.00
- | 08 I-D | Inne - Dom | 0.25 | 10 | 0.30 | 0.00 | 0.15 | 1.30 | 1.00
- | 09 NZD | Nie związane z domem | 0.00 | 10 | 0.40 | 0.05 | 0.15 | 1.30 | 1.00
+ | CODE | NAME | D_RUCHLIWOSC_DOBOWA | D_ASC | U_KZ | D_URANO | D_UPOPO | D_WSPNAPELNIENIA | D_MNOZNIKSEZONOWY |
+| 01 D-P | Dom - Praca | 0.40 | 10 | 0.45 | 0.30 | 0.01 | 1.30 | 1.00 |
+| 02 P-D | Praca - Dom | 0.35 | 10 | 0.45 | 0.00 | 0.32 | 1.30 | 1.00 |
+| 03 D-N | Dom - Nauka | 0.10 | 10 | 0.80 | 0.15 | 0.01 | 1.30 | 1.00 |
+ | 04 N-D | Nauka - Dom | 0.10 | 10 | 0.80 | 0.00 | 0.10 | 1.30 | 1.00 |
+| 05 D-U | Dom - Uczelnia | 0.05 | 10 | 0.70 | 0.10 | 0.01 | 1.30 | 1.00 |
+| 06 U-D | Uczelnia - Dom | 0.05 | 10 | 0.70 | 0.00 | 0.10 | 1.30 | 1.00 |
+| 07 D-I | Dom - Inne | 0.20 | 10 | 0.30 | 0.10 | 0.10 | 1.30 | 1.00 |
+ | 08 I-D | Inne - Dom | 0.25 | 10 | 0.30 | 0.00 | 0.15 | 1.30 | 1.00 |
+ | 09 NZD | Nie związane z domem | 0.00 | 10 | 0.40 | 0.05 | 0.15 | 1.30 | 1.00 |
 
 
 
