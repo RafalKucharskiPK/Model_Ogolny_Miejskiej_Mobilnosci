@@ -1,0 +1,23 @@
+## PROGNOZOWANIE RUCHU
+
+# Rozpoczęcie
+
+* Ściągnij licencję akademicką programu PTV Visum za pomocą http://cgi.ptvgroup.com/php/lng/vision_student_download.php?lng=en
+
+* Sklonuj to repozytorium https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci (Zielony przycisk `Clone or Donwload` i potem `Download as ZIP`)
+
+* Uruchom plik `MOMM.ver`
+
+# Ćwiczenie testowe
+
+* Wykonaj ćwiczenie pierwsze z http://www.zsk.pk.edu.pl/system/physicals/224/original/NiB_2018.pdf
+
+# Pomoce dydaktyczne
+
+* Visum Quickstart `\Users\Public\Documents\PTV Vision\PTV Visum 17\Tutorial_Quickstart\Visum_Quickstart_POL.pdf`
+
+* Kanał YouTube KST, WIL, PK : https://www.youtube.com/channel/UCJKrYB7gHr1tvpckGlkhNnQ/videos
+
+* Artykuły autora: https://scholar.google.pl/citations?hl=pl&user=z3bOMUAAAAAJ&view_op=list_works&sortby=pubdate
+
+* i jego kolegów [T Kulpa](https://scholar.google.pl/citations?user=S4x1MBcAAAAJ&hl=pl&oi=ao) [A Szarata](https://scholar.google.pl/citations?user=HisPuLQAAAAJ&hl=pl&oi=ao) [A Drabicki](https://www.researchgate.net/profile/Arkadiusz_Drabicki)
