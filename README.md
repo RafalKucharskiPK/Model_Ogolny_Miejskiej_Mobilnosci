@@ -3,9 +3,6 @@
 
 Model zawiera pliki edytowalne, oraz skompilowane dla modelu mobilności zapisane w programie PTV VISUM (ver. 17.01-05) www.ptvgroup.com/pl
 
-## Cytowanie 
-Przy każdym uzyciu proszę cytować jako jako: *Kucharski R., 2018, Model Ogólny Miejskiej Mobilności, GitHub repository, DOI: 10.5281/zenodo.1208635* [![DOI](https://zenodo.org/badge/126968926.svg)](https://zenodo.org/badge/latestdoi/126968926) 
-
 ## Licencja 
 
 [licence](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/LICENSE)
@@ -60,6 +57,25 @@ MIEJSCA_W_SZKOLACH
 ## Folder MOMM - manadżer scenariuszy
 
 W folderze tym znajduje się manadżer scenariuszy otwierany poprzez [MOMM.vpdbx](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/MOMM/MOMM.vpdbx) 
+base version to MOMM.ver (opisany powyżej).
+* Podstawowe wskaźniki: 'PojKm, PojH, VŚrednia`
+* Jedna modyfikacja zmiany w liczbie ludności
+* Jedna modyfikacja zmiany w sieci (inwestycja drogowa)
+* Trzy modyfikacje dla szczytu porannego, popołudniowego i doby
+* Cztery scenariusze: bazowy, więcej ludności, nowa inwestycja, nowa inwestycja plus więcej ludności.
+
+## Folder **dane**
+
+Dane w formie edytowalnej (`link_types.net, procedures.xml, dmd.dmd`), w miarę dostępności z opisami  dla modeli:
+* Opisanego powyżej
+* Krakowa (2013)
+* Warszawy (MTAW 2015)
+* Regionalnego Modelu Ruchu (w ramach RID)
+* zapraszam do dodawania swoich (po uprzednim upewnieniu się, że nie pójdziemy za to do więzienia)
+
+## Cytowanie 
+Przy każdym uzyciu proszę cytować jako jako: *Kucharski R., 2018, Model Ogólny Miejskiej Mobilności, GitHub repository, DOI: 10.5281/zenodo.1208635* [![DOI](https://zenodo.org/badge/126968926.svg)](https://zenodo.org/badge/latestdoi/126968926) 
+
 
 
 
