@@ -4,7 +4,7 @@
 Model zawiera pliki edytowalne, oraz skompilowane dla modelu mobilności zapisane w programie PTV VISUM (ver. 17.01-05) www.ptvgroup.com/pl
 
 ## Cytowanie 
-Przy każdym uzyciu proszę cytować jako jako: *Kucharski R., 2018, Model Ogólny Miejskiej Mobilności, GitHub repository, DOI: 10.5281/zenodo.1208635* [![DOI](https://zenodo.org/badge/126968926.svg)](https://zenodo.org/badge/latestdoi/126968926) 
+Przy każdym uzyciu proszę cytować jako jako: *Rafal Kucharski. (2018, March 27). RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci: First release (Version 0.0.1). Zenodo. http://doi.org/10.5281/zenodo.1208635* [![DOI](https://zenodo.org/badge/126968926.svg)](https://zenodo.org/badge/latestdoi/126968926) 
 
 ## Licencja 
 
