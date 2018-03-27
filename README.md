@@ -3,6 +3,20 @@
 
 Model zawiera pliki edytowalne, oraz skompilowane dla modelu mobilności zapisane w programie PTV VISUM (ver. 17.01-05) www.ptvgroup.com/pl
 
+## Cytowanie 
+Przy każdym uzyciu proszę cytować jako jako: *Kucharski R., 2018, Model Ogólny Miejskiej Mobilności, GitHub repository, DOI: 10.5281/zenodo.1208635* [![DOI](https://zenodo.org/badge/126968926.svg)](https://zenodo.org/badge/latestdoi/126968926) 
+
+## Licencja 
+
+[licence](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/LICENSE)
+
+## Ogólny sposób użycia
+
+Dla chcących poznać podstawy [github](https://guides.github.com/activities/hello-world/), dla innych po prostu klikamy zielone `Clone or Download` i `Download ZIP`
+Dla chcących dodawać i edytować pliki zapraszam, proszę wówczas o stworzenie brancha wraz z opisem i pull request na merge do master (wprost przepiękna polszczyzna)
+
+# Zawartość
+
 
 ## Plik MOMM.ver
 Plik MOMM.ver zawiera plik programu PTV VISUM możliwy do otwarcia przy użyciu wersji akademickiej porgramu do pobrania ze strony http://cgi.ptvgroup.com/php/lng/vision_student_download.php?lng=en
@@ -25,7 +39,7 @@ MIEJSCA_NA_UCZELNIACH
 MIEJSCA_PRACY_W_PRZEMYSLE
 MIEJSCA_W_SZKOLACH
 ```
-* parametrach ruchliwości określonych na poziomie `DemandStrata'
+* parametrach modelu popytu określonych na poziomie `DemandStrata'
 
 ```
  | CODE | NAME | D_RUCHLIWOSC_DOBOWA | D_ASC | U_KZ | D_URANO | D_UPOPO | D_WSPNAPELNIENIA | D_MNOZNIKSEZONOWY |
@@ -40,12 +54,12 @@ MIEJSCA_W_SZKOLACH
  | 09 NZD | Nie związane z domem | 0.00 | 10 | 0.40 | 0.05 | 0.15 | 1.30 | 1.00 |
 ```
 
-
+* zestawie procedur określonym w [proecdures.xml](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/dane/srednie/procedures.xml)
 
 
 ## Folder MOMM - manadżer scenariuszy
 
-W folderze tym znajduje się manadr
+W folderze tym znajduje się manadżer scenariuszy otwierany poprzez [MOMM.vpdbx](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/MOMM/MOMM.vpdbx) 
 
 
 
