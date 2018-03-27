@@ -1,0 +1,114 @@
+$VISION
+* Politechnika Krakowska - Wydz. Inzynierii Ladowej Instytut Inzynierii Drogowej i Kolejowej Krakow
+* 03/27/18
+* 
+* Table: Version block
+* 
+$VERSION:VERSNR;FILETYPE;LANGUAGE;UNIT
+10.00000000;Net;ENG;KM
+
+* 
+* Table: Link types
+* 
+$LINKTYPE:NO;NAME;STRICT;RANK;TSYSSET;NUMLANES;CAPPRT;V0PRT;VMINPRT;HBEFA_ROADTYPE;VMAX_PRTSYS(SC);VMAX_PRTSYS(SCP);VMAX_PRTSYS(SD);VMAX_PRTSYS(SO);VDEF_PUTSYS(W)
+0;ogólne;1;999999;;1;0;0km/h;0km/h;Access-Residential;90km/h;90km/h;140km/h;0km/h;4km/h
+1;Obwodnice_AiS;1;1;BUS,M_bus,PKS,SC,SCP,SD,SO;2;50000;120km/h;0km/h;Access-Residential;85km/h;85km/h;0km/h;120km/h;4km/h
+2;A 2x2 bezplatna;1;1;BUS,M_bus,PKS,SC,SCP,SD,SO;2;60000;143km/h;0km/h;Access-Residential;87km/h;87km/h;140km/h;143km/h;4km/h
+3;A 2x2 platna;1;1;M_bus,PKS,SC,SCP,SD,SO;2;60000;143km/h;0km/h;Access-Residential;87km/h;87km/h;140km/h;143km/h;4km/h
+4;A 2x2 koncesja;1;1;BUS,M_bus,PKS,SC,SCP,SD,SO;2;60000;143km/h;0km/h;Access-Residential;87km/h;87km/h;140km/h;143km/h;4km/h
+5;E 2x4;1;1;M_bus,PKS,SC,SCP,SD,SO;4;95000;129km/h;0km/h;Access-Residential;86km/h;86km/h;140km/h;129km/h;4km/h
+6;E 2x3;1;1;M_bus,PKS,SC,SCP,SD,SO;3;74000;129km/h;0km/h;Access-Residential;86km/h;86km/h;140km/h;129km/h;4km/h
+7;E 2x2;1;1;BUS,M_bus,PKS,SC,SCP,SD,SO;2;60000;129km/h;0km/h;Access-Residential;86km/h;86km/h;100km/h;129km/h;4km/h
+8;E 1x2;1;1;BUS,M_bus,PKS,SC,SCP,SD,SO;1;20400;110km/h;0km/h;Access-Residential;62km/h;62km/h;130km/h;110km/h;4km/h
+9; K 2x2 9-10.5m;1;1;BUS,M_bus,PKS,SC,SCP,SD,SO;2;44400;90km/h;0km/h;Access-Residential;64km/h;64km/h;130km/h;90km/h;4km/h
+10;K 2x2 7-9m;1;2;M_bus,PKS,SC,SCP,SD,SO;1;35000;90km/h;0km/h;Access-Residential;64km/h;64km/h;140km/h;90km/h;4km/h
+11;K >12m;1;2;M_bus,PKS,SC,SCP,SD,SO;1;19800;82km/h;0km/h;Access-Residential;63km/h;63km/h;140km/h;82km/h;4km/h
+12;K 10.5-12m;1;2;BUS,M_bus,PKS,SC,SCP,SD,SO;1;19300;82km/h;0km/h;Access-Residential;63km/h;63km/h;130km/h;82km/h;4km/h
+13;K 9-10.5m;1;2;BUS,M_bus,PKS,SC,SCP,SD,SO;1;19300;82km/h;0km/h;Access-Residential;63km/h;63km/h;110km/h;82km/h;4km/h
+14;K 7-9;1;2;BUS,M_bus,PKS,SC,SCP,SD,SO;1;16800;82km/h;0km/h;Access-Residential;63km/h;63km/h;100km/h;82km/h;4km/h
+15;K 6-7;1;2;BUS,M_bus,PKS,SC,SCP,SD,SO;1;16300;82km/h;0km/h;Access-Residential;55km/h;55km/h;130km/h;82km/h;4km/h
+16;K <6;1;2;BUS,M_bus,PKS,SC,SCP,SD,SO;1;13300;76km/h;0km/h;Access-Residential;40km/h;40km/h;100km/h;76km/h;4km/h
+17;£¹cznica AiS;1;100;BUS,M_bus,PKS,SC,SCP,SD,SO;1;50000;65km/h;0km/h;Access-Residential;50km/h;50km/h;65km/h;65km/h;4km/h
+18;£¹cznica GPiG;1;100;BUS,M_bus,PKS,SC,SCP,SD,SO;1;30000;50km/h;0km/h;Access-Residential;50km/h;50km/h;50km/h;50km/h;4km/h
+19;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+20;W 2x2;1;3;BUS,M_bus,PKS,SC,SCP,SD,SO;1;31000;78km/h;0km/h;Access-Residential;42km/h;42km/h;110km/h;78km/h;4km/h
+21;W >12m;1;3;BUS,M_bus,PKS,SC,SCP,SD,SO;1;15800;78km/h;0km/h;Access-Residential;42km/h;42km/h;110km/h;78km/h;4km/h
+22;W 10.5-12m;1;3;BUS,M_bus,PKS,SC,SCP,SD,SO;1;15300;78km/h;0km/h;Access-Residential;40km/h;40km/h;60km/h;78km/h;4km/h
+23;W 9-10.5m;1;3;BUS,M_bus,PKS,SC,SCP,SD,SO;1;15300;78km/h;0km/h;Access-Residential;40km/h;40km/h;110km/h;78km/h;4km/h
+24;W 7-9;1;3;BUS,M_bus,PKS,SC,SCP,SD,SO;1;12800;75km/h;0km/h;Access-Residential;40km/h;40km/h;110km/h;75km/h;4km/h
+25;W 6-7;1;3;BUS,M_bus,PKS,SC,SCP,SD,SO;1;12300;74km/h;0km/h;Access-Residential;40km/h;40km/h;60km/h;74km/h;4km/h
+26;W 5-6;1;3;BUS,M_bus,PKS,SC,SCP,SD,SO;1;9300;74km/h;0km/h;Access-Residential;40km/h;40km/h;110km/h;74km/h;4km/h
+27;W <5;1;3;BUS,M_bus,PKS,SC,SCP,SD,SO;1;6300;65km/h;0km/h;Access-Residential;35km/h;35km/h;60km/h;65km/h;4km/h
+28;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+29;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+30;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+31;GP1/2(I);1;4;BUS,M_bus,PKS,SC,SCP,SD,SO;1;44400;90km/h;0km/h;Access-Residential;64km/h;64km/h;130km/h;90km/h;4km/h
+32;GP2/2(I);1;4;BUS,M_bus,PKS,SC,SCP,SD,SO;1;35000;90km/h;0km/h;Access-Residential;64km/h;64km/h;140km/h;90km/h;4km/h
+33;GP2/3(I);1;4;BUS,M_bus,PKS,SC,SCP,SD,SO;1;19800;82km/h;0km/h;Access-Residential;63km/h;63km/h;140km/h;82km/h;4km/h
+34;GP1/2(II);1;4;BUS,M_bus,PKS,SC,SCP,SD,SO;1;19300;82km/h;0km/h;Access-Residential;63km/h;63km/h;130km/h;82km/h;4km/h
+35;GP2/2(II);1;4;BUS,M_bus,PKS,SC,SCP,SD,SO;1;19300;82km/h;0km/h;Access-Residential;63km/h;63km/h;110km/h;82km/h;4km/h
+36;GP2/3(II);1;4;BUS,M_bus,PKS,SC,SCP,SD,SO;1;16800;82km/h;0km/h;Access-Residential;63km/h;63km/h;100km/h;82km/h;4km/h
+37;GP1/2(III)_miejskie;1;4;BUS,M_bus,PKS,SC,SCP,SD,SO;1;16300;60km/h;0km/h;Access-Residential;55km/h;55km/h;130km/h;60km/h;4km/h
+38;GP2/2(III)_miejskie;1;4;BUS,M_bus,PKS,SC,SCP,SD,SO;1;13300;60km/h;0km/h;Access-Residential;40km/h;40km/h;100km/h;60km/h;4km/h
+39;GP2/3(III)_miejskie;1;4;BUS,M_bus,PKS,SC,SCP,SD,SO;1;50000;65km/h;0km/h;Access-Residential;50km/h;50km/h;65km/h;65km/h;4km/h
+40; ;0;100;;1;0;0km/h;0km/h;Access-Residential;50km/h;50km/h;50km/h;0km/h;4km/h
+41;G1/2(I);1;5;BUS,M_bus,PKS,SC,SCP,SD,SO,W;1;31000;78km/h;0km/h;Access-Residential;42km/h;42km/h;110km/h;78km/h;4km/h
+42;G1/4(I);1;5;BUS,M_bus,PKS,SC,SCP,SD,SO,W;1;15800;78km/h;0km/h;Access-Residential;42km/h;42km/h;110km/h;78km/h;4km/h
+43;G2/2(I);1;5;BUS,M_bus,PKS,SC,SCP,SD,SO,W;1;15300;78km/h;0km/h;Access-Residential;40km/h;40km/h;60km/h;78km/h;4km/h
+44;G2/3(I);1;5;BUS,M_bus,PKS,SC,SCP,SD,SO,W;1;15300;78km/h;0km/h;Access-Residential;40km/h;40km/h;110km/h;78km/h;4km/h
+45;G1/2(II);1;5;BUS,M_bus,PKS,SC,SCP,SD,SO,W;1;12800;75km/h;0km/h;Access-Residential;40km/h;40km/h;110km/h;75km/h;4km/h
+46;G1/4(II);1;5;BUS,M_bus,PKS,SC,SCP,SD,SO,W;1;12300;74km/h;0km/h;Access-Residential;40km/h;40km/h;60km/h;74km/h;4km/h
+47;G2/2(II);1;5;BUS,M_bus,PKS,SC,SCP,SD,SO,W;1;9300;74km/h;0km/h;Access-Residential;40km/h;40km/h;110km/h;74km/h;4km/h
+48;G2/3(II);1;5;BUS,M_bus,PKS,SC,SCP,SD,SO,W;1;6300;65km/h;0km/h;Access-Residential;35km/h;35km/h;60km/h;65km/h;4km/h
+49;G1/2(III)_miejskie;1;5;BUS,M_bus,PKS,SC,SCP,SD,SO,W;1;12800;55km/h;0km/h;Access-Residential;40km/h;40km/h;110km/h;55km/h;4km/h
+50;G1/4(III)_miejskie;1;6;BUS,M_bus,PKS,SC,SCP,SD,SO,W;1;12300;55km/h;0km/h;Access-Residential;40km/h;40km/h;60km/h;55km/h;4km/h
+51;G2/2(III)_miejskie;1;6;BUS,M_bus,PKS,SC,SCP,SD,SO,W;1;9300;57km/h;0km/h;Access-Residential;40km/h;40km/h;110km/h;57km/h;4km/h
+52;G2/3(III)_miejskie;1;6;BUS,M_bus,PKS,SC,SCP,SD,SO,W;1;6300;50km/h;0km/h;Access-Residential;35km/h;35km/h;60km/h;50km/h;4km/h
+53;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+54;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+55;r2017;1;6;BUS,M_bus,PKS,SC,SCP,SD,SO,W;1;0;0km/h;0km/h;Access-Residential;200km/h;200km/h;110km/h;0km/h;4km/h
+56;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+57;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+58;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+59;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+60;Z1/2(I) z tramwajami;1;7;BUS,M_bus,PKS,SD,SO,TRAM,W;1;12000;37km/h;0km/h;Access-Residential;31km/h;31km/h;60km/h;37km/h;4km/h
+61;Z1/2(I);1;7;BUS,M_bus,PKS,SD,SO,W;1;12000;37km/h;0km/h;Access-Residential;31km/h;31km/h;60km/h;37km/h;4km/h
+62;Z1/4(I);1;7;BUS,M_bus,PKS,SC,SCP,SD,SO,W;1;24000;37km/h;0km/h;Access-Residential;31km/h;31km/h;100km/h;37km/h;4km/h
+63;Z2/2(I);1;7;BUS,M_bus,PKS,SD,SO,W;1;24000;37km/h;0km/h;Access-Residential;31km/h;31km/h;100km/h;37km/h;4km/h
+64;Z1/2(II);1;7;BUS,M_bus,PKS,SD,SO,W;1;12000;37km/h;0km/h;Access-Residential;31km/h;31km/h;60km/h;37km/h;4km/h
+65;Z1/4(II);1;7;BUS,M_bus,PKS,SD,SO,W;1;24000;37km/h;0km/h;Access-Residential;31km/h;31km/h;100km/h;37km/h;4km/h
+66;Z2/2(II);1;7;BUS,M_bus,PKS,SD,SO,W;1;24000;37km/h;0km/h;Access-Residential;31km/h;31km/h;100km/h;37km/h;4km/h
+67;Z1/2(III)_miejskie;1;7;BUS,M_bus,PKS,SC,SCP,SD,SO,W;1;12000;37km/h;0km/h;Access-Residential;31km/h;31km/h;100km/h;37km/h;4km/h
+68;Z1/4(III)_miejskie;1;7;BUS,M_bus,PKS,SD,SO,W;1;24000;37km/h;0km/h;Access-Residential;31km/h;31km/h;100km/h;37km/h;4km/h
+69;Z2/2(III)_miejskie;1;7;BUS,M_bus,PKS,SD,SO,W;1;24000;37km/h;0km/h;Access-Residential;31km/h;31km/h;100km/h;37km/h;4km/h
+70;[L]_MAX;1;10000;BUS,M_bus,PKS,SD,SO,W;1;800;48km/h;0km/h;Access-Residential;75km/h;75km/h;100km/h;48km/h;4km/h
+71;[L]_miejskie z tramwajami;1;10001;BUS,M_bus,SD,SO,TRAM,W;1;600;44km/h;0km/h;Access-Residential;75km/h;75km/h;100km/h;44km/h;4km/h
+72;;1;10002;SD,SO,W;1;200;25km/h;0km/h;Access-Residential;30km/h;30km/h;30km/h;25km/h;4km/h
+73;[L]_1x2_miejskie;1;10003;BUS,M_bus,PKS,SD,SO,W;1;800;48km/h;0km/h;Access-Residential;75km/h;75km/h;100km/h;48km/h;4km/h
+74;[L]_1x2_BUS_miejskie;1;10000;BUS,M_bus,PKS,SC,SCP,SD,SO,TRAM;1;500;45km/h;0km/h;Access-Residential;75km/h;75km/h;100km/h;45km/h;4km/h
+75;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+76;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+77;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+78;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+79;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+80;[KOLEJ]_P;1;999999;PD,PR,SKA;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+81;[KOLEJ]_T;1;999999;PD,PR,SKA;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+82;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+83;[TRAM]_SZ;1;999999;TRAM;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+84;[TRAM]_WJ;1;999999;TRAM;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+85;[TRAM]_WL;1;999999;TRAM;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+86;[TRAM]_BUS;1;999999;BUS,TRAM;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+87;RP;1;999999;W;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+88;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+89;BLOKADA;1;999999;W;0;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+90;INWESTYCJA;0;100;BUS,M_bus,PD,PKS,PR,SKA,TRAM;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+91;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+92;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+93;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+94;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+95;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+96;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+97;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+98;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+99;;0;100;;1;0;0km/h;0km/h;Access-Residential;0km/h;0km/h;0km/h;0km/h;4km/h
+
