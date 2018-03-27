@@ -1,0 +1,18 @@
+$VISION
+* PTV Group
+* 03/27/18
+* From: C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Temp\Temp_Mod5.ver
+* To:   C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\MOMM.vpdbx*
+* 
+* Table: Version block
+* 
+$VERSION:VERSNR;FILETYPE;LANGUAGE;UNIT
+10;Trans;ENG;KM
+
+* 
+* Table: Matrices (modified)
+* 
+$*MATRIX:NO;DSEGCODE
+2001;_
+2002;PuT
+

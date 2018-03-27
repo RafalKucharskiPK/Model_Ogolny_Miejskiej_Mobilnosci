@@ -1,0 +1,39 @@
+$VISION
+* PTV Group
+* 03/27/18
+* From: C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Temp\Temp_Mod3.ver
+* To:   *
+* 
+* Table: Version block
+* 
+$VERSION:VERSNR;FILETYPE;LANGUAGE;UNIT
+10;Trans;ENG;KM
+
+* 
+* Table: Zones (modified)
+* 
+$*ZONE:NO;LICZBA_MIESZKANCOW
+1;424
+2;7870
+3;6918
+4;252
+5;2478
+6;7660
+7;1268
+8;2435
+9;1091
+10;926
+11;3262
+12;2858
+13;5446
+14;11
+15;2201
+17;3502
+18;1880
+19;1193
+20;240
+21;2004
+22;9726
+23;8804
+24;13579
+
