@@ -82,8 +82,7 @@ Z materiałami dydaktycznymi - opisy w odpowiednich folderach.
 
 # Błędy i wnioski racjponalizatorskie
 
-Zgodnie z przyjętą na github praktyką błędy proszę zgłaszać w formie `issues` z opisem czego dotyczą
-
+Zgodnie z przyjętą na github praktyką błędy proszę zgłaszać w formie `issues` z opisem czego dotyczą (dla zalogowanych, dla bardzo niechcących się logować proszę o zgłaszanie błędów mailowo).
 
 # Autorzy
 Materiał powstawał w Katedrze Systemów Transportowych Politechniki Krakowskiej od czasów prof. Andrzeja Rudnickiego aktualnie kierowanej przez dr hab. inż. Andrzeja Szaratę kierownika większości projektów w ramach których powstał ten materiał, budowany głównie siłami dr inż. Tomasza Kulpy, mgr inż. Arkadiusza Drabickiego, moimi oraz wielu studentów którzy nam pomagali.
