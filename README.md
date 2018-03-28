@@ -1,11 +1,13 @@
 # Model_Ogolny_Miejskiej_Mobilnosci
 Ogólny model mobilności miejskiej dla miast małych i średnich zapisany w formie zbioru plików edytowalnych, oraz skompilowanych dla modelu mobilności zapisane w programie PTV VISUM (ver. 17.01-05) www.ptvgroup.com/pl
+
 Do celów dydaktycznych, edukacyjnych, rozwojowych, badawczych i innych.
+
 Zawiera:
 * model dla miasta średniego w formie pliku .ver w wersji [pustej](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/MOMM_pusty.ver) , oraz z przykładowym modelem dla [Gniezna](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/MOMM.ver), 
-* menadżer scenariuszy dla modelu Gniezna
-* zbiór materiałów dydaktycznych
-* zbiór edytowalnych otwartych plików z parametrami sieci, UDAs, procedurami, formułami modelu popytu, dla innych modeli (Kraków, Małopolska, Warszawa i inne)
+* [menadżer scenariuszy](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/tree/master/MOMM) dla modelu Gniezna
+* [zbiór](github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/tree/master/Dydaktyka/) materiałów dydaktycznych
+* [zbiór](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/tree/master/dane) edytowalnych otwartych plików z parametrami sieci, UDAs, procedurami, formułami modelu popytu, dla innych modeli (Kraków, Małopolska, Warszawa i inne)
 
 ## Ogólny sposób użycia
 
@@ -79,8 +81,10 @@ Dane w formie edytowalnej (`link_types.net, procedures.xml, dmd.dmd`), w miarę 
 Z materiałami dydaktycznymi - opisy w odpowiednich folderach
 
 
-## Cytowanie 
-Przy każdym uzyciu proszę cytować jako jako: *Rafal Kucharski. (2018, March 27). RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci: First release (Version 0.0.1). Zenodo. http://doi.org/10.5281/zenodo.1208635* [![DOI](https://zenodo.org/badge/126968926.svg)](https://zenodo.org/badge/latestdoi/126968926) 
+## Autorzy
+Materiał powstał w Katedrze Systemów Transportowych Politechniki Krakowskiej, od czasów prof. Andrzeja Rudnickiego, aktualnie kierowanej przez dr hab. inż. Andrzeja Szaratę kierownika większości projektów w ramach których powstał ten materiał, budowany głównie przez dr inż. Tomasza Kulpę, mgr inż. Arkadiusza Drabickiego, oraz mnie.
+
+Przy każdym uzyciu proszę cytować jako jako: *Rafał Kucharski. (2018, March 27). RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci: First release (Version 0.0.1). Zenodo. http://doi.org/10.5281/zenodo.1208635* [![DOI](https://zenodo.org/badge/126968926.svg)](https://zenodo.org/badge/latestdoi/126968926) 
 
 ## Licencja 
 
