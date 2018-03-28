@@ -3490,7 +3490,7 @@
       ACTIVE = "1"
       COMMENT = "Dump .net (full, reduced), .dmd (full, reduced), .xml"
       EXECUTED = "1"
-      STARTTIME = "2018-3-28 9:49:20"
+      STARTTIME = "2018-3-28 9:55:58"
       ENDTIME = ""
       DURATION = "0min"
       MESSAGES = ""
@@ -3507,6 +3507,7 @@ _name = os.path.basename(Visum.IO.CurrentVersionFile).split(".")[0]+"_"
 
 
 Visum.IO.SaveNet("/temp_out/"+_name+"net.net") # full net
+Visum.IO.SaveNet("/temp_out/"+_name+"tsys.net","/net_layouts/tsys_layout.net",True) # UDAs
 Visum.IO.SaveNet("/temp_out/"+_name+"link_types.net","/net_layouts/link_types_layout.net",True) # link_types
 Visum.IO.SaveNet("/temp_out/"+_name+"UDAs.net","/net_layouts/UDAs_layout.net",True) # UDAs
 
