@@ -78,17 +78,22 @@ Dane w formie edytowalnej (`link_types.net, procedures.xml, dmd.dmd`), w miarę 
 
 ## Folder dydaktyka
 
-Z materiałami dydaktycznymi - opisy w odpowiednich folderach
+Z materiałami dydaktycznymi - opisy w odpowiednich folderach.
+
+# Błędy i wnioski racjponalizatorskie
+
+Zgodnie z przyjętą na github praktyką błędy proszę zgłaszać w formie `issues` z opisem czego dotyczą
 
 
-## Autorzy
-Materiał powstał w Katedrze Systemów Transportowych Politechniki Krakowskiej, od czasów prof. Andrzeja Rudnickiego, aktualnie kierowanej przez dr hab. inż. Andrzeja Szaratę kierownika większości projektów w ramach których powstał ten materiał, budowany głównie przez dr inż. Tomasza Kulpę, mgr inż. Arkadiusza Drabickiego, oraz mnie.
+# Autorzy
+Materiał powstawał w Katedrze Systemów Transportowych Politechniki Krakowskiej od czasów prof. Andrzeja Rudnickiego aktualnie kierowanej przez dr hab. inż. Andrzeja Szaratę kierownika większości projektów w ramach których powstał ten materiał, budowany głównie siłami dr inż. Tomasza Kulpy, mgr inż. Arkadiusza Drabickiego, moimi oraz wielu studentów którzy nam pomagali.
 
-Przy każdym uzyciu proszę cytować jako jako: *Rafał Kucharski. (2018, March 27). RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci: First release (Version 0.0.1). Zenodo. http://doi.org/10.5281/zenodo.1208635* [![DOI](https://zenodo.org/badge/126968926.svg)](https://zenodo.org/badge/latestdoi/126968926) 
+Przy wykorzystaniu (zarówno w pracach komercyjnych, artykułach naukowych, czy materiałach dydaktycznych) proszę cytować jako: *Rafał Kucharski. (2018, March 27). RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci: First release (Version 0.0.1). Zenodo. http://doi.org/10.5281/zenodo.1208635* [![DOI](https://zenodo.org/badge/126968926.svg)](https://zenodo.org/badge/latestdoi/126968926) 
 
-## Licencja 
+#  Licencja 
 
-[licence](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/LICENSE)
+Szczegółowe zapisy licencji: [licence](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/LICENSE)
+, w skrócie można używać, zmieniać, poprawiać, korzystać i zarabiać, ale trzeba podawać źródło. Można wykrozystać do tworzenia własnych materiałów dydaktycznych, ale proszę o udostępnienie ich dla innych w folderze [Dydaktyka](github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/tree/master/Dydaktyka/)
 
 
 
