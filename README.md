@@ -1,19 +1,17 @@
 # Model_Ogolny_Miejskiej_Mobilnosci
-## Ogólny model mobilności miejskiej dla miast małych i średnich
-
-Model zawiera pliki edytowalne, oraz skompilowane dla modelu mobilności zapisane w programie PTV VISUM (ver. 17.01-05) www.ptvgroup.com/pl
-
-## Cytowanie 
-Przy każdym uzyciu proszę cytować jako jako: *Rafal Kucharski. (2018, March 27). RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci: First release (Version 0.0.1). Zenodo. http://doi.org/10.5281/zenodo.1208635* [![DOI](https://zenodo.org/badge/126968926.svg)](https://zenodo.org/badge/latestdoi/126968926) 
-
-## Licencja 
-
-[licence](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/LICENSE)
+Ogólny model mobilności miejskiej dla miast małych i średnich zapisany w formie zbioru plików edytowalnych, oraz skompilowanych dla modelu mobilności zapisane w programie PTV VISUM (ver. 17.01-05) www.ptvgroup.com/pl
+Do celów dydaktycznych, edukacyjnych, rozwojowych, badawczych i innych.
+Zawiera:
+* model dla miasta średniego w formie pliku .ver w wersji [pustej](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/MOMM_pusty.ver) , oraz z przykładowym modelem dla [Gniezna](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/MOMM.ver), 
+* menadżer scenariuszy dla modelu Gniezna
+* zbiór materiałów dydaktycznych
+* zbiór edytowalnych otwartych plików z parametrami sieci, UDAs, procedurami, formułami modelu popytu, dla innych modeli (Kraków, Małopolska, Warszawa i inne)
 
 ## Ogólny sposób użycia
 
-Dla chcących poznać podstawy [github](https://guides.github.com/activities/hello-world/), dla innych po prostu klikamy zielone `Clone or Download` i `Download ZIP`
-Dla chcących dodawać i edytować pliki zapraszam, proszę wówczas o stworzenie brancha wraz z opisem i pull request na merge do master (wprost przepiękna polszczyzna)
+*Najprostszy* klikamy zielony przycisk `Clone or Download` i potem `Download ZIP` - mamy repozytorium na naszym komputerze, możemy go używać.
+*Najlpeszy* Jest ot repozytorium github które pozwala na zarządzanie wersjami, pracę wspólną i ciągłą aktualizacje. Dla chcących poznać podstawy github [polecam](https://guides.github.com/activities/hello-world/), dla nieprogramistów polecam [GitHubDesktop](https://desktop.github.com)
+*Jeszcze lepszy* Dla chcących dołączyć do tego pojektu (*collaborator*), dodawać, poprawiać i edytować pliki zapraszam. Proszę o kontakt mailowy rkucharski@pk.edu.pl, lub po prostu o: *stworzenie brancha wraz z commitami i opisem a potem pull request na merge do master* (wprost przepiękna polszczyzna :D)
 
 # Zawartość
 
@@ -79,6 +77,14 @@ Dane w formie edytowalnej (`link_types.net, procedures.xml, dmd.dmd`), w miarę 
 ## Folder dydaktyka
 
 Z materiałami dydaktycznymi - opisy w odpowiednich folderach
+
+
+## Cytowanie 
+Przy każdym uzyciu proszę cytować jako jako: *Rafal Kucharski. (2018, March 27). RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci: First release (Version 0.0.1). Zenodo. http://doi.org/10.5281/zenodo.1208635* [![DOI](https://zenodo.org/badge/126968926.svg)](https://zenodo.org/badge/latestdoi/126968926) 
+
+## Licencja 
+
+[licence](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/LICENSE)
 
 
 
