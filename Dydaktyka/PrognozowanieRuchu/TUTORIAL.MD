@@ -24,7 +24,7 @@
 
 ## Podział na rejony komunikacyjne
 
-[_FIlM_](https://www.youtube.com/watch?v=9jAzGmu1dKU)
+[_FILM_](https://www.youtube.com/watch?v=byujp2ufNE0)
 
 * Ok 15-25 rejonów
 * Rejony spójne, zbliżone kształtem do kwadratu, okręgu
@@ -55,11 +55,19 @@ Sieć drogowa reprezentowana jest przez graf skierowany, w którym węzły (`Nod
 Odwzorowujemy pełny układ uliczny miasta, pomijając tylko najmniej istotne odcinki. Nie kodujemy: - alejek parkowych, chodników, polnych dróg, deptaków, dojazdów do posesji, najmniej istotnych dróg dojazdowych, parkingów, ulic wewnątrz zakładów, galerii handlowych, itp.
 
 ### Węzły sieci drogowej
+
+[_FILM_](https://www.youtube.com/watch?v=gIF1vGXIJOA)
+
 Wszystkie skrzyżowania, rozjazdy, wloty do miasta, końce odcinków, itp.
 Upraszczamy geometrię węzłów, rond, skrzyżowań do pojedynczych punktów.
 Limit liczby węzłów *500*
 
+## Praca offline
+[_FILM_](https://www.youtube.com/watch?v=UKozzlcnxPQ)
+
 ### Odcinki 
+
+[_FILM_](https://www.youtube.com/watch?v=47VBFejHEkg)
 Odcinkami łączymy sąsiednie węzły. 
 Odicnki są dwukierunkowe, mogą być asymetryczne.
 Dla odcinków odzwierciedlamy geometrię (zakręty, łuki, itp.)
