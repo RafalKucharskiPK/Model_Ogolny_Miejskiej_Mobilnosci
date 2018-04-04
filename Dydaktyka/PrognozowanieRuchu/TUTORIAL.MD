@@ -21,6 +21,12 @@
 * Artykuły [moje](https://scholar.google.pl/citations?hl=pl&user=z3bOMUAAAAAJ&view_op=list_works&sortby=pubdate)
  i zacnych kolegów [T Kulpa](https://scholar.google.pl/citations?user=S4x1MBcAAAAJ&hl=pl&oi=ao) [A Szarata](https://scholar.google.pl/citations?user=HisPuLQAAAAJ&hl=pl&oi=ao) [A Drabicki](https://www.researchgate.net/profile/Arkadiusz_Drabicki)
 
+# 1. Budowa modelu sieci
+
+Otwieramy plik [MOMM_pusty.ver](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/MOMM_pusty.ver)
+Wybieramy miasto około 50k mieszkańców, samodzielne (nie będącego częścią aglomeracji). 
+Zbliżamy obszar widoku do granic tego miasta (interesuje nas granica zabudowy, a nie administracyjna). Możemy pomijać pola, łątki i lasy w granicach, pomijamy rozległe wsie podmiejskie. Nie pomijamy podmiejskich stref przemysłowych, centrów handlowych.
+Dla mia
 
 ## Podział na rejony komunikacyjne
 
@@ -89,6 +95,7 @@ _Hierarchia sieci_ (na podstawie podkładu OSM):
 * białe grubsze - Zbiorcze
 * białe cieńsze - Lokalne/Dojazdowe
 
+# 2. Prognozowanie z użyceim modelu
 
 ## Podłączenia (konektory)
 * Około 3 w każdym rejonie.
