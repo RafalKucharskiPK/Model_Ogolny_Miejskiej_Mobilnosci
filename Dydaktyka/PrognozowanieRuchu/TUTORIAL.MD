@@ -20,3 +20,15 @@
 
 * Artykuły [moje](https://scholar.google.pl/citations?hl=pl&user=z3bOMUAAAAAJ&view_op=list_works&sortby=pubdate)
  i zacnych kolegów [T Kulpa](https://scholar.google.pl/citations?user=S4x1MBcAAAAJ&hl=pl&oi=ao) [A Szarata](https://scholar.google.pl/citations?user=HisPuLQAAAAJ&hl=pl&oi=ao) [A Drabicki](https://www.researchgate.net/profile/Arkadiusz_Drabicki)
+
+
+## Podział na rejony komunikacyjne
+
+* Ok 15-25 rejonó
+* Rejony spójne, zbliżone kształtem do kwadratu, okręgu
+* Granice: naturalne (rzeki, skarpy, itp.), drogi wysokiej klasy, kolej
+* Rejony pokrywają granice miasta
+* W miare możliwości spójne zagospodarowanie: rejon mieszkaniowy, mieszkaniowy intensywny (zabudowa wielopiętrowa), mieszkaniowy jednorodziny, usługowy, przemysłowy.
+* Zieleń (parki, lasy, jeziora) nie ma znaczenia, tak czy inaczej nie generuje on ruchu
+* Im gęstsza zabudowa (intensywność) tym gęstszy podział na rejony (mniejsze rejony).
+* Skupiamy się na mieście, pomijamy wsie podmiejskie będące w granicach miasta.
