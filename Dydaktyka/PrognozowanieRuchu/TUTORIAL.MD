@@ -33,6 +33,20 @@
 * Im gęstsza zabudowa (intensywność) tym gęstszy podział na rejony (mniejsze rejony).
 * Skupiamy się na mieście, pomijamy wsie podmiejskie będące w granicach miasta.
 
+### Zmienne objaśniające
+Dla miasta określamy liczbę mieszkańców (wikipedia)
+Zakładamy liczbę miejsc pracy na 40% liczby ludności (lub szukamy dokłądniejszych danych - GUS, UM, BIP itp.)
+Zakładamy 60% miejsc pracy w usługach.
+Zakładamy liczbę miejsc w szkołach równą 10% ludności 
+
+Globalne wartości dzielimy uznaniowo pomiędzy rejony komunikacyjne na podstawie zagospodarowania. Szacujemy dla każdego rejonu:
+* LICZBA_MIESZKANCOW	(na podstawie powierzchni zabudowy i jej instensywności - liczba kondygnacji)
+* MIEJSCA_PRACY_W_USLUGACH	
+*	MIEJSCA_PRACY_W_PRZEMYSLE	(na podstawie powierzchni przemysłowej i rodzaju działalności - magazyn a zakład produkcyjny)
+* MIEJSCA_W_SZKOLACH	(na podstawie liczby szkół i danych o liczbie uczniów)
+
+Wartości wpisujemy w `List(Zones) Wykaz(Rejony)` sprawdzając czy suma zgadza się z wartościami wejściowymi. 
+
 ## Sieć drogowa
 
 Sieć drogowa reprezentowana jest przez graf skierowany, w którym węzły (`Nodes`) to skrzyżowania, rozjazdy, ronda, węzły, wloty dróg do granic miasta, a odcinki (`Links`) to ulice łączące sąsiednie węzły. Węzły domyślnie nie są parametryzowane, a dla odinków określone są typy (`LinkTypes`) o typowej: prędkości ruchu swobodnego (`V0PrT`) oraz przpeustowości (`CapPrT`).
