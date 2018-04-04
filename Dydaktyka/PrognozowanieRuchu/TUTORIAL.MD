@@ -62,8 +62,7 @@ Wszystkie skrzyżowania, rozjazdy, wloty do miasta, końce odcinków, itp.
 Upraszczamy geometrię węzłów, rond, skrzyżowań do pojedynczych punktów.
 Limit liczby węzłów *500*
 
-## Praca offline
-[_FILM_](https://www.youtube.com/watch?v=UKozzlcnxPQ)
+
 
 ### Odcinki 
 
@@ -100,3 +99,6 @@ _Hierarchia sieci_ (na podstawie podkładu OSM):
 * Do mało istotnych skrzyżowań.
 * Jeśli brakuje takich węzłów, dodajemy je (parkingi, ślepe uliczki, wjazdy do zakładów)
 * Możemy podzielić odcinki niskich klas (`Split`) i stworzyć dodatkowy węzeł.
+
+## Praca offline
+[_FILM_](https://www.youtube.com/watch?v=UKozzlcnxPQ)
