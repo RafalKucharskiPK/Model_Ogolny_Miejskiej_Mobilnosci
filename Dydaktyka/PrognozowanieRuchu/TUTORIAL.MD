@@ -32,3 +32,14 @@
 * Zieleń (parki, lasy, jeziora) nie ma znaczenia, tak czy inaczej nie generuje on ruchu
 * Im gęstsza zabudowa (intensywność) tym gęstszy podział na rejony (mniejsze rejony).
 * Skupiamy się na mieście, pomijamy wsie podmiejskie będące w granicach miasta.
+
+
+## Podłączenia (konektory)
+* Około 3 w każdym rejonie.
+* Zawierają się w granicach rejonu (nie przekraczają granic rejonu).
+* Każdy pomiędzy centroidą a węzłem
+* Do mało istotnych węzłów.
+* Nie mogą prowadzić do węzłów (skryżowań) dróg o klasie Z i wyższej
+* Do mało istotnych skrzyżowań.
+* Jeśli brakuje takich węzłów, dodajemy je (parkingi, ślepe uliczki, wjazdy do zakładów)
+* Możemy podzielić odcinki niskich klas (`Split`) i stworzyć dodatkowy węzeł.
