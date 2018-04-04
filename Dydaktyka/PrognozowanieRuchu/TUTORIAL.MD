@@ -35,7 +35,12 @@
 
 ## Sieć drogowa
 
-Sieć drogowa reprezentowana jest przez graf skierowany, w którym węzły (`Nodes`) to skrzyżowania, rozjazdy, ronda, węzły, wloty dróg do granic miasta, a odcinki (`Links`) to ulice łączące sąsiednie węzły. Węzły domyślnie nie są parametryzowane, a dla odinków określone są typy (`LinkTypes`) o typowej: prędkości ruchu swobodnego (`V0PrT`) 
+Sieć drogowa reprezentowana jest przez graf skierowany, w którym węzły (`Nodes`) to skrzyżowania, rozjazdy, ronda, węzły, wloty dróg do granic miasta, a odcinki (`Links`) to ulice łączące sąsiednie węzły. Węzły domyślnie nie są parametryzowane, a dla odinków określone są typy (`LinkTypes`) o typowej: prędkości ruchu swobodnego (`V0PrT`) oraz przpeustowości (`CapPrT`).
+Odwzorowujemy pełny układ uliczny miasta, pomijając tylko najmniej istotne odcinki. Nie kodujemy: - alejek parkowych, chodników, polnych dróg, deptaków, dojazdów do posesji, najmniej istotnych dróg dojazdowych, parkingów, ulic wewnątrz zakładów, galerii handlowych, itp.
+
+### Węzły sieci drogowej
+
+
 
 ## Podłączenia (konektory)
 * Około 3 w każdym rejonie.
