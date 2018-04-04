@@ -39,7 +39,32 @@ Sieć drogowa reprezentowana jest przez graf skierowany, w którym węzły (`Nod
 Odwzorowujemy pełny układ uliczny miasta, pomijając tylko najmniej istotne odcinki. Nie kodujemy: - alejek parkowych, chodników, polnych dróg, deptaków, dojazdów do posesji, najmniej istotnych dróg dojazdowych, parkingów, ulic wewnątrz zakładów, galerii handlowych, itp.
 
 ### Węzły sieci drogowej
+Wszystkie skrzyżowania, rozjazdy, wloty do miasta, końce odcinków, itp.
+Upraszczamy geometrię węzłów, rond, skrzyżowań do pojedynczych punktów.
+Limit liczby węzłów *500*
 
+### Odcinki 
+Odcinkami łączymy sąsiednie węzły. 
+Odicnki są dwukierunkowe, mogą być asymetryczne.
+Dla odcinków odzwierciedlamy geometrię (zakręty, łuki, itp.)
+Określamy typy odcinków (wybrane z listy `LinkTypes`)
+Ulice jednokierunkowe tworzymy zamykając wybrany kierunek i określając dla niego `TypeNo = 92 (Pieszo)` i `V0PrT=0`
+Typowe błędy topologiczne, których należy unikać: http://intelligent-infrastructure.blogspot.com/2012/02/gis-shapefile-visum-transport-network.html
+
+### Typy odcinków
+Nie zmieniamy paramtrów w tabeli `LinkTypes`.
+Wybieramy:
+* prędkość (pierwsza część nazwy)
+* liczbę pasów (druga część nazwy)
+* klasę funkcjonalną (trzecia część nazwy)
+_Prędkość_ identyfikujemy ograniczenia do 30km/h i niżej, oraz podwyższenia 70km/h
+_Liczbę pasów_ identyfikujemy ze zdjęć satelitarnych
+
+_Hierarchia sieci_ (na podstawie podkładu OSM):
+* pomarańczowe, czerwone, fioletowe - Główne Ruchu Przyśpieszonego
+* żółte - Główne
+* białe grubsze - Zbiorcze
+* białe cieńsze - Lokalne/Dojazdowe
 
 
 ## Podłączenia (konektory)
