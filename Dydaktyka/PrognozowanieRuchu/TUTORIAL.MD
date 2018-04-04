@@ -24,6 +24,8 @@
 
 ## Podział na rejony komunikacyjne
 
+[_FIlM_](https://www.youtube.com/watch?v=9jAzGmu1dKU)
+
 * Ok 15-25 rejonów
 * Rejony spójne, zbliżone kształtem do kwadratu, okręgu
 * Granice: naturalne (rzeki, skarpy, itp.), drogi wysokiej klasy, kolej
