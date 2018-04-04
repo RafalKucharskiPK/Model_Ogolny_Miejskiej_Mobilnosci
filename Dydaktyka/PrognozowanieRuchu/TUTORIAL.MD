@@ -24,7 +24,7 @@
 
 ## Podział na rejony komunikacyjne
 
-* Ok 15-25 rejonó
+* Ok 15-25 rejonów
 * Rejony spójne, zbliżone kształtem do kwadratu, okręgu
 * Granice: naturalne (rzeki, skarpy, itp.), drogi wysokiej klasy, kolej
 * Rejony pokrywają granice miasta
@@ -33,6 +33,9 @@
 * Im gęstsza zabudowa (intensywność) tym gęstszy podział na rejony (mniejsze rejony).
 * Skupiamy się na mieście, pomijamy wsie podmiejskie będące w granicach miasta.
 
+## Sieć drogowa
+
+Sieć drogowa reprezentowana jest przez graf skierowany, w którym węzły (`Nodes`) to skrzyżowania, rozjazdy, ronda, węzły, wloty dróg do granic miasta, a odcinki (`Links`) to ulice łączące sąsiednie węzły. Węzły domyślnie nie są parametryzowane, a dla odinków określone są typy (`LinkTypes`) o typowej: prędkości ruchu swobodnego (`V0PrT`) 
 
 ## Podłączenia (konektory)
 * Około 3 w każdym rejonie.
