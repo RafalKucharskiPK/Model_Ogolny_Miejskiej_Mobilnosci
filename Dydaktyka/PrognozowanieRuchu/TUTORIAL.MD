@@ -95,8 +95,6 @@ _Hierarchia sieci_ (na podstawie podkładu OSM):
 * białe grubsze - Zbiorcze
 * białe cieńsze - Lokalne/Dojazdowe
 
-# 2. Prognozowanie z użyceim modelu
-
 ## Podłączenia (konektory)
 * Około 3 w każdym rejonie.
 * Zawierają się w granicach rejonu (nie przekraczają granic rejonu).
@@ -109,3 +107,5 @@ _Hierarchia sieci_ (na podstawie podkładu OSM):
 
 ## Praca offline
 [_FILM_](https://www.youtube.com/watch?v=UKozzlcnxPQ)
+
+# 2. Prognozowanie z użyciem modelu
