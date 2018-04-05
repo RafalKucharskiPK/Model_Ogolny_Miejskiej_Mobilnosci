@@ -108,4 +108,12 @@ _Hierarchia sieci_ (na podstawie podkładu OSM):
 ## Praca offline
 [_FILM_](https://www.youtube.com/watch?v=UKozzlcnxPQ)
 
-# 2. Prognozowanie z użyciem modelu
+## Testy:
+
+* Test spójności sieci: `Calculate -> Network Check...`
+* Test macierzy kosztów. Użyj zestawiu procedur [P000005.xml](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/MOMM/Procedures/P000005.xml). Sprawdź macierze `10	TT0	t0 ; 11	TTC	tCur ; 12	DIS	Trip distance SO` pod kątem braku spójności. Wartość `999999` oznacza brak połączenia w danej relacji. Do dalszych prac konieczne jest poprawienie sieci (brak wartości `999999` w macierzy)/
+
+# 2. Wykonanie obliczeń w modelu
+
+Po zdefiniowaniu zmiennych objaśniających rejonów (`LICZBA_MIESZKANCOW, MIEJSCA_PRACY_W_USLUGACH, MIEJSCA_PRACY_W_PRZEMYSLE, MIEJSCA_W_SZKOLACH')
+
