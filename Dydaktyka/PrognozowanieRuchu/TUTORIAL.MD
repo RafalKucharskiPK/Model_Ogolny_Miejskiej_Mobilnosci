@@ -6,7 +6,8 @@
 
 * Sklonuj to repozytorium https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci (Zielony przycisk `Clone or Donwload` i potem `Download as ZIP`)
 
-* Uruchom plik `MOMM.ver`
+* Uruchom plik `MOMM.ver` - sprawdź czy działa
+
 
 # Ćwiczenie testowe
 
