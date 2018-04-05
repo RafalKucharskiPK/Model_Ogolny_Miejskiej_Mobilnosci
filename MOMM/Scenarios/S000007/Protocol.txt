@@ -1,0 +1,63 @@
+04/05/18 13.42.21.726 Open file
+                      Open "C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Scenarios\S000007\Protocol.txt"
+                      Open "C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Scenarios\S000007\Messages.txt"
+                      Starting to process computation order for scenario 7
+                      Delete network
+04/05/18 13.42.22.152 Start time of Read version C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\MOMMBase.ver
+                            19 User-defined attributes
+                             8 Transport systems
+                             5 Modes
+                             5 Demand segments
+                             1 Calendar periods
+                             1 Valid days
+                             2 Directions
+                           749 Points
+                           749 Edges
+                            28 Faces
+                            28 Surfaces
+                           487 Nodes
+                            28 Zones
+                             1 Territories
+                           100 Link types
+                          1448 Links
+                          4496 Turns
+                           184 Connectors
+                            45 Lines
+                             1 Block versions
+                             1 Signal coordination groups
+                             3 Signalized junctions
+                             1 Demand models
+                             9 Demand strata
+                            37 Matrices
+                             1 Time series
+                             1 Demand time series
+                             1 Path sets
+                             1 Turning standards
+04/05/18 13.42.22.566 End time of Read version C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\MOMMBase.ver
+04/05/18 13.42.23.148 Procedure parameters read from file "C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Procedures\P000004.xml".
+04/05/18 13.42.23.212 Procedure parameters read from file "C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Procedures\P000004.xml".
+04/05/18 13.42.23.388 Procedure - start
+04/05/18 13.42.23.762 Procedure - end
+04/05/18 13.42.24.107 Start time of Save version C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Scenarios\S000007\S000007result
+                            19 User-defined attributes
+                             8 Transport systems
+                             5 Modes
+                             5 Demand segments
+                             1 Calendar periods
+                             1 Valid days
+                             2 Directions
+                           100 Link types
+                             1 Block versions
+                             1 Signal coordination groups
+                             3 Signalized junctions
+                             1 Demand models
+                             9 Demand strata
+                            37 Matrices
+                             1 Time series
+                             1 Demand time series
+                             1 Path sets
+                             1 Turning standards
+04/05/18 13.42.24.346 End time of Save version C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Scenarios\S000007\S000007result
+04/05/18 13.42.24.614 Processing computation order dbab2059-9b11-4b09-8785-5824b584b627 completed
+04/05/18 13.42.24.631 No further calculation order to process
+04/05/18 13.42.25.224 Close file

@@ -1,0 +1,3543 @@
+<?xml  version = "1.0"  encoding = "UTF-8"?>
+<PROCEDURES  VERSION = "1705">
+  <FUNCTIONS>
+    <PUTSKIMMATRIXSETTINGS
+      USELONGLENGTH = "1"
+      USESECONDS = "0"
+      USESECONDSIMP = "0"
+      PATHLEGATTRIBUTE = "LINEROUTE\ADDVAL1"
+      PATHLEGAGGREGATETYPE = "MAX"
+      DISCOMFORTPARAA = "7.5"
+      DISCOMFORTPARAB = "9.105">
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "JOURNEYTIME"
+        CODE = "JRT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "JOURNEYTIMEADAPTED"
+        CODE = "JRTA"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "RIDETIME"
+        CODE = "RIT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "RIDETIMEADAPTED"
+        CODE = "RITA"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "INVEHTIME"
+        CODE = "IVT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "PUTAUXTIME"
+        CODE = "AXT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ORIGINWAITTIME"
+        CODE = "OWT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ORIGINWAITTIMEADAPTED"
+        CODE = "OWTA"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "TRANSFERWAITTIME"
+        CODE = "TWT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "TRANSFERWAITTIMEADAPTED"
+        CODE = "TWTA"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EXTTRANSFERWAITTIME"
+        CODE = "XTWT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "WEIGHTEDORIGINWAITTIME"
+        CODE = "WOWT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "WEIGHTEDTRANSFERWAITTIME"
+        CODE = "WTWT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "WALKTIME"
+        CODE = "WKT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ACCESSTIME"
+        CODE = "ACT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EGRESSTIME"
+        CODE = "EGT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "PERCEIVEDJOURNEYTIME"
+        CODE = "PJT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "NUMTRANSFERS"
+        CODE = "NTR"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EXTIMPEDANCE"
+        CODE = "XIMP"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "SERVICEFREQUENCY"
+        CODE = "SFQ"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "SHARINGTRAVELTIME"
+        CODE = "SHTT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "SHARINGRENTALPROCESSTIME"
+        CODE = "SHAT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "SHARINGTRAVELDIST"
+        CODE = "SHTD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "SHARINGRETURNPROCESSTIME"
+        CODE = "SHET"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "DIRECTDIST"
+        CODE = "DID"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "JOURNEYDIST"
+        CODE = "JRD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "RIDEDIST"
+        CODE = "RID"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "INVEHDIST"
+        CODE = "IVD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "PUTAUXDIST"
+        CODE = "AXD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "WALKDIST"
+        CODE = "WKD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ACCESSDIST"
+        CODE = "ACD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EGRESSDIST"
+        CODE = "EGD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "JOURNEYSPEED"
+        CODE = "JRS"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "DIRECTDISTSPEED"
+        CODE = "DIS"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "FARE"
+        CODE = "FAR"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "NUMFZ"
+        CODE = "NFZ"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "NUMOPERATORCHANGES"
+        CODE = "NOC"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "INVEHDISTBYTSYS"
+        CODE = "IVTD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "INVEHDISTPERCBYTSYS"
+        CODE = "IVTP"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "1"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "INVEHTIMEBYTSYS"
+        CODE = "IVTT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "IMPEDANCE"
+        CODE = "IPD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "UTILITY"
+        CODE = "UTL"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "PATHLEGATTRIBUTE"
+        CODE = "PLA"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "-999999"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ADAPTATIONTIME"
+        CODE = "ADT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EXTADAPTATIONTIME"
+        CODE = "XADT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EQUIVALENTJOURNEYTIME"
+        CODE = "EJT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "DISCOMFORT"
+        CODE = "DISC"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+    </PUTSKIMMATRIXSETTINGS>
+    <PRTSKIMMATRIXSETTINGS      USELONGLENGTH = "1"      USESECONDS = "0">
+      <USERDEFSKIM>
+        <LINCOMB          NETOBJECTTYPE = "LINK">
+          <LINCOMBITEM
+            NO = "1"
+            FIRSTATTRCOEFF = "1"
+            FIRSTATTRNAME = "ADDVAL1"
+            OPERATION = "None"
+            SECONDATTRCOEFF = "0"
+            SECONDATTRNAME = "1.0"
+          />          
+        </LINCOMB>
+        <LINCOMB          NETOBJECTTYPE = "CONNECTOR">
+          <LINCOMBITEM
+            NO = "1"
+            FIRSTATTRCOEFF = "0"
+            FIRSTATTRNAME = "1.0"
+            OPERATION = "None"
+            SECONDATTRCOEFF = "0"
+            SECONDATTRNAME = "1.0"
+          />          
+        </LINCOMB>
+        <LINCOMB          NETOBJECTTYPE = "TURN">
+          <LINCOMBITEM
+            NO = "1"
+            FIRSTATTRCOEFF = "0"
+            FIRSTATTRNAME = "1.0"
+            OPERATION = "None"
+            SECONDATTRCOEFF = "0"
+            SECONDATTRNAME = "1.0"
+          />          
+        </LINCOMB>
+        <LINCOMB          NETOBJECTTYPE = "MAINTURN">
+          <LINCOMBITEM
+            NO = "1"
+            FIRSTATTRCOEFF = "0"
+            FIRSTATTRNAME = "1.0"
+            OPERATION = "None"
+            SECONDATTRCOEFF = "0"
+            SECONDATTRNAME = "1.0"
+          />          
+        </LINCOMB>
+      </USERDEFSKIM>
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "T0"
+        CODE = "TT0"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "TCUR"
+        CODE = "TTC"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "V0"
+        CODE = "VP0"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "VCUR"
+        CODE = "VPC"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "IMPEDANCE"
+        CODE = "IMP"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "TRIPDIST"
+        CODE = "DIS"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "DIRECTDIST"
+        CODE = "DID"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ADDVAL1"
+        CODE = "AD1"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ADDVAL2"
+        CODE = "AD2"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ADDVAL3"
+        CODE = "AD3"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ADDVAL_TSYS"
+        CODE = "ADS"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "TOLL"
+        CODE = "TOL"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "USERDEF"
+        CODE = "UDS"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+    </PRTSKIMMATRIXSETTINGS>
+    <VDFUNCTIONSPARAMETERS>
+      <CONNECTORVDFUNCTIONSPARAMETERS>
+        <VDFUNCTION
+          VDFUNCTIONNUMBER = "1"
+          VDFUNCTIONTYPE = "BPR"
+          BLOCKED = "0"
+          HARDBLOCKING = "0"
+          CAPACITYFACTOR = "1"
+          BPR_A = "1"
+          BPR_B = "3"
+          BPR_BISREAL = "0"
+          BPR2_A = "1"
+          BPR2_B1 = "2"
+          BPR2_B2 = "2"
+          BPR3_A = "1"
+          BPR3_B = "2"
+          BPR3_D = "0"
+          INRETS_A = "1"
+          CONICAL_A = "4"
+          CONICAL_MARGINAL_A = "4"
+          QUADRATIC_A = "1"
+          QUADRATIC_B = "1"
+          QUADRATIC_D = "1"
+          LOGISTIC_A = "1"
+          LOGISTIC_B = "1"
+          LOGISTIC_D = "1"
+          LOGISTIC_F = "1"
+          SIGMOIDAL_MMF_A = "1"
+          SIGMOIDAL_MMF_B = "1"
+          SIGMOIDAL_MMF_D = "1"
+          SIGMOIDAL_MMF_F = "1"
+          TMODEL_A1 = "0"
+          TMODEL_A2 = "0"
+          TMODEL_B1 = "2"
+          TMODEL_B2 = "2"
+          TMODEL_D1 = "1"
+          TMODEL_D2 = "1"
+          TMODEL_F1 = "0"
+          TMODEL_F2 = "0"
+          TMODEL_SATCRIT = "1"
+          AKCELIK_A = "1"
+          AKCELIK_B = "1"
+          AKCELIK_D = "1800"
+          LOHSE_A = "1"
+          LOHSE_B = "3"
+          LOHSE_SATCRIT = "1"
+          SCHILLER_A = "3"
+          SCHILLER_B = "1"
+          SCHILLER_D = "0.001"
+          SCHILLER_F = "10"
+          SCHILLER_SATCRIT = "1"
+          EXPONENTIAL_A = "1"
+          EXPONENTIAL_B = "1"
+          EXPONENTIAL_D = "1"
+          EXPONENTIAL_SATCRIT = "1"
+          AKCELIK2_A = "1"
+          AKCELIK2_B = "1"
+          AKCELIK2_D = "1"
+          USER_A1 = "1"
+          USER_B1 = "1"
+          USER_D1 = "1"
+          USER_F1 = "1"
+          USER_A2 = "1"
+          USER_B2 = "1"
+          USER_D2 = "1"
+          USER_F2 = "1"
+          USER_SATCRIT = "1"
+        />        
+      </CONNECTORVDFUNCTIONSPARAMETERS>
+      <LINKVDFUNCTIONSPARAMETERS>
+        <VDFUNCTION
+          VDFUNCTIONNUMBER = "1"
+          VDFUNCTIONTYPE = "BPR3"
+          BLOCKED = "0"
+          HARDBLOCKING = "0"
+          CAPACITYFACTOR = "1"
+          BPR_A = "1"
+          BPR_B = "2"
+          BPR_BISREAL = "0"
+          BPR2_A = "1"
+          BPR2_B1 = "2"
+          BPR2_B2 = "2"
+          BPR3_A = "2"
+          BPR3_B = "2"
+          BPR3_D = "0.02"
+          INRETS_A = "1"
+          CONICAL_A = "4"
+          CONICAL_MARGINAL_A = "4"
+          QUADRATIC_A = "1"
+          QUADRATIC_B = "1"
+          QUADRATIC_D = "1"
+          LOGISTIC_A = "1"
+          LOGISTIC_B = "1"
+          LOGISTIC_D = "1"
+          LOGISTIC_F = "1"
+          SIGMOIDAL_MMF_A = "1"
+          SIGMOIDAL_MMF_B = "1"
+          SIGMOIDAL_MMF_D = "1"
+          SIGMOIDAL_MMF_F = "1"
+          TMODEL_A1 = "0"
+          TMODEL_A2 = "0"
+          TMODEL_B1 = "2"
+          TMODEL_B2 = "2"
+          TMODEL_D1 = "1"
+          TMODEL_D2 = "1"
+          TMODEL_F1 = "0"
+          TMODEL_F2 = "0"
+          TMODEL_SATCRIT = "1"
+          AKCELIK_A = "1"
+          AKCELIK_B = "1"
+          AKCELIK_D = "1800"
+          LOHSE_A = "1"
+          LOHSE_B = "3"
+          LOHSE_SATCRIT = "1"
+          SCHILLER_A = "3"
+          SCHILLER_B = "1"
+          SCHILLER_D = "0.001"
+          SCHILLER_F = "10"
+          SCHILLER_SATCRIT = "1"
+          EXPONENTIAL_A = "1"
+          EXPONENTIAL_B = "1"
+          EXPONENTIAL_D = "1"
+          EXPONENTIAL_SATCRIT = "1"
+          AKCELIK2_A = "1"
+          AKCELIK2_B = "1"
+          AKCELIK2_D = "1"
+          USER_A1 = "1"
+          USER_B1 = "1"
+          USER_D1 = "1"
+          USER_F1 = "1"
+          USER_A2 = "1"
+          USER_B2 = "1"
+          USER_D2 = "1"
+          USER_F2 = "1"
+          USER_SATCRIT = "1"
+        />        
+      </LINKVDFUNCTIONSPARAMETERS>
+      <VDFUNCTIONS        USEVMIN = "0">
+        <ATTRIBUTE          NAME = "VDFUNCTIONNO_LINKTYPE">
+          <ATTRITEM            SUBATTR1 = "0"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "1"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "2"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "3"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "4"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "5"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "6"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "7"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "8"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "9"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "10"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "11"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "12"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "13"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "14"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "15"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "16"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "17"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "18"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "19"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "20"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "21"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "22"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "23"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "24"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "25"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "26"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "27"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "28"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "29"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "30"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "31"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "32"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "33"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "34"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "35"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "36"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "37"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "38"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "39"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "40"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "41"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "42"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "43"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "44"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "45"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "46"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "47"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "48"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "49"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "50"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "51"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "52"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "53"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "54"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "55"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "56"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "57"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "58"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "59"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "60"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "61"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "62"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "63"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "64"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "65"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "66"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "67"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "68"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "69"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "70"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "71"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "72"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "73"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "74"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "75"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "76"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "77"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "78"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "79"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "80"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "81"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "82"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "83"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "84"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "85"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "86"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "87"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "88"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "89"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "90"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "91"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "92"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "93"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "94"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "95"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "96"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "97"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "98"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "99"            VALUE = "1"          />          
+        </ATTRIBUTE>
+      </VDFUNCTIONS>
+    </VDFUNCTIONSPARAMETERS>
+    <IMPEDANCEFUNCTIONS      TSYSCODE = "SC"      USEDETAILEDCALCULATION = "1">
+      <LINCOMB        NETOBJECTTYPE = "">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SC)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "LINK">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SC)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "CONNECTOR">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SC)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "TURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SC)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "MAINTURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SC)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+    </IMPEDANCEFUNCTIONS>
+    <IMPEDANCEFUNCTIONS      TSYSCODE = "SCp"      USEDETAILEDCALCULATION = "1">
+      <LINCOMB        NETOBJECTTYPE = "">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SCp)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "LINK">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SCp)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "CONNECTOR">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SCp)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "TURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SCp)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "MAINTURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SCp)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+    </IMPEDANCEFUNCTIONS>
+    <IMPEDANCEFUNCTIONS      TSYSCODE = "SD"      USEDETAILEDCALCULATION = "1">
+      <LINCOMB        NETOBJECTTYPE = "">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SD)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "LINK">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SD)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "CONNECTOR">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SD)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "TURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SD)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "MAINTURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SD)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+    </IMPEDANCEFUNCTIONS>
+    <IMPEDANCEFUNCTIONS      TSYSCODE = "SO"      USEDETAILEDCALCULATION = "1">
+      <LINCOMB        NETOBJECTTYPE = "">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SO)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "LINK">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SO)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "CONNECTOR">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SO)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "TURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SO)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "MAINTURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(SO)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+    </IMPEDANCEFUNCTIONS>
+    <NODEIMPEDANCEPARA
+      HOURLYVOLUMESOURCE = "Volume-PrT with BasicVol"
+      HOURLYVOLUMEFACTOR = "1"
+      NODEIMPEDANCEMETHOD = "TURNTCUR_TURNVDFUNCTION"
+      USEMAXUNCONTROLLED = "1"
+      UNCONTROLLEDT0FACTOR = "20"
+      MAXUNCONTROLLED = "10min"
+      USEMAXICASIGNALIZED = "1"
+      MAXICASIGNALIZED = "10min"
+      ICAIDEALSATURATIONFLOWRATE = "1900"
+      ICAIDEALSATURATIONFLOWRATEICU1 = "1600"
+      ICAIDEALSATURATIONFLOWRATEICU2 = "1600"
+      ICAIDEALSATURATIONFLOWRATECCG = "1850"
+      ICAPCULENGTH = "6m"
+      ICAPEDESTRIANWALKINGSPEED = "1.2000000000000004m/s"
+      ICARIGHTTURNPEDESTRIANFACTOR = "Toronto"
+      USEMAXICATWOWAYSTOP = "1"
+      MAXICATWOWAYSTOP = "10min"
+      USEMAXICAROUNDABOUT = "1"
+      MAXICAROUNDABOUT = "10min"
+      USEMAXICAALLWAYSTOP = "1"
+      MAXICAALLWAYSTOP = "10min"
+      ICATIMEINTERVAL = "15min"
+      WRITEEXCELREPORT = "1"
+      QUEUELENGTHPERCENTILE = "90"
+      IGNOREUTURNS = "1"
+      ICAMETHODROUNDABOUT = "HCM 2010"
+      USELANELENGTH = "0"
+      ICAMETHODSIGNALIZED = "HCM 2000"
+      ICAMETHODTWOWAYSTOP = "HCM 2000"
+      ICAMETHODALLWAYSTOP = "HCM 2000">
+      <UNCONTROLLEDNODEVDFUNCTIONPARAMETERS>
+        <VDFUNCTION
+          VDFUNCTIONNUMBER = "1"
+          VDFUNCTIONTYPE = "BPR2"
+          BLOCKED = "0"
+          HARDBLOCKING = "0"
+          CAPACITYFACTOR = "1"
+          BPR_A = "2"
+          BPR_B = "4"
+          BPR_BISREAL = "0"
+          BPR2_A = "2"
+          BPR2_B1 = "4"
+          BPR2_B2 = "0.8"
+          BPR3_A = "1"
+          BPR3_B = "2"
+          BPR3_D = "0"
+          INRETS_A = "1"
+          CONICAL_A = "4"
+          CONICAL_MARGINAL_A = "4"
+          QUADRATIC_A = "1"
+          QUADRATIC_B = "1"
+          QUADRATIC_D = "1"
+          LOGISTIC_A = "1"
+          LOGISTIC_B = "1"
+          LOGISTIC_D = "1"
+          LOGISTIC_F = "1"
+          SIGMOIDAL_MMF_A = "1"
+          SIGMOIDAL_MMF_B = "1"
+          SIGMOIDAL_MMF_D = "1"
+          SIGMOIDAL_MMF_F = "1"
+          TMODEL_A1 = "0"
+          TMODEL_A2 = "0"
+          TMODEL_B1 = "2"
+          TMODEL_B2 = "2"
+          TMODEL_D1 = "1"
+          TMODEL_D2 = "1"
+          TMODEL_F1 = "0"
+          TMODEL_F2 = "0"
+          TMODEL_SATCRIT = "1"
+          AKCELIK_A = "1"
+          AKCELIK_B = "1"
+          AKCELIK_D = "1800"
+          LOHSE_A = "1"
+          LOHSE_B = "3"
+          LOHSE_SATCRIT = "1"
+          SCHILLER_A = "3"
+          SCHILLER_B = "1"
+          SCHILLER_D = "0.001"
+          SCHILLER_F = "10"
+          SCHILLER_SATCRIT = "1"
+          EXPONENTIAL_A = "1"
+          EXPONENTIAL_B = "1"
+          EXPONENTIAL_D = "1"
+          EXPONENTIAL_SATCRIT = "1"
+          AKCELIK2_A = "1"
+          AKCELIK2_B = "1"
+          AKCELIK2_D = "1"
+          USER_A1 = "1"
+          USER_B1 = "1"
+          USER_D1 = "1"
+          USER_F1 = "1"
+          USER_A2 = "1"
+          USER_B2 = "1"
+          USER_D2 = "1"
+          USER_F2 = "1"
+          USER_SATCRIT = "1"
+        />        
+      </UNCONTROLLEDNODEVDFUNCTIONPARAMETERS>
+      <NODEVDFUNCTIONSPARAMETERS>
+        <VDFUNCTION
+          VDFUNCTIONNUMBER = "1"
+          VDFUNCTIONTYPE = "TMODEL_NODES"
+          BLOCKED = "0"
+          HARDBLOCKING = "0"
+          CAPACITYFACTOR = "1"
+          BPR_A = "1"
+          BPR_B = "2"
+          BPR_BISREAL = "0"
+          BPR2_A = "1"
+          BPR2_B1 = "2"
+          BPR2_B2 = "2"
+          BPR3_A = "1"
+          BPR3_B = "2"
+          BPR3_D = "0"
+          INRETS_A = "1"
+          CONICAL_A = "4"
+          CONICAL_MARGINAL_A = "4"
+          QUADRATIC_A = "1"
+          QUADRATIC_B = "1"
+          QUADRATIC_D = "1"
+          LOGISTIC_A = "1"
+          LOGISTIC_B = "1"
+          LOGISTIC_D = "1"
+          LOGISTIC_F = "1"
+          SIGMOIDAL_MMF_A = "1"
+          SIGMOIDAL_MMF_B = "1"
+          SIGMOIDAL_MMF_D = "1"
+          SIGMOIDAL_MMF_F = "1"
+          TMODEL_A1 = "0"
+          TMODEL_A2 = "0"
+          TMODEL_B1 = "2"
+          TMODEL_B2 = "2"
+          TMODEL_D1 = "1"
+          TMODEL_D2 = "1"
+          TMODEL_F1 = "0"
+          TMODEL_F2 = "0"
+          TMODEL_SATCRIT = "1"
+          AKCELIK_A = "1"
+          AKCELIK_B = "1"
+          AKCELIK_D = "1800"
+          LOHSE_A = "1"
+          LOHSE_B = "3"
+          LOHSE_SATCRIT = "1"
+          SCHILLER_A = "3"
+          SCHILLER_B = "1"
+          SCHILLER_D = "0.001"
+          SCHILLER_F = "10"
+          SCHILLER_SATCRIT = "1"
+          EXPONENTIAL_A = "1"
+          EXPONENTIAL_B = "1"
+          EXPONENTIAL_D = "1"
+          EXPONENTIAL_SATCRIT = "1"
+          AKCELIK2_A = "1"
+          AKCELIK2_B = "1"
+          AKCELIK2_D = "1"
+          USER_A1 = "1"
+          USER_B1 = "1"
+          USER_D1 = "1"
+          USER_F1 = "1"
+          USER_A2 = "1"
+          USER_B2 = "1"
+          USER_D2 = "1"
+          USER_F2 = "1"
+          USER_SATCRIT = "1"
+        />        
+        <NODEVDFUNCTIONS>
+          <ATTRIBUTE            NAME = "VDFUNCTIONNO_NODETYPE">
+            <ATTRITEM              SUBATTR1 = "0"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "1"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "2"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "3"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "4"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "5"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "6"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "7"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "8"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "9"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "10"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "11"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "12"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "13"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "14"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "15"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "16"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "17"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "18"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "19"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "20"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "21"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "22"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "23"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "24"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "25"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "26"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "27"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "28"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "29"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "30"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "31"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "32"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "33"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "34"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "35"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "36"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "37"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "38"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "39"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "40"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "41"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "42"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "43"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "44"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "45"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "46"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "47"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "48"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "49"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "50"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "51"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "52"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "53"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "54"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "55"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "56"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "57"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "58"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "59"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "60"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "61"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "62"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "63"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "64"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "65"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "66"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "67"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "68"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "69"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "70"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "71"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "72"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "73"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "74"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "75"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "76"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "77"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "78"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "79"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "80"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "81"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "82"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "83"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "84"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "85"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "86"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "87"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "88"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "89"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "90"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "91"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "92"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "93"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "94"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "95"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "96"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "97"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "98"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "99"              VALUE = "1"            />            
+          </ATTRIBUTE>
+        </NODEVDFUNCTIONS>
+      </NODEVDFUNCTIONSPARAMETERS>
+      <TURNVDFUNCTIONSPARAMETERS>
+        <VDFUNCTION
+          VDFUNCTIONNUMBER = "1"
+          VDFUNCTIONTYPE = "Constant"
+          BLOCKED = "0"
+          HARDBLOCKING = "0"
+          CAPACITYFACTOR = "1"
+          BPR_A = "1"
+          BPR_B = "2"
+          BPR_BISREAL = "0"
+          BPR2_A = "1"
+          BPR2_B1 = "2"
+          BPR2_B2 = "2"
+          BPR3_A = "1"
+          BPR3_B = "2"
+          BPR3_D = "0"
+          INRETS_A = "1"
+          CONICAL_A = "4"
+          CONICAL_MARGINAL_A = "4"
+          QUADRATIC_A = "1"
+          QUADRATIC_B = "1"
+          QUADRATIC_D = "1"
+          LOGISTIC_A = "1"
+          LOGISTIC_B = "1"
+          LOGISTIC_D = "1"
+          LOGISTIC_F = "1"
+          SIGMOIDAL_MMF_A = "1"
+          SIGMOIDAL_MMF_B = "1"
+          SIGMOIDAL_MMF_D = "1"
+          SIGMOIDAL_MMF_F = "1"
+          TMODEL_A1 = "0"
+          TMODEL_A2 = "0"
+          TMODEL_B1 = "2"
+          TMODEL_B2 = "2"
+          TMODEL_D1 = "1"
+          TMODEL_D2 = "1"
+          TMODEL_F1 = "0"
+          TMODEL_F2 = "0"
+          TMODEL_SATCRIT = "1"
+          AKCELIK_A = "1"
+          AKCELIK_B = "1"
+          AKCELIK_D = "1800"
+          LOHSE_A = "1"
+          LOHSE_B = "3"
+          LOHSE_SATCRIT = "1"
+          SCHILLER_A = "3"
+          SCHILLER_B = "1"
+          SCHILLER_D = "0.001"
+          SCHILLER_F = "10"
+          SCHILLER_SATCRIT = "1"
+          EXPONENTIAL_A = "1"
+          EXPONENTIAL_B = "1"
+          EXPONENTIAL_D = "1"
+          EXPONENTIAL_SATCRIT = "1"
+          AKCELIK2_A = "1"
+          AKCELIK2_B = "1"
+          AKCELIK2_D = "1"
+          USER_A1 = "1"
+          USER_B1 = "1"
+          USER_D1 = "1"
+          USER_F1 = "1"
+          USER_A2 = "1"
+          USER_B2 = "1"
+          USER_D2 = "1"
+          USER_F2 = "1"
+          USER_SATCRIT = "1"
+        />        
+        <TURNVDFUNCTIONS>
+          <ATTRIBUTE            NAME = "VDFUNCTIONNO_TURNTYPE">
+            <ATTRITEM              SUBATTR1 = "0"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "1"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "2"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "3"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "4"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "5"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "6"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "7"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "8"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "9"              VALUE = "1"            />            
+          </ATTRIBUTE>
+        </TURNVDFUNCTIONS>
+      </TURNVDFUNCTIONSPARAMETERS>
+    </NODEIMPEDANCEPARA>
+    <SIGNALCOORDINATIONPARA
+      DOANALYZE = "1"
+      USECOORDGRPSET = "0"
+      COORDGRPSET = ""
+      MAXVOLCAPRATIO = "80"
+      MINPLATOONINDEX = "0.4"
+      USEDSEGSET = "0"
+      DSEGSET = "s"
+      PROGRESSIONATTRLINK = "TCUR_PRTSYS(s)"
+      PROGRESSIONFACLINK = "1"
+      PROGRESSIONATTRTURN = "TCUR_PRTSYS(s)"
+      PROGRESSIONFACTURN = "1"
+      PROGRESSIONATTRMAINTURN = "TCUR_PRTSYS(s)"
+      PROGRESSIONFACMAINTURN = "1"
+      PLATOONALPHA = "0.35"
+      PLATOONBETA = "0.8"
+      MAXCALCTIME = "2min"
+    />    
+    <SIGNALOPTIMIZATIONPARA
+      INTERGREENMODEFIXED = "0"
+      USECYCLETIMEFAMILY = "1"
+      NUMDECPLACES = "1"
+    />    
+    <PARKANDRIDEVDFUNCTIONSPARAMETERS    />    
+    <PRTGENERALPARA      MAXNOTCONVOBJECTSFORTRACE = "50"      APPLYCONNECTORSHARESTOEACHODPAIR = "0"    />    
+    <PRTVOLUMESPARA
+      USESIMPLECALCULATION = "1"
+      FIXBASISVOLUME = "0"
+      ADDVALIND = "1"
+      FACTORSIMPLECALCULATION = "1"
+      LINKFACTOR = "1"
+      CONNECTORFACTOR = "1"
+      TURNFACTOR = "1"
+      LINKATTR = "ADDVAL1"
+      CONNECTORATTR = "ADDVAL1"
+      TURNATTR = "ADDVAL1"
+      PATHSSTORAGE = "StoragePathsRoutes"
+      MAINTURNFACTOR = "1"
+      MAINTURNATTR = "ADDVAL1"
+    />    
+    <PUTVOLUMESPARA
+      NUMDECPLACES = "3"
+      ROUNDDEMANDANDVOLUME = "1"
+      PATHSSTORAGE = "StoragePathsRoutes"
+      VOLUMESTORAGE = "StorageVolumesTimeProfiles"
+      FARESSTORAGE = "StorageFaresNone"
+      PJTSTORAGE = "0"
+      TRANSFERSSTORAGE = "StorageTransfersTimeProfiles"
+      WALKSEARCHINSIDESTOP = "WALKSEARCHINSIDESTOP_NOTVIAACCESSNODE"
+      PUTWALKFROMORTOCONNECTORS = "WALKFROMORTOCONNECTORS_FREE"
+      MAXWALKTIME = "30min"
+      MAXPUTAUXTIME = "2h"
+      STOPPOINTVOLUMEMATRIXPATHSTORAGE = "0"
+      STOPPOINTVOLUMEMATRIXPATHLEGSTORAGE = "0">
+      <ATTRIBUTE        NAME = "MAXSHARINGTIME"      />      
+    </PUTVOLUMESPARA>
+    <PUTREVENUESPARA
+      REVENUEBASE = "Fix revenue per PTripUnlinked"
+      REVPERTRIP = "2"
+      REVPERFAREPOINT = "0.2"
+      REVTOTAL = "0"
+      AMOUNTPERPARTROUTE = "0"
+      WEIGHTOFFAREPOINTS = "100"
+      TSYSSUPPLDISTR = "0"
+    />    
+    <BLOCKINGBACKPARA
+      USEBLOCKINGBACK = "0"
+      USELINKCAP = "1"
+      LINKCAPMODEL = "BBACKLINKCAPMODEL_LINKCAP"
+      USELINKASSIGNICAAPPROACHCAP = "0"
+      USENODECAP = "0"
+      USETURNCAP = "1"
+      TURNCAPMODEL = "BBACKTURNCAPMODEL_CAPPRT"
+      SCALINGFACTOR = "1"
+      AVERAGESPACEPERCARUNIT = "7m"
+      DURATIONPHASE1 = "1h"
+      NUMBEROFVOLUMESLICESPHASE1 = "10"
+      CALCULATIONVARIANT = "SEQUENTIALROUTEPROCESSING"
+    />    
+    <PATHSEQUENCESKIMMATRIXSETTINGS    />    
+    <ANALYSISTIMES
+      USEONPUTRESULTS = "0"
+      USEONPRTRESULTS = "0"
+      STARTDAYINDEX = "1"
+      ENDDAYINDEX = "1"
+    />    
+    <VOLUMESPARA      ORIGDSEG = "PuT"      SAVEASDSEG = "PuT"    />    
+    <VOLUMEMATRIXPARA
+      CREATEFLOWBUNDLEFORMULAMATRICES = "1"
+      FLOWBUNDLEFORMULAMATRIXCODE = "FlowBundle"
+      CREATEASSIGNEDVOLUMEFORMULAMATRICES = "0"
+      ASSIGNEDVOLUMEFORMULAMATRIXCODE = "AssignedVol"
+    />    
+  </FUNCTIONS>
+  <OPERATIONS>
+    <OPERATION
+      NO = "1"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "0"
+      COMMENT = "Obliczenia wstępne"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "2"
+      CODE = ""
+      OPERATIONTYPE = "PrTSkimMatrixCalculation"
+      ACTIVE = "0"
+      COMMENT = "macierz kosztów w SO"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <PRTSKIMMATRIXPARA
+        DSEG = "SO"
+        FILENAME = ""
+        VISEMMODE = "4"
+        CONFIRMOVERWRITE = "1"
+        USEVISEMMODE = "1"
+        SEPARATOR = "Blank"
+        FORMAT = "V"
+        ONLYRELATIONSWITHDEMAND = "0"
+        SUMUPLINKS = "1"
+        SUMUPTURNS = "1"
+        SUMUPORIGCONNS = "1"
+        SUMUPDESTCONNS = "1"
+        USEEXISTINGPATHS = "1"
+        SEARCHCRITERION = "Distance"
+        WEIGHTING = "Route Vol Avg"
+        SELECTODRELATIONTYPE = "All">
+        <SINGLESKIMMATRIXPARA
+          NAME = "T0"
+          CALCULATE = "1"
+          SAVETOFILE = "0"
+          OPEN = "0"
+        />        
+        <SINGLESKIMMATRIXPARA
+          NAME = "TCUR"
+          CALCULATE = "1"
+          SAVETOFILE = "0"
+          OPEN = "0"
+        />        
+        <SINGLESKIMMATRIXPARA
+          NAME = "TRIPDIST"
+          CALCULATE = "1"
+          SAVETOFILE = "0"
+          OPEN = "0"
+        />        
+      </PRTSKIMMATRIXPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "3"
+      CODE = ""
+      OPERATIONTYPE = "PuTSkimMatrixCalculation"
+      ACTIVE = "0"
+      COMMENT = "macierz kosztów w PuT"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <PUTASSIGNMENTPARABASE        PUTASSIGNMENTVARIANT = "TSys-based"        DSEGSET = "PuT">
+        <TSYSBASEDASSIGNMENTPARAMETERS>
+          <TSYSBASEDBASEPARA
+            CALCULATEASSIGNMENT = "0"
+            CALCULATESKIMMATRICES = "1"
+            FROMORIGZONENO = ""
+            TOORIGZONENO = ""
+          />          
+          <TSYSBASEDSEARCHPARA
+            MAXNUMTRANSFERS = "5"
+            TRANSFERPENALTY = "5min"
+            TRANSFERPERMISSIBILITYATNODE = "FROMNODETYPETABLE"
+            CONSIDERPROHIBITEDTURNS = "0"
+            USEDLINKSFORPATHSEARCH = "ALLLINKS">
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "0"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "1"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "2"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "3"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "4"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "5"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "6"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "7"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "8"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "9"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "10"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "11"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "12"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "13"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "14"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "15"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "16"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "17"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "18"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "19"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "20"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "21"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "22"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "23"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "24"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "25"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "26"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "27"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "28"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "29"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "30"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "31"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "32"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "33"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "34"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "35"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "36"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "37"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "38"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "39"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "40"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "41"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "42"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "43"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "44"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "45"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "46"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "47"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "48"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "49"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "50"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "51"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "52"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "53"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "54"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "55"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "56"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "57"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "58"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "59"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "60"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "61"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "62"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "63"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "64"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "65"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "66"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "67"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "68"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "69"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "70"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "71"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "72"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "73"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "74"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "75"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "76"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "77"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "78"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "79"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "80"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "81"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "82"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "83"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "84"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "85"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "86"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "87"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "88"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "89"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "90"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "91"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "92"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "93"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "94"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "95"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "96"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "97"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "98"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+            <TSYSBASEDSEARCHNODETRANSFERPARA
+              NODETYPE = "99"
+              TRANSFERPERMITTANCE = "PERMITTED"
+              TRANSFERPENALTY = "0h"
+            />            
+          </TSYSBASEDSEARCHPARA>
+          <PUTSKIMMATRIXPARA
+            FILENAME = ""
+            FORMAT = "V-Format"
+            SEPARATOR = "Blank"
+            USEVISEMMODE = "1"
+            VISEMMODE = "3"
+            CONFIRMOVERWRITE = "1"
+            FUNCTION = "AggregateMean"
+            VOLUMEWEIGHTED = "1"
+            QUANTILE = "50"
+            LOWIMPCONNSHARE = "50"
+            SELECTODRELATIONTYPE = "All"
+            CALCULATEANALYSISTIMEINTERVALSKIMS = "0">
+            <SINGLESKIMMATRIXPARA
+              NAME = "JOURNEYTIME"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+          </PUTSKIMMATRIXPARA>
+        </TSYSBASEDASSIGNMENTPARAMETERS>
+      </PUTASSIGNMENTPARABASE>
+    </OPERATION>
+    <OPERATION
+      NO = "4"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "0"
+      COMMENT = "model popytu"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "5"
+      CODE = ""
+      OPERATIONTYPE = "TripGeneration"
+      ACTIVE = "0"
+      COMMENT = "model generacji podróży"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <TRIPGENERATIONPARA
+        CALCULATIONFORACTIVEZONESONLY = "0"
+        INITIALIZEATTRIBUTESFORPASSIVEZONES = "0"
+        BALANCINGFORACTIVEZONESONLY = "0"
+        SUMUPVALUES = "0"
+        DSTRATSET = "01 D-P,02 P-D,03 D-N,04 N-D,05 D-U,06 U-D,07 D-I,08 I-D,09 NZD">
+        <TRIPGENERATIONDSTRATPARA
+          DEMANDSTRATUMCODE = "01 D-P"
+          BALANCINGTYPE = "MATRIXBALANCING_PRODUCTIONTOTALS"
+          PRODUCTIONFUNCTION = "CONTEXT[DEMANDSTRATUM\D_RUCHLIWOSC_DOBOWA] * [LICZBA_MIESZKANCOW] "
+          ATTRACTIONFUNCTION = "[LICZBA_MIEJSC_PRACY_OGOLEM] "
+        />        
+        <TRIPGENERATIONDSTRATPARA
+          DEMANDSTRATUMCODE = "02 P-D"
+          BALANCINGTYPE = "MATRIXBALANCING_ATTRACTIONTOTALS"
+          PRODUCTIONFUNCTION = "[LICZBA_MIEJSC_PRACY_OGOLEM] "
+          ATTRACTIONFUNCTION = "CONTEXT[DEMANDSTRATUM\D_RUCHLIWOSC_DOBOWA] *[LICZBA_MIESZKANCOW] "
+        />        
+        <TRIPGENERATIONDSTRATPARA
+          DEMANDSTRATUMCODE = "03 D-N"
+          BALANCINGTYPE = "MATRIXBALANCING_PRODUCTIONTOTALS"
+          PRODUCTIONFUNCTION = "CONTEXT[DEMANDSTRATUM\D_RUCHLIWOSC_DOBOWA] *[LICZBA_MIESZKANCOW] "
+          ATTRACTIONFUNCTION = "[MIEJSCA_W_SZKOLACH] "
+        />        
+        <TRIPGENERATIONDSTRATPARA
+          DEMANDSTRATUMCODE = "04 N-D"
+          BALANCINGTYPE = "MATRIXBALANCING_ATTRACTIONTOTALS"
+          PRODUCTIONFUNCTION = "[MIEJSCA_W_SZKOLACH] "
+          ATTRACTIONFUNCTION = "CONTEXT[DEMANDSTRATUM\D_RUCHLIWOSC_DOBOWA] *[LICZBA_MIESZKANCOW] "
+        />        
+        <TRIPGENERATIONDSTRATPARA
+          DEMANDSTRATUMCODE = "05 D-U"
+          BALANCINGTYPE = "MATRIXBALANCING_PRODUCTIONTOTALS"
+          PRODUCTIONFUNCTION = "CONTEXT[DEMANDSTRATUM\D_RUCHLIWOSC_DOBOWA] *[LICZBA_MIESZKANCOW] "
+          ATTRACTIONFUNCTION = "[MIEJSCA_NA_UCZELNIACH] "
+        />        
+        <TRIPGENERATIONDSTRATPARA
+          DEMANDSTRATUMCODE = "06 U-D"
+          BALANCINGTYPE = "MATRIXBALANCING_ATTRACTIONTOTALS"
+          PRODUCTIONFUNCTION = "[MIEJSCA_NA_UCZELNIACH] "
+          ATTRACTIONFUNCTION = "CONTEXT[DEMANDSTRATUM\D_RUCHLIWOSC_DOBOWA] *[LICZBA_MIESZKANCOW] "
+        />        
+        <TRIPGENERATIONDSTRATPARA
+          DEMANDSTRATUMCODE = "07 D-I"
+          BALANCINGTYPE = "MATRIXBALANCING_PRODUCTIONTOTALS"
+          PRODUCTIONFUNCTION = "CONTEXT[DEMANDSTRATUM\D_RUCHLIWOSC_DOBOWA] *[LICZBA_MIESZKANCOW] "
+          ATTRACTIONFUNCTION = "[MIEJCA_PRACY_W_USLUGACH] "
+        />        
+        <TRIPGENERATIONDSTRATPARA
+          DEMANDSTRATUMCODE = "08 I-D"
+          BALANCINGTYPE = "MATRIXBALANCING_ATTRACTIONTOTALS"
+          PRODUCTIONFUNCTION = "[MIEJCA_PRACY_W_USLUGACH] "
+          ATTRACTIONFUNCTION = "CONTEXT[DEMANDSTRATUM\D_RUCHLIWOSC_DOBOWA] *[LICZBA_MIESZKANCOW] "
+        />        
+        <TRIPGENERATIONDSTRATPARA
+          DEMANDSTRATUMCODE = "09 NZD"
+          BALANCINGTYPE = "MATRIXBALANCING_PRODUCTIONTOTALS"
+          PRODUCTIONFUNCTION = "1.5*[MIEJCA_PRACY_W_USLUGACH] "
+          ATTRACTIONFUNCTION = "1.5*[MIEJCA_PRACY_W_USLUGACH] "
+        />        
+      </TRIPGENERATIONPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "6"
+      CODE = ""
+      OPERATIONTYPE = "TripDistribution"
+      ACTIVE = "0"
+      COMMENT = "model dystrybucji podróży"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <TRIPDISTRIBUTIONPARA
+        RESETMATRICES = "1"
+        ACTIVEODPAIRSONLY = "0"
+        EXCLUDEODPAIRSOFPASSIVEZONES = "0"
+        USEESTIMATEDPARAMETERS = "0"
+        DSTRATSET = "01 D-P,02 P-D,03 D-N,04 N-D,05 D-U,06 U-D,07 D-I,08 I-D,09 NZD">
+        <TRIPDISTRIBUTIONDSTRATPARA
+          DEMANDSTRATUMCODE = "01 D-P"
+          UTILITYFUNCTION = "Matrix(10)"
+          DISTRIBUTIONMATRIX = "Matrix([DMODELCODE] = CONTEXT[DMODELCODE] &#xA; &amp; [DSTRATCODE] = CONTEXT[DSTRATCODE] &#xA; &amp; [MODECODE] = &quot;&quot;)">
+          <GRAVITATIONPARAMETERS
+            FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_MUULI"
+            PARA_A = "1"
+            PARA_B = "3"
+            PARA_C = "-1"
+            DISTRIBUTIONDIRECTION = "DISTRIBUTIONDIRECTION_PRODUCTION"
+            DOUBLYCONSTRAINED = "1"
+            INITIALMATRIXBALANCING = "MATRIXBALANCING_PRODUCTIONTOTALS"
+            NUMITERATIONS = "10"
+            QUALITYFACTOR = "3"
+          />          
+        </TRIPDISTRIBUTIONDSTRATPARA>
+        <TRIPDISTRIBUTIONDSTRATPARA
+          DEMANDSTRATUMCODE = "02 P-D"
+          UTILITYFUNCTION = "Matrix(10)"
+          DISTRIBUTIONMATRIX = "Matrix([DMODELCODE] = CONTEXT[DMODELCODE] &#xA; &amp; [DSTRATCODE] = CONTEXT[DSTRATCODE] &#xA; &amp; [MODECODE] = &quot;&quot;)">
+          <GRAVITATIONPARAMETERS
+            FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_MUULI"
+            PARA_A = "1"
+            PARA_B = "3"
+            PARA_C = "-1"
+            DISTRIBUTIONDIRECTION = "DISTRIBUTIONDIRECTION_ATTRACTION"
+            DOUBLYCONSTRAINED = "1"
+            INITIALMATRIXBALANCING = "MATRIXBALANCING_ATTRACTIONTOTALS"
+            NUMITERATIONS = "10"
+            QUALITYFACTOR = "3"
+          />          
+        </TRIPDISTRIBUTIONDSTRATPARA>
+        <TRIPDISTRIBUTIONDSTRATPARA
+          DEMANDSTRATUMCODE = "03 D-N"
+          UTILITYFUNCTION = "Matrix(10)"
+          DISTRIBUTIONMATRIX = "Matrix([DMODELCODE] = CONTEXT[DMODELCODE] &#xA; &amp; [DSTRATCODE] = CONTEXT[DSTRATCODE] &#xA; &amp; [MODECODE] = &quot;&quot;)">
+          <GRAVITATIONPARAMETERS
+            FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_MUULI"
+            PARA_A = "1"
+            PARA_B = "0"
+            PARA_C = "-0.5"
+            DISTRIBUTIONDIRECTION = "DISTRIBUTIONDIRECTION_PRODUCTION"
+            DOUBLYCONSTRAINED = "1"
+            INITIALMATRIXBALANCING = "MATRIXBALANCING_PRODUCTIONTOTALS"
+            NUMITERATIONS = "10"
+            QUALITYFACTOR = "3"
+          />          
+        </TRIPDISTRIBUTIONDSTRATPARA>
+        <TRIPDISTRIBUTIONDSTRATPARA
+          DEMANDSTRATUMCODE = "04 N-D"
+          UTILITYFUNCTION = "Matrix(10)"
+          DISTRIBUTIONMATRIX = "Matrix([DMODELCODE] = CONTEXT[DMODELCODE] &#xA; &amp; [DSTRATCODE] = CONTEXT[DSTRATCODE] &#xA; &amp; [MODECODE] = &quot;&quot;)">
+          <GRAVITATIONPARAMETERS
+            FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_MUULI"
+            PARA_A = "1"
+            PARA_B = "0"
+            PARA_C = "-0.5"
+            DISTRIBUTIONDIRECTION = "DISTRIBUTIONDIRECTION_ATTRACTION"
+            DOUBLYCONSTRAINED = "1"
+            INITIALMATRIXBALANCING = "MATRIXBALANCING_ATTRACTIONTOTALS"
+            NUMITERATIONS = "10"
+            QUALITYFACTOR = "3"
+          />          
+        </TRIPDISTRIBUTIONDSTRATPARA>
+        <TRIPDISTRIBUTIONDSTRATPARA
+          DEMANDSTRATUMCODE = "05 D-U"
+          UTILITYFUNCTION = "Matrix(10)"
+          DISTRIBUTIONMATRIX = "Matrix([DMODELCODE] = CONTEXT[DMODELCODE] &#xA; &amp; [DSTRATCODE] = CONTEXT[DSTRATCODE] &#xA; &amp; [MODECODE] = &quot;&quot;)">
+          <GRAVITATIONPARAMETERS
+            FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_MUULI"
+            PARA_A = "1"
+            PARA_B = "0"
+            PARA_C = "-0.2"
+            DISTRIBUTIONDIRECTION = "DISTRIBUTIONDIRECTION_PRODUCTION"
+            DOUBLYCONSTRAINED = "1"
+            INITIALMATRIXBALANCING = "MATRIXBALANCING_PRODUCTIONTOTALS"
+            NUMITERATIONS = "10"
+            QUALITYFACTOR = "3"
+          />          
+        </TRIPDISTRIBUTIONDSTRATPARA>
+        <TRIPDISTRIBUTIONDSTRATPARA
+          DEMANDSTRATUMCODE = "06 U-D"
+          UTILITYFUNCTION = "Matrix(10)"
+          DISTRIBUTIONMATRIX = "Matrix([DMODELCODE] = CONTEXT[DMODELCODE] &#xA; &amp; [DSTRATCODE] = CONTEXT[DSTRATCODE] &#xA; &amp; [MODECODE] = &quot;&quot;)">
+          <GRAVITATIONPARAMETERS
+            FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_MUULI"
+            PARA_A = "1"
+            PARA_B = "0"
+            PARA_C = "-0.2"
+            DISTRIBUTIONDIRECTION = "DISTRIBUTIONDIRECTION_ATTRACTION"
+            DOUBLYCONSTRAINED = "1"
+            INITIALMATRIXBALANCING = "MATRIXBALANCING_ATTRACTIONTOTALS"
+            NUMITERATIONS = "10"
+            QUALITYFACTOR = "3"
+          />          
+        </TRIPDISTRIBUTIONDSTRATPARA>
+        <TRIPDISTRIBUTIONDSTRATPARA
+          DEMANDSTRATUMCODE = "07 D-I"
+          UTILITYFUNCTION = "Matrix(10)"
+          DISTRIBUTIONMATRIX = "Matrix([DMODELCODE] = CONTEXT[DMODELCODE] &#xA; &amp; [DSTRATCODE] = CONTEXT[DSTRATCODE] &#xA; &amp; [MODECODE] = &quot;&quot;)">
+          <GRAVITATIONPARAMETERS
+            FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_MUULI"
+            PARA_A = "1"
+            PARA_B = "0"
+            PARA_C = "-0.3"
+            DISTRIBUTIONDIRECTION = "DISTRIBUTIONDIRECTION_PRODUCTION"
+            DOUBLYCONSTRAINED = "1"
+            INITIALMATRIXBALANCING = "MATRIXBALANCING_PRODUCTIONTOTALS"
+            NUMITERATIONS = "10"
+            QUALITYFACTOR = "3"
+          />          
+        </TRIPDISTRIBUTIONDSTRATPARA>
+        <TRIPDISTRIBUTIONDSTRATPARA
+          DEMANDSTRATUMCODE = "08 I-D"
+          UTILITYFUNCTION = "Matrix(10)"
+          DISTRIBUTIONMATRIX = "Matrix([DMODELCODE] = CONTEXT[DMODELCODE] &#xA; &amp; [DSTRATCODE] = CONTEXT[DSTRATCODE] &#xA; &amp; [MODECODE] = &quot;&quot;)">
+          <GRAVITATIONPARAMETERS
+            FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_MUULI"
+            PARA_A = "1"
+            PARA_B = "0"
+            PARA_C = "-0.3"
+            DISTRIBUTIONDIRECTION = "DISTRIBUTIONDIRECTION_ATTRACTION"
+            DOUBLYCONSTRAINED = "1"
+            INITIALMATRIXBALANCING = "MATRIXBALANCING_ATTRACTIONTOTALS"
+            NUMITERATIONS = "10"
+            QUALITYFACTOR = "3"
+          />          
+        </TRIPDISTRIBUTIONDSTRATPARA>
+        <TRIPDISTRIBUTIONDSTRATPARA
+          DEMANDSTRATUMCODE = "09 NZD"
+          UTILITYFUNCTION = "Matrix(10)"
+          DISTRIBUTIONMATRIX = "Matrix([DMODELCODE] = CONTEXT[DMODELCODE] &#xA; &amp; [DSTRATCODE] = CONTEXT[DSTRATCODE] &#xA; &amp; [MODECODE] = &quot;&quot;)">
+          <GRAVITATIONPARAMETERS
+            FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_MUULI"
+            PARA_A = "1"
+            PARA_B = "2"
+            PARA_C = "-1"
+            DISTRIBUTIONDIRECTION = "DISTRIBUTIONDIRECTION_PRODUCTION"
+            DOUBLYCONSTRAINED = "1"
+            INITIALMATRIXBALANCING = "MATRIXBALANCING_PRODUCTIONTOTALS"
+            NUMITERATIONS = "10"
+            QUALITYFACTOR = "3"
+          />          
+        </TRIPDISTRIBUTIONDSTRATPARA>
+      </TRIPDISTRIBUTIONPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "7"
+      CODE = ""
+      OPERATIONTYPE = "ModeChoice"
+      ACTIVE = "0"
+      COMMENT = "pierwotny model wyboru środka transportu"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <MODECHOICEPARA        RESETMATRICES = "1"        DSTRATSET = "01 D-P,02 P-D,03 D-N,04 N-D,05 D-U,06 U-D,07 D-I,08 I-D,09 NZD">
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "01 D-P"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-1"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "01 D-P"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "01 D-P"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "1-CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+        </MODECHOICEDSTRATPARA>
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "02 P-D"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-1"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "02 P-D"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "02 P-D"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "1-CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+        </MODECHOICEDSTRATPARA>
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "03 D-N"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-1"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "03 D-N"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "03 D-N"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "1-CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+        </MODECHOICEDSTRATPARA>
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "04 N-D"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-1"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "04 N-D"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "04 N-D"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "1-CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+        </MODECHOICEDSTRATPARA>
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "05 D-U"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-1"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "05 D-U"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "05 D-U"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "1-CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+        </MODECHOICEDSTRATPARA>
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "06 U-D"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-1"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "06 U-D"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "06 U-D"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "1-CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+        </MODECHOICEDSTRATPARA>
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "07 D-I"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-1"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "07 D-I"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "07 D-I"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "1-CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+        </MODECHOICEDSTRATPARA>
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "08 I-D"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-1"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "08 I-D"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "08 I-D"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "1-CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+        </MODECHOICEDSTRATPARA>
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "09 NZD"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-1"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "09 NZD"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "09 NZD"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "1-CONTEXT[DEMANDSTRATUM\U_KZ]"
+          />          
+        </MODECHOICEDSTRATPARA>
+      </MODECHOICEPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "8"
+      CODE = ""
+      OPERATIONTYPE = "ModeChoice"
+      ACTIVE = "0"
+      COMMENT = "wtórny model wyboru środka transportu"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <MODECHOICEPARA        RESETMATRICES = "1"        DSTRATSET = "01 D-P,02 P-D,03 D-N,04 N-D,05 D-U,06 U-D,07 D-I,08 I-D,09 NZD">
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "01 D-P"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-0.05"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "01 D-P"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "Matrix([NO] = 11)+CONTEXT[DEMANDSTRATUM\D_ASC]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "01 D-P"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "min(90,Matrix([NO]=20))"
+          />          
+        </MODECHOICEDSTRATPARA>
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "02 P-D"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-0.05"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "02 P-D"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "Matrix([NO] = 11)+CONTEXT[DEMANDSTRATUM\D_ASC]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "02 P-D"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "min(90,Matrix([NO]=20))"
+          />          
+        </MODECHOICEDSTRATPARA>
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "03 D-N"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-0.05"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "03 D-N"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "Matrix([NO] = 11)+CONTEXT[DEMANDSTRATUM\D_ASC]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "03 D-N"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "min(90,Matrix([NO]=20))"
+          />          
+        </MODECHOICEDSTRATPARA>
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "04 N-D"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-0.05"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "04 N-D"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "Matrix([NO] = 11)+CONTEXT[DEMANDSTRATUM\D_ASC]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "04 N-D"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "min(90,Matrix([NO]=20))"
+          />          
+        </MODECHOICEDSTRATPARA>
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "05 D-U"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-0.05"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "05 D-U"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "Matrix([NO] = 11)+CONTEXT[DEMANDSTRATUM\D_ASC]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "05 D-U"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "min(90,Matrix([NO]=20))"
+          />          
+        </MODECHOICEDSTRATPARA>
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "06 U-D"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-0.05"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "06 U-D"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "Matrix([NO] = 11)+CONTEXT[DEMANDSTRATUM\D_ASC]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "06 U-D"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "min(90,Matrix([NO]=20))"
+          />          
+        </MODECHOICEDSTRATPARA>
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "07 D-I"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-0.05"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "07 D-I"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "Matrix([NO] = 11)+CONTEXT[DEMANDSTRATUM\D_ASC]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "07 D-I"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "min(90,Matrix([NO]=20))"
+          />          
+        </MODECHOICEDSTRATPARA>
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "08 I-D"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-0.05"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "08 I-D"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "Matrix([NO] = 11)+CONTEXT[DEMANDSTRATUM\D_ASC]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "08 I-D"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "min(90,Matrix([NO]=20))"
+          />          
+        </MODECHOICEDSTRATPARA>
+        <MODECHOICEDSTRATPARA
+          DEMANDSTRATUMCODE = "09 NZD"
+          FUNCTIONTYPE = "UTILITYFUNCTIONTYPE_LOGIT"
+          PARA_A = "1"
+          PARA_B = "1"
+          PARA_C = "-0.05"
+          DISTRIBUTIONMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = &quot;&quot;)">
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "09 NZD"
+            MODECODE = "PuT"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "Matrix([NO] = 11)+CONTEXT[DEMANDSTRATUM\D_ASC]"
+          />          
+          <MODECHOICEDSTRATMODEPARA
+            DEMANDSTRATUMCODE = "09 NZD"
+            MODECODE = "SO"
+            MODECHOICEMATRIX = "Matrix([DModelCode] = context[DModelCode] &#xA; &amp; [DStratCode] = context[DStratCode] &#xA; &amp; [ModeCode] = context[ModeCode])"
+            UTILITYFUNCTION = "min(90,Matrix([NO]=20))"
+          />          
+        </MODECHOICEDSTRATPARA>
+      </MODECHOICEPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "9"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "0"
+      COMMENT = "Sumowanie macierzy SO"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "10"
+      CODE = ""
+      OPERATIONTYPE = "CombinationOfMatrices"
+      ACTIVE = "0"
+      COMMENT = "inicjalizacja"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <MATRIXFORMULAPARA        FORMULA = "ForEach(MATRIX ZmiennaMacierz, ZmiennaMacierz[SUMOWANA])&#xA;  ZmiennaMacierz := 0&#xA;"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "11"
+      CODE = ""
+      OPERATIONTYPE = "CombinationOfMatrices"
+      ACTIVE = "0"
+      COMMENT = "macierz dobowa"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <MATRIXFORMULAPARA        FORMULA = "ForEach(MATRIX ZmiennaMacierz, ZmiennaMacierz[MODECODE]=&quot;SO&quot; )&#xA;  Matrix([NO]= 1001) := &#xA;Matrix([NO]= 1001) + &#xA;ZmiennaMacierz * &#xA;ZmiennaMacierz[DEMANDSTRATUM\D_MNOZNIKSEZONOWY] / &#xA;ZmiennaMacierz[DEMANDSTRATUM\D_WSPNAPELNIENIA]&#xA;"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "12"
+      CODE = ""
+      OPERATIONTYPE = "CombinationOfMatrices"
+      ACTIVE = "0"
+      COMMENT = "macierz poranna"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <MATRIXFORMULAPARA        FORMULA = "ForEach(MATRIX ZmiennaMacierz, ZmiennaMacierz[MODECODE]=&quot;SO&quot; )&#xA;  Matrix([NO]= 1002) := &#xA;Matrix([NO]= 1002) + &#xA;ZmiennaMacierz * &#xA;ZmiennaMacierz[DEMANDSTRATUM\D_URANO] *&#xA;ZmiennaMacierz[DEMANDSTRATUM\D_MNOZNIKSEZONOWY] / &#xA;ZmiennaMacierz[DEMANDSTRATUM\D_WSPNAPELNIENIA]&#xA;"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "13"
+      CODE = ""
+      OPERATIONTYPE = "CombinationOfMatrices"
+      ACTIVE = "0"
+      COMMENT = "macierz popoludniowa"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <MATRIXFORMULAPARA        FORMULA = "ForEach(MATRIX ZmiennaMacierz, ZmiennaMacierz[MODECODE]=&quot;SO&quot; )&#xA;  Matrix([NO]= 1003) := &#xA;Matrix([NO]= 1003) + &#xA;ZmiennaMacierz * &#xA;ZmiennaMacierz[DEMANDSTRATUM\D_UPOPO] *&#xA;ZmiennaMacierz[DEMANDSTRATUM\D_MNOZNIKSEZONOWY] / &#xA;ZmiennaMacierz[DEMANDSTRATUM\D_WSPNAPELNIENIA]&#xA;"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "14"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "0"
+      COMMENT = "Sumowanie macierzy PuT"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "15"
+      CODE = ""
+      OPERATIONTYPE = "CombinationOfMatrices"
+      ACTIVE = "0"
+      COMMENT = "macierz dobowa"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <MATRIXFORMULAPARA        FORMULA = "ForEach(MATRIX ZmiennaMacierz, ZmiennaMacierz[MODECODE]=&quot;PuT&quot; )&#xA;  Matrix([NO]= 2001) := &#xA;Matrix([NO]= 2001) + &#xA;ZmiennaMacierz * &#xA;ZmiennaMacierz[DEMANDSTRATUM\D_MNOZNIKSEZONOWY]"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "16"
+      CODE = ""
+      OPERATIONTYPE = "CombinationOfMatrices"
+      ACTIVE = "0"
+      COMMENT = "macierz poranna"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <MATRIXFORMULAPARA        FORMULA = "ForEach(MATRIX ZmiennaMacierz, ZmiennaMacierz[MODECODE]=&quot;PuT&quot;)&#xA;  Matrix([NO]= 2002) := &#xA;Matrix([NO]= 2002) + &#xA;ZmiennaMacierz * &#xA;ZmiennaMacierz[DEMANDSTRATUM\D_URANO] *&#xA;ZmiennaMacierz[DEMANDSTRATUM\D_MNOZNIKSEZONOWY] &#xA;"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "17"
+      CODE = ""
+      OPERATIONTYPE = "CombinationOfMatrices"
+      ACTIVE = "0"
+      COMMENT = "macierz popoludniowa"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <MATRIXFORMULAPARA        FORMULA = "ForEach(MATRIX ZmiennaMacierz, ZmiennaMacierz[MODECODE]=&quot;PuT&quot; )&#xA;  Matrix([NO]= 2003) := &#xA;Matrix([NO]= 2003) + &#xA;ZmiennaMacierz * &#xA;ZmiennaMacierz[DEMANDSTRATUM\D_UPOPO] *&#xA;ZmiennaMacierz[DEMANDSTRATUM\D_MNOZNIKSEZONOWY]&#xA;"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "18"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "0"
+      COMMENT = "Rozkład podróży na sieć - obciążenienie"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "19"
+      CODE = ""
+      OPERATIONTYPE = "PrTAssignment"
+      ACTIVE = "1"
+      COMMENT = ""
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <PRTASSIGNMENTPARA        PRTASSIGNMENTVARIANT = "Equilibrium"        DSEGSET = "SO">
+        <EQUILIBRIUMPARA>
+          <EQUIINITIALSOLUTIONPARA            USECURRENTSOLUTION = "0">
+            <DEMANDSHAREPARA>
+              <ATTRIBUTE                NAME = "DEMANDSHARE">
+                <ATTRITEM                  SUBATTR1 = "1"                  VALUE = "100"                />                
+                <ATTRITEM                  SUBATTR1 = "2"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "3"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "4"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "5"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "6"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "7"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "8"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "9"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "10"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "11"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "12"                  VALUE = "0"                />                
+              </ATTRIBUTE>
+            </DEMANDSHAREPARA>
+          </EQUIINITIALSOLUTIONPARA>
+          <EQUISTOPCRITERIAPARA
+            MAXNUMOUTERIT = "20"
+            MAXABSIMPDEV = "0"
+            MAXRELIMPDEV = "0"
+            MAXRELATIVEGAP = "0.0001">
+            <NETBALANCING              GENERALVALUE = "5"            />            
+          </EQUISTOPCRITERIAPARA>
+        </EQUILIBRIUMPARA>
+      </PRTASSIGNMENTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "20"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "0"
+      COMMENT = "Procedury pomocnicze"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "21"
+      CODE = ""
+      OPERATIONTYPE = "AssignmentAnalysis"
+      ACTIVE = "0"
+      COMMENT = "zgodność modelu w szczycie porannym"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <ASSIGNMENTANALYSISPARA
+        NETOBJECTTYPE = "LINK"
+        MODELEDVALUEATTRID = "VOLVEHPRT(AP)"
+        OBSERVEDVALUEATTRID = "Q_RANO"
+        CLASSIFICATIONATTRID = "TYPENO"
+        ONLYACTIVE = "0"
+        ONLYPOSITIVE = "1"
+        CLASSIFY = "1"
+        USETOLERANCES = "0"
+        MAXGEH = "5">
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "1000"          TOLERANCE = "100%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "2000"          TOLERANCE = "100%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "3000"          TOLERANCE = "54%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "4000"          TOLERANCE = "51%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "5000"          TOLERANCE = "48%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "6000"          TOLERANCE = "45%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "7000"          TOLERANCE = "42%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "8000"          TOLERANCE = "40%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "10000"          TOLERANCE = "38%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "11000"          TOLERANCE = "36%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "12000"          TOLERANCE = "35%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "13000"          TOLERANCE = "34%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "15000"          TOLERANCE = "32%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "17000"          TOLERANCE = "30%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "20000"          TOLERANCE = "28.000000000000004%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "22000"          TOLERANCE = "27%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "24000"          TOLERANCE = "26%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "26000"          TOLERANCE = "25%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "30000"          TOLERANCE = "24.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "35000"          TOLERANCE = "23.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "40000"          TOLERANCE = "22.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "45000"          TOLERANCE = "21.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "50000"          TOLERANCE = "21%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "55000"          TOLERANCE = "19.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "60000"          TOLERANCE = "18.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "65000"          TOLERANCE = "17.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "70000"          TOLERANCE = "16.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "75000"          TOLERANCE = "15.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "80000"          TOLERANCE = "14.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "90000"          TOLERANCE = "14.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "100000"          TOLERANCE = "14.099999999999998%"        />        
+      </ASSIGNMENTANALYSISPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "22"
+      CODE = ""
+      OPERATIONTYPE = "AssignmentAnalysis"
+      ACTIVE = "0"
+      COMMENT = "zgodność modelu w szczycie popołudniowym"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <ASSIGNMENTANALYSISPARA
+        NETOBJECTTYPE = "LINK"
+        MODELEDVALUEATTRID = "VOLVEHPRT(AP)"
+        OBSERVEDVALUEATTRID = "Q_POPO"
+        CLASSIFICATIONATTRID = "TYPENO"
+        ONLYACTIVE = "0"
+        ONLYPOSITIVE = "1"
+        CLASSIFY = "1"
+        USETOLERANCES = "0"
+        MAXGEH = "5">
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "1000"          TOLERANCE = "100%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "2000"          TOLERANCE = "100%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "3000"          TOLERANCE = "54%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "4000"          TOLERANCE = "51%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "5000"          TOLERANCE = "48%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "6000"          TOLERANCE = "45%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "7000"          TOLERANCE = "42%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "8000"          TOLERANCE = "40%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "10000"          TOLERANCE = "38%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "11000"          TOLERANCE = "36%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "12000"          TOLERANCE = "35%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "13000"          TOLERANCE = "34%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "15000"          TOLERANCE = "32%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "17000"          TOLERANCE = "30%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "20000"          TOLERANCE = "28.000000000000004%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "22000"          TOLERANCE = "27%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "24000"          TOLERANCE = "26%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "26000"          TOLERANCE = "25%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "30000"          TOLERANCE = "24.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "35000"          TOLERANCE = "23.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "40000"          TOLERANCE = "22.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "45000"          TOLERANCE = "21.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "50000"          TOLERANCE = "21%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "55000"          TOLERANCE = "19.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "60000"          TOLERANCE = "18.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "65000"          TOLERANCE = "17.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "70000"          TOLERANCE = "16.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "75000"          TOLERANCE = "15.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "80000"          TOLERANCE = "14.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "90000"          TOLERANCE = "14.2%"        />        
+        <ASSIGNMENTANALYSISTOLERANCEITEM          OBSERVEDVALUE = "100000"          TOLERANCE = "14.099999999999998%"        />        
+      </ASSIGNMENTANALYSISPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "23"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "0"
+      COMMENT = "I/O GitHub"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "24"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "0"
+      COMMENT = "Save Net, Dmd, Procedure"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <EXECUTESCRIPTPARA        FILENAME = ""        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[Visum.IO.SaveNet("/temp_out/link_types.net","/net_layouts/link_types_layout.net",True)
+Visum.IO.SaveDemandFile("/temp_out/dmd.dmd",False,"/net_layouts/dmd.dmd")
+Visum.Procedures.Save("/temp_out/procedures.xml")
+
+]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "25"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "0"
+      COMMENT = "Load Net, Dmd, Procedure (not available)"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODE = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = "">
+      <EXECUTESCRIPTPARA        FILENAME = ""        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[Visum.IO.LoadDemandFile("/temp_out/dmd.dmd",True)
+Visum.IO.LoadNet("/temp_out/link_types.net",True)
+# Visum.Procedures.Open("/temp_out/procedures.xml")
+
+
+
+]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+  </OPERATIONS>
+</PROCEDURES>
