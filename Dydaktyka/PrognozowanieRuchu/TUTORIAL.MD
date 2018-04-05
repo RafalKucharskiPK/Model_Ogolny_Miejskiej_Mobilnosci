@@ -132,8 +132,26 @@ Po wykonaniu sprawdź wyniki rozkładu ruchu, przeciągnij i upuść plik [Potok
 
 ## Parametry modelu
 
-Dodaj w dowonlym, widocznym miejscu obiekt `Trritory` - jego parametry graficzne zawierają główne parametry modelu. Pracę przewozową w pojazdogodzinach, pojazdokilometrach, oraz prędkość średnią.
+Dodaj w dowonlym, widocznym miejscu obiekt `Territory` - jego parametry graficzne zawierają główne parametry modelu. Pracę przewozową w pojazdogodzinach, pojazdokilometrach, oraz prędkość średnią.
 
 # 3. Prognozowanie z użyciem modelu
+
+## Scenraiusze w modelu popytu
+
+* Wzrost liczby ludności ogółem
+* Wzrost ludności w pewnych rejonach
+* Zmiana lokalizacji miejsce pracy
+* Zmiana udziału komunikacji zbiorowej.
+
+## Scenariusze w modelu sieciowym
+
+* Nowa inwestycja
+* Nowa organizacja ruchu
+* Ograniczenie ruchu
+* Objazd
+
+Scenariusze obliczamy w `Scenario Manager`.
+Otwieramy kopię foldera `MOMM` , otwieramy plik `MOMM.vpdbx`, klikamy `Edit Base Version` otwieramy nasz plik, klikamy `Save`.
+Każdy ze scenariuszy zapisujemy jako `Modification` w `ScenarioManager`, do każdego tworzymy scenario, wybierając zestaw procedur nr 1.
 
 
