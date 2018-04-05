@@ -115,5 +115,13 @@ _Hierarchia sieci_ (na podstawie podkładu OSM):
 
 # 2. Wykonanie obliczeń w modelu
 
-Po zdefiniowaniu zmiennych objaśniających rejonów (`LICZBA_MIESZKANCOW, MIEJSCA_PRACY_W_USLUGACH, MIEJSCA_PRACY_W_PRZEMYSLE, MIEJSCA_W_SZKOLACH')
+Po zdefiniowaniu zmiennych objaśniających rejonów (`LICZBA_MIESZKANCOW, MIEJSCA_PRACY_W_USLUGACH, MIEJSCA_PRACY_W_PRZEMYSLE, MIEJSCA_W_SZKOLACH`)
+Wykonaj zestaw przygotowanych  procedur:
+* Obliczenie macierzy kosztów
+* Model popytu:
+** Model generacji ruchu
+** Model grawitacyjny (rozkładu podróży)
+** Model wyboru środka transportu
+* Rozkład ruchu na sieć (`PrTAssignment`)
+
 
