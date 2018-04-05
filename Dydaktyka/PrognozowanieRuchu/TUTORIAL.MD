@@ -111,17 +111,29 @@ _Hierarchia sieci_ (na podstawie podkładu OSM):
 ## Testy:
 
 * Test spójności sieci: `Calculate -> Network Check...`
-* Test macierzy kosztów. Użyj zestawiu procedur [P000005.xml](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/MOMM/Procedures/P000005.xml). Sprawdź macierze `10	TT0	t0 ; 11	TTC	tCur ; 12	DIS	Trip distance SO` pod kątem braku spójności. Wartość `999999` oznacza brak połączenia w danej relacji. Do dalszych prac konieczne jest poprawienie sieci (brak wartości `999999` w macierzy)/
+* Test macierzy kosztów. Użyj zestawiu procedur [P000005.xml](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/MOMM/Procedures/P000005.xml) - przeciągnij i upuść do modelu, oblicz zestaw procedur (przycisk *Play*). Sprawdź macierze `10	TT0	t0 ; 11	TTC	tCur ; 12	DIS	Trip distance SO` pod kątem braku spójności. Wartość `999999` oznacza brak połączenia w danej relacji. Do dalszych prac konieczne jest poprawienie sieci (brak wartości `999999` w macierzy).
 
 # 2. Wykonanie obliczeń w modelu
+
+## Obliczenia
 
 Po zdefiniowaniu zmiennych objaśniających rejonów (`LICZBA_MIESZKANCOW, MIEJSCA_PRACY_W_USLUGACH, MIEJSCA_PRACY_W_PRZEMYSLE, MIEJSCA_W_SZKOLACH`)
 Wykonaj zestaw przygotowanych  procedur:
 * Obliczenie macierzy kosztów
 * Model popytu:
-** Model generacji ruchu
-** Model grawitacyjny (rozkładu podróży)
-** Model wyboru środka transportu
+* Model generacji ruchu
+* Model grawitacyjny (rozkładu podróży)
+* Model wyboru środka transportu
 * Rozkład ruchu na sieć (`PrTAssignment`)
+
+
+## Wizualizacja wyników
+Po wykonaniu sprawdź wyniki rozkładu ruchu, przeciągnij i upuść plik [Potoki.gpa](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/MOMM/SharedData/Potoki.gpa) do programu. Odcinki powinny mieć grubości pokazujące wielkość potoku pojazdów.
+
+## Parametry modelu
+
+Dodaj w dowonlym, widocznym miejscu obiekt `Trritory` - jego parametry graficzne zawierają główne parametry modelu. Pracę przewozową w pojazdogodzinach, pojazdokilometrach, oraz prędkość średnią.
+
+# 3. Prognozowanie z użyciem modelu
 
 
