@@ -131,28 +131,50 @@ Wykonaj zestaw przygotowanych  procedur:
 ## Wizualizacja wyników
 Po wykonaniu sprawdź wyniki rozkładu ruchu, przeciągnij i upuść plik [Potoki.gpa](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/MOMM/SharedData/Potoki.gpa) do programu. Odcinki powinny mieć grubości pokazujące wielkość potoku pojazdów.
 
-## Parametry modelu
+## Wskaźniki modelu
 
 Dodaj w dowonlym, widocznym miejscu obiekt `Territory` - jego parametry graficzne zawierają główne parametry modelu. Pracę przewozową w pojazdogodzinach, pojazdokilometrach, oraz prędkość średnią.
 
+Interesują nas trzy podstawowe wskaźniki funkcjonowania sieci:
+* Pojazdo-kilometry - całkowity dystans pokonywany przez pojazdy zaspokajające popyt na podróże (przejeżdzające ze źródła do celu).
+* Pojazdo-godziny - całkowity czas podróży wszystkich pojazdó zaspokajające popyt na podróże (przejeżdzających ze źródła do celu).
+* Średnia prędkość w sieci - iloraz pojazdokilometrów i pojazdo-godzin.
+
+
 # 3. Prognozowanie z użyciem modelu
 
-## Scenraiusze w modelu popytu
+## Inwestycje drogowe
 
-* Wzrost liczby ludności ogółem
-* Wzrost ludności w pewnych rejonach
-* Zmiana lokalizacji miejsce pracy
-* Zmiana udziału komunikacji zbiorowej.
+W osobnych plikach zapisz modyfikacje ukłądu drogowego. Zakoduj trzy osobne nowe inwestycje drogowe. Szukaj inwestycji rozwiązujących faktyczne porblemy komunikacyjne. Dobierz inwestycje tak, by skorzystała z niej jak największa liczba kierwców (pojazdów). Zaproponuj trzy inwestycje, z czego jedna lokalna o małej skali (łącznik, nowy krótki odcinek) a jedna o dużej (arteria, obwdnica, trasa śródmiejska). 
+Wykonaj obliczenia rozkłądu ruchu na siec dla każdej ze zmodyfikowanych sieci i opisz w tabeli jej wpływ na wskaźniki funkcjonowania sieci.
+Każdą z inwestycji zwizualizuj, oraz zapisz w osobnym pliku (`W1.ver, W2.ver, W3.ver`)
 
-## Scenariusze w modelu sieciowym
+## Generatory ruchu
 
-* Nowa inwestycja
-* Nowa organizacja ruchu
-* Ograniczenie ruchu
-* Objazd
+Zaproponuj lokalizacje w miejscie dla nowego:
+* Centrum Handlowego (min. 500 miejsc pracy w usługach)
+* Fabryki (min. 2 000 miejsc pracy w przemyśle)
+* Osiedla mieszkaniowego (min. 2 000 mieszkańców).
+
+Oszacuj wpływ realizacji tych inwestycji na wskaźniki sieci. 
+Dla każdego z nich dodaj osobny rejon komunikacyjny, włącz go w konektorem w rozbudowaną sieć drogową.
+Oblicz model popytu oraz rozkład ruchu na sieć.
+Każdy wariant inwestycyjny zapisz w osobnym pliku i opisz w tabeli jego wpływ na wskaźniki funkcjonowania sieci.
+
+## * Z użyciem scenario manager (opcjonalnie):
+
 
 Scenariusze obliczamy w `Scenario Manager`.
 Otwieramy kopię foldera `MOMM` , otwieramy plik `MOMM.vpdbx`, klikamy `Edit Base Version` otwieramy nasz plik, klikamy `Save`.
 Każdy ze scenariuszy zapisujemy jako `Modification` w `ScenarioManager`, do każdego tworzymy scenario, wybierając zestaw procedur nr 1.
 
 
+# Zaliczenie
+
+W ramach zaliczenia prezentujemy:
+* Podział na rejony komunikacyjne.
+* Model sieci drogowej wraz z klasifykacją (struktura typów odcinków w sieci).
+* Rozmieszczenie zmiennych objaśniających w sieci (miejsca pracy, mieszkańcy, itp.) z komenatrzem (gdzie mało, gdzie duże i dlaczego).
+* Rozkład ruchu na sieć w wariancie bazowym z komentarzem (gdzie dużo pojazdów, gdzie zatłoczenie i dlaczego).
+* Wskaźniki i obciążenia sieci dla trzech inwestycji z komentarzem (najlepsza, najgorsza, takie a nie inne efekty realizacji).
+* Wskaźniki i obciążenia dla generatorów ruchu z komentarzem (gdzie i dlaczego budujemy, jaki to ma wpływ na sieć).
