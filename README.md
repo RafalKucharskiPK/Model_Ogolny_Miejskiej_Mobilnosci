@@ -80,7 +80,7 @@ Dane w formie edytowalnej (`link_types.net, procedures.xml, dmd.dmd`), w miarę 
 
 Z materiałami dydaktycznymi - opisy w odpowiednich folderach.
 
-# Błędy i wnioski racjponalizatorskie
+# Błędy i wnioski racjonalizatorskie
 
 Zgodnie z przyjętą na github praktyką błędy proszę zgłaszać w formie `issues` z opisem czego dotyczą (dla zalogowanych, dla bardzo niechcących się logować proszę o zgłaszanie błędów mailowo).
 
