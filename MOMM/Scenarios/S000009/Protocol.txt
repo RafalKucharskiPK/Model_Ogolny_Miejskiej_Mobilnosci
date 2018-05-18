@@ -1,0 +1,346 @@
+05/18/18 11.05.16.561 Open file
+                      Open "C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Scenarios\S000009\Protocol.txt"
+                      Open "C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Scenarios\S000009\Messages.txt"
+                      Starting to process computation order for scenario 9
+                      Delete network
+05/18/18 11.05.16.985 Start time of Read version C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\MOMMBase.ver
+                            19 User-defined attributes
+                             8 Transport systems
+                             5 Modes
+                             5 Demand segments
+                             1 Calendar periods
+                             1 Valid days
+                             2 Directions
+                           749 Points
+                           749 Edges
+                            28 Faces
+                            28 Surfaces
+                           487 Nodes
+                            28 Zones
+                             1 Territories
+                           100 Link types
+                          1448 Links
+                          4496 Turns
+                           184 Connectors
+                            45 Lines
+                             1 Block versions
+                             1 Signal coordination groups
+                             3 Signalized junctions
+                             1 Demand models
+                             9 Demand strata
+                            37 Matrices
+                             1 Time series
+                             1 Demand time series
+                             1 Path sets
+                             1 Turning standards
+05/18/18 11.05.17.470 End time of Read version C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\MOMMBase.ver
+05/18/18 11.05.19.253 Procedure parameters read from file "C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Procedures\P000002.xml".
+05/18/18 11.05.19.324 Procedure parameters read from file "C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Procedures\P000002.xml".
+05/18/18 11.05.19.522 Procedure - start
+05/18/18 11.05.19.747 Start Procedure step   1: "Group"
+05/18/18 11.05.20.213 Start Procedure step   2: "Calculate PrT skim matrix"
+                      The shortest path graph has been reduced by 75.0%
+05/18/18 11.05.20.603 Start Procedure step   3: "Calculate PuT skim matrix"
+                      The assignment was successfully completed.
+05/18/18 11.05.21.009 Start Procedure step   4: "Group"
+05/18/18 11.05.21.191 Start Procedure step   5: "Trip generation"
+                      Vorbereitung Verkehrserzeugung
+                      Verkehrserzeugung Start
+                      Totals for demand layer 01 D-P before standardization (option 1): Productions: 28676.000 Attractions: 29020.000
+                      Totals for demand layer 02 P-D before standardization (option 2): Productions: 29020.000 Attractions: 25091.500
+                      Totals for demand layer 03 D-N before standardization (option 1): Productions: 7169.000 Attractions: 5758.000
+                      Totals for demand layer 04 N-D before standardization (option 2): Productions: 5758.000 Attractions: 7169.000
+                      Totals for demand layer 05 D-U before standardization (option 1): Productions: 3584.500 Attractions: 2661.000
+                      Totals for demand layer 06 U-D before standardization (option 2): Productions: 2661.000 Attractions: 3584.500
+                      Totals for demand layer 07 D-I before standardization (option 1): Productions: 14338.000 Attractions: 17767.000
+                      Totals for demand layer 08 I-D before standardization (option 2): Productions: 17767.000 Attractions: 17922.500
+                      Totals for demand layer 09 NZD before standardization (option 1): Productions: 26650.500 Attractions: 26650.500
+                      Verkehrserzeugung Ende
+05/18/18 11.05.21.650 Start Procedure step   6: "Trip distribution"
+                      Matrix total 101  after distribution of all demand strata: 28676.000
+                      Matrix total 102  after distribution of all demand strata: 25091.500
+                      Matrix total 103  after distribution of all demand strata: 7169.000
+                      Matrix total 104  after distribution of all demand strata: 7169.000
+                      Matrix total 105  after distribution of all demand strata: 3584.500
+                      Matrix total 106  after distribution of all demand strata: 3584.500
+                      Matrix total 107  after distribution of all demand strata: 14338.000
+                      Matrix total 108  after distribution of all demand strata: 17922.500
+                      Matrix total 109  after distribution of all demand strata: 26650.500
+                      Matrix total 101  after distribution of all demand strata: 28676.000
+Matrix total 102  after distribution of all demand strata: 25091.500
+Matrix total 103  after distribution of all demand strata: 7169.000
+Matrix total 104  after distribution of all demand strata: 7169.000
+Matrix total 105  after distribution of all demand strata: 3584.500
+Matrix total 106  after distribution of all demand strata: 3584.500
+Matrix total 107  after distribution of all demand strata: 14338.000
+Matrix total 108  after distribution of all demand strata: 17922.500
+Matrix total 109  after distribution of all demand strata: 26650.500
+05/18/18 11.05.21.945 Start Procedure step   7: "Mode choice"
+                      Sum matrix 201  after Mode choice of Demand stratum 01 D-P: 15054.303
+                      Sum matrix 202  after Mode choice of Demand stratum 01 D-P: 13621.697
+                      Sum matrix 203  after Mode choice of Demand stratum 02 P-D: 13172.515
+                      Sum matrix 204  after Mode choice of Demand stratum 02 P-D: 11918.985
+                      Sum matrix 205  after Mode choice of Demand stratum 03 D-N: 2540.290
+                      Sum matrix 206  after Mode choice of Demand stratum 03 D-N: 4628.710
+                      Sum matrix 207  after Mode choice of Demand stratum 04 N-D: 2540.290
+                      Sum matrix 208  after Mode choice of Demand stratum 04 N-D: 4628.710
+                      Sum matrix 209  after Mode choice of Demand stratum 05 D-U: 1438.504
+                      Sum matrix 210  after Mode choice of Demand stratum 05 D-U: 2145.996
+                      Sum matrix 211  after Mode choice of Demand stratum 06 U-D: 1438.504
+                      Sum matrix 212  after Mode choice of Demand stratum 06 U-D: 2145.996
+                      Sum matrix 213  after Mode choice of Demand stratum 07 D-I: 8583.984
+                      Sum matrix 214  after Mode choice of Demand stratum 07 D-I: 5754.016
+                      Sum matrix 215  after Mode choice of Demand stratum 08 I-D: 10729.980
+                      Sum matrix 216  after Mode choice of Demand stratum 08 I-D: 7192.520
+                      Sum matrix 217  after Mode choice of Demand stratum 09 NZD: 14653.351
+                      Sum matrix 218  after Mode choice of Demand stratum 09 NZD: 11997.149
+                      Successfully calculated mode choice for 9 demand strata and 2 modes. Global modal split:  PuT: 52.28% SO: 52.28%
+05/18/18 11.05.22.298 Start Procedure step   8: "Mode choice"
+                      Sum matrix 201  after Mode choice of Demand stratum 01 D-P: 11763.070
+                      Sum matrix 202  after Mode choice of Demand stratum 01 D-P: 16912.930
+                      Sum matrix 203  after Mode choice of Demand stratum 02 P-D: 10293.306
+                      Sum matrix 204  after Mode choice of Demand stratum 02 P-D: 14798.194
+                      Sum matrix 205  after Mode choice of Demand stratum 03 D-N: 2912.689
+                      Sum matrix 206  after Mode choice of Demand stratum 03 D-N: 4256.311
+                      Sum matrix 207  after Mode choice of Demand stratum 04 N-D: 2915.619
+                      Sum matrix 208  after Mode choice of Demand stratum 04 N-D: 4253.381
+                      Sum matrix 209  after Mode choice of Demand stratum 05 D-U: 1468.761
+                      Sum matrix 210  after Mode choice of Demand stratum 05 D-U: 2115.739
+                      Sum matrix 211  after Mode choice of Demand stratum 06 U-D: 1470.490
+                      Sum matrix 212  after Mode choice of Demand stratum 06 U-D: 2114.010
+                      Sum matrix 213  after Mode choice of Demand stratum 07 D-I: 5820.333
+                      Sum matrix 214  after Mode choice of Demand stratum 07 D-I: 8517.667
+                      Sum matrix 215  after Mode choice of Demand stratum 08 I-D: 7281.378
+                      Sum matrix 216  after Mode choice of Demand stratum 08 I-D: 10641.122
+                      Sum matrix 217  after Mode choice of Demand stratum 09 NZD: 11021.657
+                      Sum matrix 218  after Mode choice of Demand stratum 09 NZD: 15628.843
+                      Successfully calculated mode choice for 9 demand strata and 2 modes. Global modal split:  PuT: 40.95% SO: 40.95%
+05/18/18 11.05.22.579 Start Procedure step  10: "Combination of matrices and vectors"
+05/18/18 11.05.22.870 Start Procedure step  11: "Combination of matrices and vectors"
+05/18/18 11.05.23.044 Start Procedure step  12: "Combination of matrices and vectors"
+05/18/18 11.05.23.446 Start Procedure step  13: "Combination of matrices and vectors"
+05/18/18 11.05.23.760 Start Procedure step  14: "Group"
+05/18/18 11.05.23.945 Start Procedure step  15: "Combination of matrices and vectors"
+05/18/18 11.05.24.171 Start Procedure step  16: "Combination of matrices and vectors"
+05/18/18 11.05.24.354 Start Procedure step  17: "Combination of matrices and vectors"
+05/18/18 11.05.24.537 Start Procedure step  18: "Group"
+05/18/18 11.05.24.753 Start Procedure step  19: "PrT assignment"
+                      Start of ICA calculation
+                      End of ICA calculation
+                      The shortest path graph has been reduced by 75.1%
+                      Iteration 1, DSeg SO, routes in total 552
+                      Start of ICA calculation
+                      End of ICA calculation
+                      Start of ICA calculation
+                      End of ICA calculation
+                      Start of ICA calculation
+                      End of ICA calculation
+                      Start of ICA calculation
+                      End of ICA calculation
+                      The shortest path graph has been reduced by 75.0%
+                      Iteration 2 DSeg Samochód osobowy routes total 877 routes new 325
+                      Start of ICA calculation
+                      End of ICA calculation
+                      Iteration     2 network balancing step     1 modified OD pairs   320 total excess cost 19055759.04855442 avg excess cost 2513.53923385
+                      Iteration     2 network balancing step     2 modified OD pairs    32 total excess cost 1675552.05861262 avg excess cost 221.01275667
+                      Iteration     2 network balancing step     3 modified OD pairs    14 total excess cost 91735.83576113 avg excess cost 12.10036408
+                      Iteration     2 network balancing step     4 modified OD pairs    14 total excess cost 19681.89171850 avg excess cost 2.59612891
+                      Iteration     2 network balancing step     5 modified OD pairs    12 total excess cost 7565.24893736 avg excess cost 0.99788993
+                      Iteration     2 number of deleted paths after OD balancing 310
+                      Iteration     2 number of deleted paths after network balancing 0
+                      
+                      Iteration     2 gap 0.23679084
+                      
+                      Start of ICA calculation
+                      End of ICA calculation
+                      The shortest path graph has been reduced by 75.1%
+                      Iteration 3 DSeg Samochód osobowy routes total 785 routes new 218
+                      Start of ICA calculation
+                      End of ICA calculation
+                      Iteration     3 network balancing step     1 modified OD pairs   205 total excess cost 2497002.03934338 avg excess cost 329.36565670
+                      Iteration     3 network balancing step     2 modified OD pairs    41 total excess cost 370494.86946484 avg excess cost 48.86991843
+                      Iteration     3 network balancing step     3 modified OD pairs    24 total excess cost 89760.27946916 avg excess cost 11.83977943
+                      Iteration     3 network balancing step     4 modified OD pairs    24 total excess cost 18505.39819225 avg excess cost 2.44094419
+                      Iteration     3 network balancing step     5 modified OD pairs    20 total excess cost 4503.27520647 avg excess cost 0.59400200
+                      Iteration     3 number of deleted paths after OD balancing 191
+                      Iteration     3 number of deleted paths after network balancing 10
+                      
+                      Iteration     3 gap 0.02391892
+                      
+                      Start of ICA calculation
+                      End of ICA calculation
+                      The shortest path graph has been reduced by 75.1%
+                      Iteration 4 DSeg Samochód osobowy routes total 706 routes new 122
+                      Start of ICA calculation
+                      End of ICA calculation
+                      Iteration     4 network balancing step     1 modified OD pairs   108 total excess cost 361952.95954123 avg excess cost 47.74320258
+                      Iteration     4 network balancing step     2 modified OD pairs    55 total excess cost 129374.69943750 avg excess cost 17.06509733
+                      Iteration     4 network balancing step     3 modified OD pairs    39 total excess cost 56041.45334545 avg excess cost 7.39211654
+                      Iteration     4 network balancing step     4 modified OD pairs    37 total excess cost 28308.53416017 avg excess cost 3.73402136
+                      Iteration     4 network balancing step     5 modified OD pairs    35 total excess cost 16637.73236316 avg excess cost 2.19459078
+                      Iteration     4 number of deleted paths after OD balancing 91
+                      Iteration     4 number of deleted paths after network balancing 15
+                      
+                      Iteration     4 gap 0.00437548
+                      
+                      Start of ICA calculation
+                      End of ICA calculation
+                      The shortest path graph has been reduced by 75.1%
+                      Iteration 5 DSeg Samochód osobowy routes total 706 routes new 106
+                      Start of ICA calculation
+                      End of ICA calculation
+                      Iteration     5 network balancing step     1 modified OD pairs    86 total excess cost 78408.71241886 avg excess cost 10.34245733
+                      Iteration     5 network balancing step     2 modified OD pairs    53 total excess cost 29216.24444626 avg excess cost 3.85375237
+                      Iteration     5 network balancing step     3 modified OD pairs    40 total excess cost 15464.61930759 avg excess cost 2.03985196
+                      Iteration     5 network balancing step     4 modified OD pairs    30 total excess cost 11002.90065832 avg excess cost 1.45133145
+                      Iteration     5 network balancing step     5 modified OD pairs    30 total excess cost 8221.97250186 avg excess cost 1.08451468
+                      Iteration     5 number of deleted paths after OD balancing 58
+                      Iteration     5 number of deleted paths after network balancing 34
+                      
+                      Iteration     5 gap 0.00057349
+                      
+                      Start of ICA calculation
+                      End of ICA calculation
+                      The shortest path graph has been reduced by 75.0%
+                      Iteration 6 DSeg Samochód osobowy routes total 655 routes new 41
+                      Start of ICA calculation
+                      End of ICA calculation
+                      Iteration     6 network balancing step     1 modified OD pairs    36 total excess cost 6732.27873575 avg excess cost 0.88801746
+                      Iteration     6 network balancing step     2 modified OD pairs    19 total excess cost 1195.87185559 avg excess cost 0.15774081
+                      Iteration     6 network balancing step     3 modified OD pairs     7 total excess cost 221.99500032 avg excess cost 0.02928213
+                      Iteration     6 network balancing step     4 modified OD pairs     4 total excess cost 150.27741941 avg excess cost 0.01982226
+                      Iteration     6 network balancing step     5 modified OD pairs     5 total excess cost 231.99976656 avg excess cost 0.03060180
+                      Iteration     6 number of deleted paths after OD balancing 6
+                      Iteration     6 number of deleted paths after network balancing 30
+                      
+                      Iteration     6 gap 0.00004130
+                      
+                      Equilibrium assignment finished after 6 iteration steps
+05/18/18 11.05.25.409 Time before  WBRePack
+05/18/18 11.05.25.410 Time after WBRePack
+                      Start of ICA calculation
+                      End of ICA calculation
+                      The assignment reached convergence after 6 of a maximum of 20 iterations with a GAP of 4.12986539e-05.
+05/18/18 11.05.25.687 Start Procedure step  20: "PuT assignment"
+                      Assignment with 8 core(s)
+05/18/18 11.05.25.756 Assignment after Init
+                      Search from zone 20: Search tree dimension = 1, time = 0s
+                      No path found on relation 20 -> 1. Non-assigned demand for DSeg PuT: 0.095
+                      No path found on relation 20 -> 2. Non-assigned demand for DSeg PuT: 0.187
+                      No path found on relation 20 -> 3. Non-assigned demand for DSeg PuT: 0.621
+                      No path found on relation 20 -> 4. Non-assigned demand for DSeg PuT: 0.013
+                      No path found on relation 20 -> 5. Non-assigned demand for DSeg PuT: 0.057
+                      No path found on relation 20 -> 6. Non-assigned demand for DSeg PuT: 0.295
+                      No path found on relation 20 -> 7. Non-assigned demand for DSeg PuT: 0.059
+                      No path found on relation 20 -> 8. Non-assigned demand for DSeg PuT: 0.306
+                      No path found on relation 20 -> 9. Non-assigned demand for DSeg PuT: 0.757
+                      No path found on relation 20 -> 10. Non-assigned demand for DSeg PuT: 0.647
+                      No path found on relation 20 -> 12. Non-assigned demand for DSeg PuT: 0.962
+                      No path found on relation 20 -> 13. Non-assigned demand for DSeg PuT: 1.939
+                      No path found on relation 20 -> 14. Non-assigned demand for DSeg PuT: 0.018
+                      No path found on relation 20 -> 15. Non-assigned demand for DSeg PuT: 0.457
+                      No path found on relation 20 -> 17. Non-assigned demand for DSeg PuT: 0.575
+                      No path found on relation 20 -> 18. Non-assigned demand for DSeg PuT: 0.097
+                      No path found on relation 20 -> 19. Non-assigned demand for DSeg PuT: 0.052
+                      No path found on relation 20 -> 21. Non-assigned demand for DSeg PuT: 0.677
+                      No path found on relation 20 -> 22. Non-assigned demand for DSeg PuT: 0.499
+                      No path found on relation 20 -> 23. Non-assigned demand for DSeg PuT: 4.405
+                      No path found on relation 20 -> 24. Non-assigned demand for DSeg PuT: 3.086
+                      Search from zone 11: Search tree dimension = 12418, time = 0s
+                      Search from zone 18: Search tree dimension = 22428, time = 0s
+                      No path found on relation 18 -> 20. Non-assigned demand for DSeg PuT: 0.071
+                      Search from zone 1: Search tree dimension = 20456, time = 0s
+                      No path found on relation 1 -> 20. Non-assigned demand for DSeg PuT: 0.06
+                      Search from zone 4: Search tree dimension = 21369, time = 0s
+                      Search from zone 22: Search tree dimension = 21932, time = 0s
+                      Search from zone 8: Search tree dimension = 25390, time = 0s
+                      No path found on relation 4 -> 20. Non-assigned demand for DSeg PuT: 0.011
+                      No path found on relation 22 -> 20. Non-assigned demand for DSeg PuT: 0.23
+                      No path found on relation 8 -> 20. Non-assigned demand for DSeg PuT: 0.31
+                      Search from zone 21: Search tree dimension = 25897, time = 0s
+                      No path found on relation 21 -> 20. Non-assigned demand for DSeg PuT: 0.872
+                      Search from zone 19: Search tree dimension = 11702, time = 0s
+                      No path found on relation 19 -> 20. Non-assigned demand for DSeg PuT: 0.128
+                      Search from zone 12: Search tree dimension = 12600, time = 0s
+                      No path found on relation 12 -> 20. Non-assigned demand for DSeg PuT: 0.512
+                      Search from zone 15: Search tree dimension = 25629, time = 0s
+                      No path found on relation 15 -> 20. Non-assigned demand for DSeg PuT: 0.354
+                      Search from zone 2: Search tree dimension = 22792, time = 0s
+                      No path found on relation 2 -> 20. Non-assigned demand for DSeg PuT: 0.11
+                      Search from zone 9: Search tree dimension = 12031, time = 0s
+                      No path found on relation 9 -> 20. Non-assigned demand for DSeg PuT: 0.263
+                      Search from zone 23: Search tree dimension = 20779, time = 0s
+                      No path found on relation 23 -> 20. Non-assigned demand for DSeg PuT: 6.409
+                      Search from zone 5: Search tree dimension = 20955, time = 0s
+                      Search from zone 16: Search tree dimension = 18078, time = 0s
+                      No path found on relation 5 -> 20. Non-assigned demand for DSeg PuT: 0.085
+                      No path found on relation 16 -> 20. Non-assigned demand for DSeg PuT: 0.002
+                      Search from zone 13: Search tree dimension = 12907, time = 0s
+                      No path found on relation 13 -> 20. Non-assigned demand for DSeg PuT: 0.649
+                      Search from zone 24: Search tree dimension = 20285, time = 0s
+                      No path found on relation 24 -> 20. Non-assigned demand for DSeg PuT: 2.858
+                      Search from zone 3: Search tree dimension = 23428, time = 0s
+                      No path found on relation 3 -> 20. Non-assigned demand for DSeg PuT: 0.322
+                      Search from zone 6: Search tree dimension = 21074, time = 0s
+                      No path found on relation 6 -> 20. Non-assigned demand for DSeg PuT: 0.11
+                      Search from zone 14: Search tree dimension = 20467, time = 0s
+                      No path found on relation 14 -> 20. Non-assigned demand for DSeg PuT: 0.543
+                      Search from zone 17: Search tree dimension = 22628, time = 0s
+                      No path found on relation 17 -> 20. Non-assigned demand for DSeg PuT: 0.94
+                      Search from zone 10: Search tree dimension = 24086, time = 0s
+                      No path found on relation 10 -> 20. Non-assigned demand for DSeg PuT: 1.186
+                      Search from zone 7: Search tree dimension = 33847, time = 0s
+                      No path found on relation 7 -> 20. Non-assigned demand for DSeg PuT: 0.029
+                      Number of calculated search runs 24
+                      Time search = 1s
+                      Time choice = 0s
+                      Time save = 0s
+                      Time skims = 0s
+                      Time summary = 0s
+                      The assignment succeeded. 28 origin zones had been assigned.
+05/18/18 11.05.26.189 Start Procedure step  21: "Group"
+05/18/18 11.05.26.409 Start Procedure step  22: "Assignment analysis"
+05/18/18 11.05.26.672 Procedure - end
+05/18/18 11.05.27.032 Start time of Save version C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Scenarios\S000009\S000009result
+                            19 User-defined attributes
+                             8 Transport systems
+                             5 Modes
+                             5 Demand segments
+                             1 Calendar periods
+                             1 Valid days
+                             2 Directions
+                           749 Points
+                           749 Edges
+                            28 Faces
+                            28 Surfaces
+                           488 Nodes
+                            28 Zones
+                             1 Territories
+                           100 Link types
+                          1450 Links
+                          4500 Turns
+                           224 Connectors
+                            31 Stops
+                            31 Stop areas
+                            31 Stop points
+                            31 Transfer walk times between stop areas
+                             3 Lines
+                             6 Line routes
+                             6 Time profiles
+                           360 Vehicle journeys
+                            31 Specific transition times
+                             1 Block versions
+                             1 Signal coordination groups
+                             3 Signalized junctions
+                             1 Demand models
+                             9 Demand strata
+                            37 Matrices
+                             1 Time series
+                             1 Demand time series
+                             1 Path sets
+                             7 PrT assignment quality data
+                             1 Turning standards
+05/18/18 11.05.27.463 End time of Save version C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Scenarios\S000009\S000009result
+05/18/18 11.05.28.605 Processing computation order 0fb8fa69-d644-40e8-93dd-4367f40d99e8 completed
+05/18/18 11.05.28.624 No further calculation order to process
+05/18/18 11.05.29.230 Close file
