@@ -79,6 +79,8 @@ Dane w formie edytowalnej (`link_types.net, procedures.xml, dmd.dmd`), w miarę 
 ## Folder dydaktyka
 
 Z materiałami dydaktycznymi - opisy w odpowiednich folderach.
+* Prognozowanie Ruchu
+* Miejski Transport Zbiorowy - studia podyplomowe
 
 # Błędy i wnioski racjonalizatorskie
 
