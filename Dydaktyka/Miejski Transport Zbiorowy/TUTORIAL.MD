@@ -23,7 +23,7 @@
  
 
 
-# 1. Praca z modelem - analiza sieci
+# 1. Praca z modelem - analiza sieci PrT
 
 * Otworz [model bazowy](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/MOMM/MOMM.vpdbx).
 * Zbliż widok do zakresu modelu.
@@ -36,9 +36,28 @@
 * Jaka jest całkwoita liczba ludności we wszystkich rejonach modelu
 * Znajdż najkrótszą ścieżkę w sieci pomiedzy skrzyżowaniem Słoneczna/Witkowska, a rejonem nr 19.
 
-# 2. Praca z modelem - analiza wyników
+# 2. Praca z modelem - analiza wyników PrT
+
+* Otwórz wyniki obliczeń w scenariuszu 4: Wariant bazowy
+* Wybierz opcję graficzną (*GPar*) "Potoki"
+* Odczytaj dla wybranego odcinka o dużym potoku parametry *Volume PrT, VolCapRatio PrT, tCur, vCur*.
+* Otwórz macierz dla której wykonany był rozkład:
+** znajdź rejon o największej produkcji i największej atrakcji.
+** znajdż parę rejonów o największej liczbie podróży.
+* Odczytaj rozkład potoków (FlowBundle) w sieci dla:
+** pary rejonów o największym potoku,
+** rejonu o największej produkcji,
+** odcinka o największym potoku.
+* Odczytaj i zinterpretuj prace przewozową w pojazdogodzinach i pojazdokilometrach. Oblicz średnią długość i średni czas trwania podróży.
 
 # 3. Praca z modelem - scenariusze zmian
+
+* Na podstawie wyników obciążenia sieci zapropnuj nową inwestycję drogową.
+* Zakoduj odpowiednie zmiany w sieci.
+* Wykonaj rozkład ruchu.
+* Odczytaj liczbę pojazdów na planowanym odcinku
+* Pokaż wiązkę pojadów (*FLow Bundle*) dla planowanego odcinka.
+* Określ zmianę w pracy przewozowej i prędkości średniej w sieci.
 
 # 4. Praca z modelem - porównania
 
