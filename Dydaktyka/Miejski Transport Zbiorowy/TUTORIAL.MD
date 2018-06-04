@@ -23,7 +23,9 @@
  
 
 
-# 1. Praca z modelem - analiza sieci PrT
+# 1. Praca z modelem - analiza sieci 
+
+## Sieć drogowa (PrT)
 
 * Otworz [model bazowy](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/MOMM/MOMM.vpdbx).
 * Zbliż widok do zakresu modelu.
@@ -36,7 +38,16 @@
 * Jaka jest całkwoita liczba ludności we wszystkich rejonach modelu
 * Znajdż najkrótszą ścieżkę w sieci pomiedzy skrzyżowaniem Słoneczna/Witkowska, a rejonem nr 19.
 
-# 2. Praca z modelem - analiza wyników PrT
+## Sieć komunikacji zbiorowej (PuT)
+
+* Otwórz obliczony scenariusz nr 8 w którym zakodowano zmiany w komunikacji zbiorowej
+* Wyświetl przystanki w sieci i dla wybranego przystanku (*StopPoint*) odczytaj jakie linie on obsługuje.
+* Wyśtwietl przebieg wybranej linii autobusowej (*LineRoute*) i odczytaj jej długość, czas przejazdu, listę przystanków jakie obsługuję.
+* Wyświetl rozkład jazdy dla wybranej linii autobusowej.
+
+# 2. Praca z modelem - analiza wyników 
+
+## Obiciężenie sieci drogowej (PrT)
 
 * Otwórz wyniki obliczeń w scenariuszu 4: Wariant bazowy
 * Wybierz opcję graficzną (*GPar*) "Potoki"
@@ -50,7 +61,23 @@
 ** odcinka o największym potoku.
 * Odczytaj i zinterpretuj prace przewozową w pojazdogodzinach i pojazdokilometrach. Oblicz średnią długość i średni czas trwania podróży.
 
+## Obciążenie sieci komunikacji zbiorowej (PuT)
+
+* Otwórz obliczony scenariusz nr 8 w którym zakodowano zmiany w komunikacji zbiorowej
+* Wybierz parametry graficzne *Potoki KZ*
+* Odczytaj potoki na poszczególnych liniach:
+** na której linii jest odcinek o największym potoku,
+** która przewozi więcej pasażerów
+* Odszukaj przystanek  o największej liczbie:
+** wsiadających
+** wysiadających
+** przesiadających się
+* Odszukaj odcinek o największym potoku pieszym
+* Zinterpretuj wyniki rozkładu (*PuT Assignment Statistics*)
+
 # 3. Praca z modelem - scenariusze zmian
+
+## Inwestycje drogowe
 
 * Na podstawie wyników obciążenia sieci zapropnuj nową inwestycję drogową.
 * Zakoduj odpowiednie zmiany w sieci.
@@ -59,9 +86,13 @@
 * Pokaż wiązkę pojadów (*FLow Bundle*) dla planowanego odcinka.
 * Określ zmianę w pracy przewozowej i prędkości średniej w sieci.
 
-# 4. Praca z modelem - porównania
+## Inwestycje w komunikacji zbiorowej
 
-# 5. Praca z modelem - budowa własnego modelu
+* Zmień rozkład jazdy dla jednej z zakodowanych linii komunikacji zbiorowej i określ wpływ zmian na wyniki rozkładu podróży.
+* Dodaj nową linie komunikacji zbiorowej i określ wpływ zmian na wyniki rozkładu podróży.
+* Zmniejsz czas przejazdu wybraną linią i określ wpływ zmian na wyniki rozkładu podróży.
+
+# 4. Praca z modelem - budowa własnego modelu
 
  * [Instrukcja wykonania modelu](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/Dydaktyka/PrognozowanieRuchu/TUTORIAL.MD)
 
