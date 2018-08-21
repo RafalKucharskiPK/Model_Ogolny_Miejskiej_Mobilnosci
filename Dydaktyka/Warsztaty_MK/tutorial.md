@@ -1,26 +1,39 @@
 
 # _TEMAT_: "Szacowanie zapotrzebowania na transport publiczny dla zadanego obszaru, propozycja obsługi transportem publicznym i ocena jakości obsługi"
 
-1.	 Opis przestrzenny:
+### 1.	 Opis przestrzenny:
 *	Zmienne istotne dla generacji podróży (wpływające na produkcję)
 *	Zmienne istotne dla absorbcji podróży (wpływające na atrakcję)
 *	Rozmieszczenie przestrzenne, agregacja danych (od dokładnych lokalizacji do obszarów i zagregowanych charakterystyk gminy oraz lokalizacje centroid)
-2.	 Dzienne aktywności:
+* Ludność (podział na grupy o jednorodnym zachowaniu)
+* Miejsca pracy (i ich opis) oraz sposób ich funkcjonowania
+* Usługi (biura, handel, przemysł, itp.) oraz sposób ich funkcjonowania
+### 2.	 Dzienne aktywności:
 *	Czas przebywania w domu
 *	Główna aktywność (Praca, Szkoła)
 *	Poboczne aktywności (Zakupy, Odprowadzanie, Odwiedziny, Rozrywka)
 * Łańcuchy podróży
-3. Łańcuchy dobowe
+### 3. Łańcuchy dobowe
 * Podstawowe (DPD, DSP, DIP)
 * Dodatkowa aktywność przed (DIPD, DISD)
 * Dodatkowa aktywność po (DPID, DSID)
 * Dodatkowa aktywność w trakcie (DPIPD)
 * Przerwa w domu (DPDID)
-4. Motywacje podróży:
+### 4. Motywacje podróży:
 * DP, DS, DI, PD, SD, ID, Nzd
-5. Wykorzystanie dzienniczków podróży
+### 5. Wykorzystanie dzienniczków podróży
 * Rozkład dobowy, dla aktywności, dla podróży
 * Częstość wykonywania podróży (prawdopodobieństwo, ruchliwość)
-6. Generacja ruchu
+### 6. Generacja ruchu
 * Wzory na produkcję i atrakcję w motywacji w dobie
-* Udziały 
+* Rozkład dobowy
+* Grupa odniesienia (ludność ogółem, produkcyjna, studenci, dzieci, itp.)
+* Ruchliwość
+* Współczynnik absencji
+### 7. Sieć drogowa
+* Graf sieci oraz jego parametryzacja
+* Prędkość, czas przejazdu i jego spadek w warunkach zatłoczenia
+* Scieżki najkrótsze w grafie i ścieżki najszybsze
+* Całkowita uciążliwość podróży drzwi-drzwi
+### 8. Podaż komunikacji zbiorowej
+* 
