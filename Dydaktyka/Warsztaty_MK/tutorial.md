@@ -36,4 +36,39 @@
 * Scieżki najkrótsze w grafie i ścieżki najszybsze
 * Całkowita uciążliwość podróży drzwi-drzwi
 ### 8. Podaż komunikacji zbiorowej
+* Lokalizacja przystanków
+* Linie i ich rozkład jazdy (wiązki, częstotliwości, przebiegi, dokładność)
+* Czas i uciążliwość dojścia na przystanek
+* Czas i uciążliwość oczekiwania
+* Czas jazdy i komfort przejazdu
+* Przesiadki 
+* Całkowita uciążliwość podróży dzrwi-drzwi
+### 9. Wybór celu podróży
+* Model grawitacyjny
+* Wybór dla podróży obligatoryjnych i nieobligatoryjnych
+* Wybór w łańcuchu podróży np. DPID
+* Estymacja modelu grawitacyjnego
+* Wykorzystanie dzienniczków podróży
+### 10. Wybór środka transportu
+* Heterogeniczność populacji (subiektywność odbioru KZ, KI)
+* Maksymalizacja użyteczności - wybór zawsze jest subiektywnie optymalny
+* Opis użyteczności KZ i KI
+* Model logitowy
+* Estymacja modelu logitowego
+### 11. Estymacja popytu
+* Liczba pasażerów z obszaru, na przystanku, na linii, wsiadających, wysiadających
+* Liczba pojazdów
+* Zagadnienie punktu stałego - "unikanie korków zmniejsza korki a więc nie trzeba ich już więcej omijać"
+### 12. Jakość obsługi
+* Pasażerogodziny, Pasażerokilometry, PasażeroUciążliwości
+* Wartości średnie i ich rozkład
+* Histogram uciążliwości i jego ogony
+* Izochrony, Dostępność, Białe plamy
+### 13. Elastyczność popytu
+* Wpływ nowej linii na zachowanie komunikacyjne
+* Przepływ wewnątrzgałeziowy
+* międzygałęziowy
+* Ruch wzbudzony
+
+
 * 
