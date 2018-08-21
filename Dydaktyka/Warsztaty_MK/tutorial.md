@@ -1,6 +1,9 @@
 
 # _TEMAT_: "Szacowanie zapotrzebowania na transport publiczny dla zadanego obszaru, propozycja obsługi transportem publicznym i ocena jakości obsługi"
 
+
+## Zakres tematyczny:
+
 ### 1.	 Opis przestrzenny:
 *	Zmienne istotne dla generacji podróży (wpływające na produkcję)
 *	Zmienne istotne dla absorbcji podróży (wpływające na atrakcję)
@@ -71,4 +74,17 @@
 * Ruch wzbudzony
 
 
-* 
+## Przygotowanie:
+* Wybór części własnej gminy (~5 000 mieszkańców)
+* Opis przestrzenny jakościowy, ilościowy, wizja lokalna
+* Szkic sieci drogowej wraz z parametrami (prędkość, czas przejazdu w tym korki)
+* Szkic oferty transportu publicznego (przystanki, linie, czas dojazdu, częstotliwość)
+* 15minutowy pomiar liczby pojazdów
+* Pomiar wisadło/wysiadło - conajmniej dwa odjazdy
+* Dzienniczek podróży dla jednej osoby zamieszkującej obszar
+
+
+### Zaliczenie:
+* Oszacowanie potoku w szyczie porannym i obłożenia kursów
+* Oszacowaniej jakości obsługi
+* Wpływ zmiany w obsłudze na jej jakość 
