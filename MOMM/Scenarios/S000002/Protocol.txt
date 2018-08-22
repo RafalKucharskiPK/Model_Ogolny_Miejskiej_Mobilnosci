@@ -1,114 +1,117 @@
-05/18/18 11.10.49.637 Open file
+08/22/18 08.43.29.892 Open file
                       Open "C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Scenarios\S000002\Protocol.txt"
                       Open "C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Scenarios\S000002\Messages.txt"
                       Starting to process computation order for scenario 2
                       Delete network
-05/18/18 11.10.50.054 Start time of Read version C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\MOMMBase.ver
-                            19 User-defined attributes
+08/22/18 08.43.30.284 Start time of Read version C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\MOMMBase.ver
+                            21 User-defined attributes
                              8 Transport systems
                              5 Modes
                              5 Demand segments
                              1 Calendar periods
                              1 Valid days
                              2 Directions
-                           749 Points
-                           749 Edges
-                            28 Faces
-                            28 Surfaces
-                           487 Nodes
+                          1479 Points
+                          1479 Edges
+                            33 Faces
+                            33 Surfaces
+                           492 Nodes
                             28 Zones
+                             9 Main zones
                              1 Territories
                            100 Link types
-                          1448 Links
-                          4496 Turns
-                           184 Connectors
+                          1460 Links
+                          4534 Turns
+                           190 Connectors
                             45 Lines
                              1 Block versions
                              1 Signal coordination groups
                              3 Signalized junctions
                              1 Demand models
                              9 Demand strata
-                            37 Matrices
+                            39 Matrices
                              1 Time series
                              1 Demand time series
                              1 Path sets
+                             8 PrT assignment quality data
                              1 Turning standards
-05/18/18 11.10.50.626 End time of Read version C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\MOMMBase.ver
-05/18/18 11.10.51.920 Procedure parameters read from file "C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Procedures\P000001.xml".
-05/18/18 11.10.52.020 Procedure parameters read from file "C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Procedures\P000001.xml".
-05/18/18 11.10.52.273 Procedure - start
-05/18/18 11.10.52.450 Start Procedure step   1: "Group"
-05/18/18 11.10.52.983 Start Procedure step   2: "Calculate PrT skim matrix"
-                      The shortest path graph has been reduced by 74.1%
-05/18/18 11.10.53.375 Start Procedure step   3: "Calculate PuT skim matrix"
+08/22/18 08.43.30.818 End time of Read version C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\MOMMBase.ver
+                      Invalid orientations exist at node 663. The orientations are recalculated. If a geometry exists at this node, it might no longer be readable.
+08/22/18 08.43.31.968 Procedure parameters read from file "C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Procedures\P000001.xml".
+08/22/18 08.43.32.033 Procedure parameters read from file "C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Procedures\P000001.xml".
+08/22/18 08.43.32.219 Procedure - start
+08/22/18 08.43.32.381 Start Procedure step   1: "Group"
+08/22/18 08.43.32.756 Start Procedure step   2: "Calculate PrT skim matrix"
+                      The shortest path graph has been reduced by 74.0%
+08/22/18 08.43.33.061 Start Procedure step   3: "Calculate PuT skim matrix"
                       The assignment was successfully completed.
-05/18/18 11.10.53.870 Start Procedure step   4: "Group"
-05/18/18 11.10.54.078 Start Procedure step   5: "Trip generation"
+08/22/18 08.43.33.415 Start Procedure step   4: "Group"
+08/22/18 08.43.33.560 Start Procedure step   5: "Trip generation"
                       Vorbereitung Verkehrserzeugung
                       Verkehrserzeugung Start
-                      Totals for demand layer 01 D-P before standardization (option 1): Productions: 28676.000 Attractions: 29020.000
-                      Totals for demand layer 02 P-D before standardization (option 2): Productions: 29020.000 Attractions: 25091.500
-                      Totals for demand layer 03 D-N before standardization (option 1): Productions: 7169.000 Attractions: 5758.000
-                      Totals for demand layer 04 N-D before standardization (option 2): Productions: 5758.000 Attractions: 7169.000
-                      Totals for demand layer 05 D-U before standardization (option 1): Productions: 3584.500 Attractions: 2661.000
-                      Totals for demand layer 06 U-D before standardization (option 2): Productions: 2661.000 Attractions: 3584.500
-                      Totals for demand layer 07 D-I before standardization (option 1): Productions: 14338.000 Attractions: 17767.000
-                      Totals for demand layer 08 I-D before standardization (option 2): Productions: 17767.000 Attractions: 17922.500
+                      Totals for demand layer 01 D-P before standardization (option 1): Productions: 28677.600 Attractions: 29020.000
+                      Totals for demand layer 02 P-D before standardization (option 2): Productions: 29020.000 Attractions: 25092.900
+                      Totals for demand layer 03 D-N before standardization (option 1): Productions: 7169.400 Attractions: 5758.000
+                      Totals for demand layer 04 N-D before standardization (option 2): Productions: 5758.000 Attractions: 7169.400
+                      Totals for demand layer 05 D-U before standardization (option 1): Productions: 3584.700 Attractions: 2661.000
+                      Totals for demand layer 06 U-D before standardization (option 2): Productions: 2661.000 Attractions: 3584.700
+                      Totals for demand layer 07 D-I before standardization (option 1): Productions: 14338.800 Attractions: 17767.000
+                      Totals for demand layer 08 I-D before standardization (option 2): Productions: 17767.000 Attractions: 17923.500
                       Totals for demand layer 09 NZD before standardization (option 1): Productions: 26650.500 Attractions: 26650.500
                       Verkehrserzeugung Ende
-05/18/18 11.10.54.428 Start Procedure step   6: "Trip distribution"
-                      Matrix total 101  after distribution of all demand strata: 28676.000
-                      Matrix total 102  after distribution of all demand strata: 25091.500
-                      Matrix total 103  after distribution of all demand strata: 7169.000
-                      Matrix total 104  after distribution of all demand strata: 7169.000
-                      Matrix total 105  after distribution of all demand strata: 3584.500
-                      Matrix total 106  after distribution of all demand strata: 3584.500
-                      Matrix total 107  after distribution of all demand strata: 14338.000
-                      Matrix total 108  after distribution of all demand strata: 17922.500
+08/22/18 08.43.33.755 Start Procedure step   6: "Trip distribution"
+                      Matrix total 101  after distribution of all demand strata: 28677.600
+                      Matrix total 102  after distribution of all demand strata: 25092.900
+                      Matrix total 103  after distribution of all demand strata: 7169.400
+                      Matrix total 104  after distribution of all demand strata: 7169.400
+                      Matrix total 105  after distribution of all demand strata: 3584.700
+                      Matrix total 106  after distribution of all demand strata: 3584.700
+                      Matrix total 107  after distribution of all demand strata: 14338.800
+                      Matrix total 108  after distribution of all demand strata: 17923.500
                       Matrix total 109  after distribution of all demand strata: 26650.500
-                      Matrix total 101  after distribution of all demand strata: 28676.000
-Matrix total 102  after distribution of all demand strata: 25091.500
-Matrix total 103  after distribution of all demand strata: 7169.000
-Matrix total 104  after distribution of all demand strata: 7169.000
-Matrix total 105  after distribution of all demand strata: 3584.500
-Matrix total 106  after distribution of all demand strata: 3584.500
-Matrix total 107  after distribution of all demand strata: 14338.000
-Matrix total 108  after distribution of all demand strata: 17922.500
+                      Matrix total 101  after distribution of all demand strata: 28677.600
+Matrix total 102  after distribution of all demand strata: 25092.900
+Matrix total 103  after distribution of all demand strata: 7169.400
+Matrix total 104  after distribution of all demand strata: 7169.400
+Matrix total 105  after distribution of all demand strata: 3584.700
+Matrix total 106  after distribution of all demand strata: 3584.700
+Matrix total 107  after distribution of all demand strata: 14338.800
+Matrix total 108  after distribution of all demand strata: 17923.500
 Matrix total 109  after distribution of all demand strata: 26650.500
-05/18/18 11.10.54.711 Start Procedure step   7: "Mode choice"
-                      Sum matrix 201  after Mode choice of Demand stratum 01 D-P: 15054.303
-                      Sum matrix 202  after Mode choice of Demand stratum 01 D-P: 13621.697
-                      Sum matrix 203  after Mode choice of Demand stratum 02 P-D: 13172.515
-                      Sum matrix 204  after Mode choice of Demand stratum 02 P-D: 11918.985
-                      Sum matrix 205  after Mode choice of Demand stratum 03 D-N: 2540.290
-                      Sum matrix 206  after Mode choice of Demand stratum 03 D-N: 4628.710
-                      Sum matrix 207  after Mode choice of Demand stratum 04 N-D: 2540.290
-                      Sum matrix 208  after Mode choice of Demand stratum 04 N-D: 4628.710
-                      Sum matrix 209  after Mode choice of Demand stratum 05 D-U: 1438.504
-                      Sum matrix 210  after Mode choice of Demand stratum 05 D-U: 2145.996
-                      Sum matrix 211  after Mode choice of Demand stratum 06 U-D: 1438.504
-                      Sum matrix 212  after Mode choice of Demand stratum 06 U-D: 2145.996
-                      Sum matrix 213  after Mode choice of Demand stratum 07 D-I: 8583.984
-                      Sum matrix 214  after Mode choice of Demand stratum 07 D-I: 5754.016
-                      Sum matrix 215  after Mode choice of Demand stratum 08 I-D: 10729.980
-                      Sum matrix 216  after Mode choice of Demand stratum 08 I-D: 7192.520
+08/22/18 08.43.33.953 Start Procedure step   7: "Mode choice"
+                      Sum matrix 201  after Mode choice of Demand stratum 01 D-P: 15055.143
+                      Sum matrix 202  after Mode choice of Demand stratum 01 D-P: 13622.457
+                      Sum matrix 203  after Mode choice of Demand stratum 02 P-D: 13173.250
+                      Sum matrix 204  after Mode choice of Demand stratum 02 P-D: 11919.650
+                      Sum matrix 205  after Mode choice of Demand stratum 03 D-N: 2540.432
+                      Sum matrix 206  after Mode choice of Demand stratum 03 D-N: 4628.968
+                      Sum matrix 207  after Mode choice of Demand stratum 04 N-D: 2540.432
+                      Sum matrix 208  after Mode choice of Demand stratum 04 N-D: 4628.968
+                      Sum matrix 209  after Mode choice of Demand stratum 05 D-U: 1438.584
+                      Sum matrix 210  after Mode choice of Demand stratum 05 D-U: 2146.116
+                      Sum matrix 211  after Mode choice of Demand stratum 06 U-D: 1438.584
+                      Sum matrix 212  after Mode choice of Demand stratum 06 U-D: 2146.116
+                      Sum matrix 213  after Mode choice of Demand stratum 07 D-I: 8584.463
+                      Sum matrix 214  after Mode choice of Demand stratum 07 D-I: 5754.337
+                      Sum matrix 215  after Mode choice of Demand stratum 08 I-D: 10730.578
+                      Sum matrix 216  after Mode choice of Demand stratum 08 I-D: 7192.922
                       Sum matrix 217  after Mode choice of Demand stratum 09 NZD: 14653.351
                       Sum matrix 218  after Mode choice of Demand stratum 09 NZD: 11997.149
                       Successfully calculated mode choice for 9 demand strata and 2 modes. Global modal split:  PuT: 52.28% SO: 52.28%
-05/18/18 11.10.55.099 Start Procedure step  10: "Combination of matrices and vectors"
-05/18/18 11.10.55.286 Start Procedure step  11: "Combination of matrices and vectors"
-05/18/18 11.10.55.491 Start Procedure step  12: "Combination of matrices and vectors"
-05/18/18 11.10.55.678 Start Procedure step  13: "Combination of matrices and vectors"
-05/18/18 11.10.55.862 Start Procedure step  14: "Group"
-05/18/18 11.10.56.037 Start Procedure step  15: "Combination of matrices and vectors"
-05/18/18 11.10.56.228 Start Procedure step  16: "Combination of matrices and vectors"
-05/18/18 11.10.56.536 Start Procedure step  17: "Combination of matrices and vectors"
-05/18/18 11.10.56.735 Start Procedure step  18: "Group"
-05/18/18 11.10.56.903 Start Procedure step  19: "PrT assignment"
+08/22/18 08.43.34.192 Start Procedure step  10: "Combination of matrices and vectors"
+08/22/18 08.43.34.336 Start Procedure step  11: "Combination of matrices and vectors"
+08/22/18 08.43.34.477 Start Procedure step  12: "Combination of matrices and vectors"
+08/22/18 08.43.34.627 Start Procedure step  13: "Combination of matrices and vectors"
+08/22/18 08.43.34.786 Start Procedure step  14: "Group"
+08/22/18 08.43.34.927 Start Procedure step  15: "Combination of matrices and vectors"
+08/22/18 08.43.35.077 Start Procedure step  16: "Combination of matrices and vectors"
+08/22/18 08.43.35.228 Start Procedure step  17: "Combination of matrices and vectors"
+08/22/18 08.43.35.469 Start Procedure step  18: "Group"
+08/22/18 08.43.35.612 Start Procedure step  19: "PrT assignment"
                       Start of ICA calculation
                       End of ICA calculation
-                      The shortest path graph has been reduced by 74.1%
-                      Iteration 1, DSeg SO, routes in total 552
+                      The shortest path graph has been reduced by 74.0%
+                      Iteration 1, DSeg SO, routes in total 744
                       Start of ICA calculation
                       End of ICA calculation
                       Start of ICA calculation
@@ -118,126 +121,127 @@ Matrix total 109  after distribution of all demand strata: 26650.500
                       Start of ICA calculation
                       End of ICA calculation
                       The shortest path graph has been reduced by 74.0%
-                      Iteration 2 DSeg Samochód osobowy routes total 833 routes new 281
+                      Iteration 2 DSeg Samochód osobowy routes total 1094 routes new 350
                       Start of ICA calculation
                       End of ICA calculation
-                      Iteration     2 network balancing step     1 modified OD pairs   275 total excess cost 19790652.80078653 avg excess cost 3324.68484495
-                      Iteration     2 network balancing step     2 modified OD pairs    30 total excess cost 1573275.64287379 avg excess cost 264.29879496
-                      Iteration     2 network balancing step     3 modified OD pairs    10 total excess cost 104834.81127855 avg excess cost 17.61148113
-                      Iteration     2 network balancing step     4 modified OD pairs     8 total excess cost 28264.97107695 avg excess cost 4.74830830
-                      Iteration     2 network balancing step     5 modified OD pairs     6 total excess cost 2242.16148924 avg excess cost 0.37666672
-                      Iteration     2 number of deleted paths after OD balancing 266
-                      Iteration     2 number of deleted paths after network balancing 3
+                      Iteration     2 network balancing step     1 modified OD pairs   340 total excess cost 19791935.12292461 avg excess cost 3324.74810235
+                      Iteration     2 network balancing step     2 modified OD pairs    31 total excess cost 1574091.31029791 avg excess cost 264.42371927
+                      Iteration     2 network balancing step     3 modified OD pairs    10 total excess cost 105742.75477644 avg excess cost 17.76319602
+                      Iteration     2 network balancing step     4 modified OD pairs     8 total excess cost 28110.97018725 avg excess cost 4.72222116
+                      Iteration     2 network balancing step     5 modified OD pairs     6 total excess cost 2168.92877654 avg excess cost 0.36434749
+                      Iteration     2 number of deleted paths after OD balancing 332
+                      Iteration     2 number of deleted paths after network balancing 6
                       
-                      Iteration     2 gap 0.20697941
+                      Iteration     2 gap 0.20697649
                       
                       Start of ICA calculation
                       End of ICA calculation
-                      The shortest path graph has been reduced by 74.1%
-                      Iteration 3 DSeg Samochód osobowy routes total 737 routes new 173
+                      The shortest path graph has been reduced by 74.0%
+                      Iteration 3 DSeg Samochód osobowy routes total 948 routes new 192
                       Start of ICA calculation
                       End of ICA calculation
-                      Iteration     3 network balancing step     1 modified OD pairs   174 total excess cost 3930610.99970462 avg excess cost 660.31388422
-                      Iteration     3 network balancing step     2 modified OD pairs    27 total excess cost 109713.73412152 avg excess cost 18.43110446
-                      Iteration     3 network balancing step     3 modified OD pairs    15 total excess cost 15585.76250661 avg excess cost 2.61829405
-                      Iteration     3 network balancing step     4 modified OD pairs    13 total excess cost 8131.82431727 avg excess cost 1.36608698
-                      Iteration     3 network balancing step     5 modified OD pairs    11 total excess cost 5811.15446907 avg excess cost 0.97623143
-                      Iteration     3 number of deleted paths after OD balancing 162
+                      Iteration     3 network balancing step     1 modified OD pairs   194 total excess cost 3930568.62334888 avg excess cost 660.27654651
+                      Iteration     3 network balancing step     2 modified OD pairs    27 total excess cost 110354.18417422 avg excess cost 18.53784696
+                      Iteration     3 network balancing step     3 modified OD pairs    15 total excess cost 15294.47219564 avg excess cost 2.56924182
+                      Iteration     3 network balancing step     4 modified OD pairs    12 total excess cost 8075.39840399 avg excess cost 1.35654575
+                      Iteration     3 network balancing step     5 modified OD pairs     8 total excess cost 5516.31201370 avg excess cost 0.92665764
+                      Iteration     3 number of deleted paths after OD balancing 181
                       Iteration     3 number of deleted paths after network balancing 0
                       
-                      Iteration     3 gap 0.04007956
+                      Iteration     3 gap 0.04007083
                       
                       Start of ICA calculation
                       End of ICA calculation
                       The shortest path graph has been reduced by 74.0%
-                      Iteration 4 DSeg Samochód osobowy routes total 660 routes new 85
+                      Iteration 4 DSeg Samochód osobowy routes total 869 routes new 102
                       Start of ICA calculation
                       End of ICA calculation
-                      Iteration     4 network balancing step     1 modified OD pairs    73 total excess cost 856136.00548368 avg excess cost 143.82458382
-                      Iteration     4 network balancing step     2 modified OD pairs    35 total excess cost 595886.26512365 avg excess cost 100.10453192
-                      Iteration     4 network balancing step     3 modified OD pairs    23 total excess cost 213499.51315116 avg excess cost 35.86635585
-                      Iteration     4 network balancing step     4 modified OD pairs    21 total excess cost 64467.62083962 avg excess cost 10.83008853
-                      Iteration     4 network balancing step     5 modified OD pairs    21 total excess cost 21471.73927323 avg excess cost 3.60709507
-                      Iteration     4 number of deleted paths after OD balancing 60
-                      Iteration     4 number of deleted paths after network balancing 16
+                      Iteration     4 network balancing step     1 modified OD pairs    85 total excess cost 856233.26844657 avg excess cost 143.83434044
+                      Iteration     4 network balancing step     2 modified OD pairs    37 total excess cost 595795.30385673 avg excess cost 100.08467053
+                      Iteration     4 network balancing step     3 modified OD pairs    23 total excess cost 213645.12642001 avg excess cost 35.88917527
+                      Iteration     4 network balancing step     4 modified OD pairs    21 total excess cost 64514.58435691 avg excess cost 10.83748206
+                      Iteration     4 network balancing step     5 modified OD pairs    21 total excess cost 21491.63212587 avg excess cost 3.61027169
+                      Iteration     4 number of deleted paths after OD balancing 74
+                      Iteration     4 number of deleted paths after network balancing 19
                       
-                      Iteration     4 gap 0.00448650
-                      
-                      Start of ICA calculation
-                      End of ICA calculation
-                      The shortest path graph has been reduced by 74.1%
-                      Iteration 5 DSeg Samochód osobowy routes total 673 routes new 89
-                      Start of ICA calculation
-                      End of ICA calculation
-                      Iteration     5 network balancing step     1 modified OD pairs    62 total excess cost 141155.29236752 avg excess cost 23.71305616
-                      Iteration     5 network balancing step     2 modified OD pairs    35 total excess cost 85909.64952318 avg excess cost 14.43219244
-                      Iteration     5 network balancing step     3 modified OD pairs    36 total excess cost 47843.02948057 avg excess cost 8.03727884
-                      Iteration     5 network balancing step     4 modified OD pairs    28 total excess cost 20366.93327341 avg excess cost 3.42149575
-                      Iteration     5 network balancing step     5 modified OD pairs    22 total excess cost 12085.82716077 avg excess cost 2.03033052
-                      Iteration     5 number of deleted paths after OD balancing 43
-                      Iteration     5 number of deleted paths after network balancing 36
-                      
-                      Iteration     5 gap 0.00055438
+                      Iteration     4 gap 0.00448643
                       
                       Start of ICA calculation
                       End of ICA calculation
                       The shortest path graph has been reduced by 74.0%
-                      Iteration 6 DSeg Samochód osobowy routes total 639 routes new 45
+                      Iteration 5 DSeg Samochód osobowy routes total 882 routes new 106
                       Start of ICA calculation
                       End of ICA calculation
-                      Iteration     6 network balancing step     1 modified OD pairs    21 total excess cost 8000.27248172 avg excess cost 1.34398723
-                      Iteration     6 network balancing step     2 modified OD pairs    14 total excess cost 5340.62228093 avg excess cost 0.89718546
-                      Iteration     6 network balancing step     3 modified OD pairs    13 total excess cost 5278.61742593 avg excess cost 0.88676910
-                      Iteration     6 network balancing step     4 modified OD pairs    22 total excess cost 3924.79916235 avg excess cost 0.65933754
-                      Iteration     6 network balancing step     5 modified OD pairs     9 total excess cost 3535.24812639 avg excess cost 0.59389581
-                      Iteration     6 number of deleted paths after OD balancing 19
-                      Iteration     6 number of deleted paths after network balancing 17
+                      Iteration     5 network balancing step     1 modified OD pairs    72 total excess cost 141089.36925008 avg excess cost 23.70089684
+                      Iteration     5 network balancing step     2 modified OD pairs    35 total excess cost 86065.77630090 avg excess cost 14.45775891
+                      Iteration     5 network balancing step     3 modified OD pairs    37 total excess cost 47816.79173960 avg excess cost 8.03250347
+                      Iteration     5 network balancing step     4 modified OD pairs    28 total excess cost 20502.41371056 avg excess cost 3.44409784
+                      Iteration     5 network balancing step     5 modified OD pairs    23 total excess cost 11667.50812415 avg excess cost 1.95996628
+                      Iteration     5 number of deleted paths after OD balancing 53
+                      Iteration     5 number of deleted paths after network balancing 43
                       
-                      Iteration     6 gap 0.00003913
+                      Iteration     5 gap 0.00055923
+                      
+                      Start of ICA calculation
+                      End of ICA calculation
+                      The shortest path graph has been reduced by 74.0%
+                      Iteration 6 DSeg Samochód osobowy routes total 848 routes new 62
+                      Start of ICA calculation
+                      End of ICA calculation
+                      Iteration     6 network balancing step     1 modified OD pairs    26 total excess cost 8140.36138087 avg excess cost 1.36745856
+                      Iteration     6 network balancing step     2 modified OD pairs    18 total excess cost 5698.18408500 avg excess cost 0.95720942
+                      Iteration     6 network balancing step     3 modified OD pairs    12 total excess cost 4779.45970358 avg excess cost 0.80287751
+                      Iteration     6 network balancing step     4 modified OD pairs    19 total excess cost 3829.77882086 avg excess cost 0.64334537
+                      Iteration     6 network balancing step     5 modified OD pairs     9 total excess cost 3549.64941490 avg excess cost 0.59628784
+                      Iteration     6 number of deleted paths after OD balancing 26
+                      Iteration     6 number of deleted paths after network balancing 26
+                      
+                      Iteration     6 gap 0.00004390
                       
                       Equilibrium assignment finished after 6 iteration steps
-05/18/18 11.10.57.522 Time before  WBRePack
-05/18/18 11.10.57.522 Time after WBRePack
+08/22/18 08.43.36.206 Time before  WBRePack
+08/22/18 08.43.36.207 Time after WBRePack
                       Start of ICA calculation
                       End of ICA calculation
-                      The assignment reached convergence after 6 of a maximum of 20 iterations with a GAP of 3.91255021e-05.
-05/18/18 11.10.57.869 Start Procedure step  20: "Group"
-05/18/18 11.10.58.360 Start Procedure step  21: "Assignment analysis"
-05/18/18 11.10.58.528 Start Procedure step  23: "Group"
-05/18/18 11.10.58.813 Procedure - end
-05/18/18 11.10.59.207 Start time of Save version C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Scenarios\S000002\S000002result
-                            19 User-defined attributes
+                      The assignment reached convergence after 6 of a maximum of 20 iterations with a GAP of 4.38989148e-05.
+08/22/18 08.43.36.410 Start Procedure step  20: "Group"
+08/22/18 08.43.36.627 Start Procedure step  21: "Assignment analysis"
+08/22/18 08.43.36.843 Start Procedure step  23: "Group"
+08/22/18 08.43.37.062 Procedure - end
+08/22/18 08.43.37.434 Start time of Save version C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Scenarios\S000002\S000002result
+                            21 User-defined attributes
                              8 Transport systems
                              5 Modes
                              5 Demand segments
                              1 Calendar periods
                              1 Valid days
                              2 Directions
-                           749 Points
-                           749 Edges
-                            28 Faces
-                            28 Surfaces
-                           487 Nodes
+                          1479 Points
+                          1479 Edges
+                            33 Faces
+                            33 Surfaces
+                           492 Nodes
                             28 Zones
+                             9 Main zones
                              1 Territories
                            100 Link types
-                          1458 Links
-                          4562 Turns
-                           184 Connectors
+                          1470 Links
+                          4602 Turns
+                           190 Connectors
                             45 Lines
                              1 Block versions
                              1 Signal coordination groups
                              3 Signalized junctions
                              1 Demand models
                              9 Demand strata
-                            37 Matrices
+                            39 Matrices
                              1 Time series
                              1 Demand time series
                              1 Path sets
                              7 PrT assignment quality data
                              1 Turning standards
-05/18/18 11.10.59.640 End time of Save version C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Scenarios\S000002\S000002result
-05/18/18 11.11.00.894 Processing computation order 9d5d64d9-0de0-4e14-8a81-102752c77fe2 completed
-05/18/18 11.11.00.984 Processing computation order 2a7eb4b2-eafa-4278-ba30-25576f0da76d, type 0
+08/22/18 08.43.37.871 End time of Save version C:\Users\Rafal\Documents\GitHub\Model_Ogolny_Miejskiej_Mobilnosci\MOMM\Scenarios\S000002\S000002result
+08/22/18 08.43.39.061 Processing computation order f7297cb1-ebce-4e9a-98ec-ed2b0760fa41 completed
+08/22/18 08.43.39.195 Processing computation order 1e8973b5-c7a2-4d7a-bd9f-fe65182316ea, type 0
                       Calculation order is for scenario 4
-05/18/18 11.11.00.985 Close file
+08/22/18 08.43.39.196 Close file
