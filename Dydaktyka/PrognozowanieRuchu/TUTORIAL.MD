@@ -177,4 +177,14 @@ W ramach zaliczenia prezentujemy:
 * Rozmieszczenie zmiennych objaśniających w sieci (miejsca pracy, mieszkańcy, itp.) z komenatrzem (gdzie mało, gdzie duże i dlaczego).
 * Rozkład ruchu na sieć w wariancie bazowym z komentarzem (gdzie dużo pojazdów, gdzie zatłoczenie i dlaczego).
 * Wskaźniki i obciążenia sieci dla trzech inwestycji z komentarzem (najlepsza, najgorsza, takie a nie inne efekty realizacji).
-* Wskaźniki i obciążenia dla generatorów ruchu z komentarzem (gdzie i dlaczego budujemy, jaki to ma wpływ na sieć).
+* Wskaźniki i obciążenia dla trzech generatorów ruchu z komentarzem (gdzie i dlaczego budujemy, jaki to ma wpływ na sieć).
+
+Formy zaliczenia (do wyboru):
+* przesłanie sprawozdania z opisem i plikami źródłowiymi na moj adres mailowy
+* zaliczenie projektu wraz z ustnym omówieniem (termin uzgadniany indywidulanie, droga mailowa).
+
+# Możliwe błędy
+
+* Program przy obliczeniach zawiesza się, pojawia się okno "Internal Script" - błędy w skryptach, proszę odznaczyć z sekwencji procedur ostatnia grupę związaną ze skryptami (w Waszym przypadku zbędne).
+* Błędy przy obliczeniach, brak popytu "No positive flows in any OD relation" - puste więźby, najpewniej brak wypełnionych zmiennych objaśniających (Liczba Mieszkańców, Miejsce pracy itp.)
+* Błędy przy obliczeniach, brak ścieżek "No path found from zone X to zone Y" - błędy w sieci, brak konektora, połączenia w sieci, lub zamknięta sieć drogowa.

@@ -80,7 +80,7 @@ Dane w formie edytowalnej (`link_types.net, procedures.xml, dmd.dmd`), w miarę 
 
 Z materiałami dydaktycznymi - opisy w odpowiednich folderach.
 * Prognozowanie Ruchu
-* Miejski Transport Zbiorowy - studia podyplomowe
+* [Miejski Transport Zbiorowy - studia podyplomowe](https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/Dydaktyka/Miejski%20Transport%20Zbiorowy/TUTORIAL.MD)
 
 # Błędy i wnioski racjonalizatorskie
 
