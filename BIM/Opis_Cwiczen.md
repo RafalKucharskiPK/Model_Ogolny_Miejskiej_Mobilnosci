@@ -37,3 +37,6 @@ Operacje:
  * Odczytaj wartości dla wybranych 4 linii kolejowych
  * Preślij w formie wydruku pdf na adres mailowy
  
+ ![alt text](f1.png)
+ ![alt text](f2.png)
+ 
