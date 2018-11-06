@@ -13,8 +13,15 @@ Przedstawić w formie pliku pdf i przesłać na adres mailowy.
 Dla dwóch warstw wektorowych:
 * miejscowości na lubelszczyźnie wraz z populacją
 * linie kolejowe
+określić liczbę mieszkańców w promieniu 10 km od linii kolejowych
 
-określić dla każdej linii kolejowej liczbę mieszkańców w promieniu 10 km
+Oprogramowanie:
+1. qGIS (bez wsparcia prowadzącego...)
+2. PTV Visum (ze wsparciem prowadzącego, pobranie wersji studenckiej: http://cgi.ptvgroup.com/php/lng/vision_student_download.php?lng=en)
+
+Dane: https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/BIM/Shapefile.zip
+
+
 
 Narzędzia (PTV Visum).
 Operacje:
@@ -27,4 +34,6 @@ Operacje:
   * Target: _Links_ (koleje) Buffer size _10 000 m_
   * Source: _Stops_ (miejscowosci) Buffer size_0m_ 
   * Destination attribute ADDVAL1
- * Odczytaj wartości dla wybranych linii kolejowych
+ * Odczytaj wartości dla wybranych 4 linii kolejowych
+ * Preślij w formie wydruku pdf na adres mailowy
+ 
