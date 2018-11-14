@@ -4,7 +4,9 @@ korzystając z Miejskiego Systemu Informacji Prestrzennej (http://msip.um.krakow
 Wybrać dowolną ulicę w Krakowie zaczynającą się taką samą literę jak Wasze imie i numer adresowy taki jak dwie ostatnie cyfry Waszego numer albumu.
 Dla tego adresu proszę przygotować 3 wydruki dla otoczenia (r ~100m) tego adresu:
 1. wybrane 3 warstwy wektorowe
+![alt text](msip1.PNG)
 2. wybraną warstwę rastrową
+![alt text](msip2.PNG)
 3. wybrane ciekawe informacje przydatne w projektowaniu.
 Przedstawić w formie pliku pdf i przesłać na adres mailowy.
 
