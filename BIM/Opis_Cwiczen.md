@@ -12,33 +12,28 @@ Przedstawić w formie pliku pdf i przesłać na adres mailowy.
 
 # Ćwiczenie 2
 
-Dla dwóch warstw wektorowych:
-* miejscowości na lubelszczyźnie wraz z populacją
-* linie kolejowe
-określić liczbę mieszkańców w promieniu 10 km od linii kolejowych
+Dla dwóch warstw wektorowych zamieszczonych w tym folderze: https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/tree/master/dane/MOMM/warstwy_shp
+
+określić liczbę budynków w promieniu 500m od przystanku o numerze zakończonym tak jak dwie ostatnie cyfry numeru albumu.
 
 Oprogramowanie:
 1. qGIS (bez wsparcia prowadzącego...)
 2. PTV Visum (ze wsparciem prowadzącego, pobranie wersji studenckiej: http://cgi.ptvgroup.com/php/lng/vision_student_download.php?lng=en)
 
-Dane: https://github.com/RafalKucharskiPK/Model_Ogolny_Miejskiej_Mobilnosci/blob/master/BIM/Shapefile.zip
-
-
-
 Narzędzia (PTV Visum).
 Operacje:
 
 * Import shapefile
-  * linie jako links
-  * odcinki jako stops
+  * przystanki jako _Stops_
+  * budynki jako _territories_ (_read additively_)
   * read additevely
 * Calculate/Procedures create: Miscellaneous/Intersect
-  * Target: _Links_ (koleje) Buffer size _10 000 m_
-  * Source: _Stops_ (miejscowosci) Buffer size_0m_ 
-  * Destination attribute ADDVAL1
- * Odczytaj wartości dla wybranych 4 linii kolejowych
+  * Target: _Stops_ (koleje) Buffer size _500 m_ (100, 300 i 500 - trzy warianty)
+  * Source: _Territories_ (miejscowosci) Buffer size_0m_ 
+  * Destination attribute _ADDVAL1_
+  * Source attribute _1.0_
+ * Odczytaj wartości dla przystanku w trzech wartościach promienia: _100m, 300m, 500m_ (kliknij dwa razy w obiekt i odczytaj)
  * Preślij w formie wydruku pdf na adres mailowy
  
- ![alt text](/BIM/f1.PNG)
- ![alt text](/BIM/f2.PNG)
+ ![alt text](/intersect.PNG)
  
