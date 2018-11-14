@@ -35,5 +35,5 @@ Operacje:
  * Odczytaj wartości dla przystanku w trzech wartościach promienia: _100m, 300m, 500m_ (kliknij dwa razy w obiekt i odczytaj)
  * Preślij w formie wydruku pdf na adres mailowy
  
- ![alt text](/intersect.PNG)
+ ![alt text](intersect.PNG)
  
