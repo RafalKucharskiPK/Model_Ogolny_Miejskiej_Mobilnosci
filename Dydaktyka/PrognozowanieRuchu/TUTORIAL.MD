@@ -181,20 +181,22 @@ W ramach zaliczenia prezentujemy:
 
 # Sprawozadnie (zaliczenie)
 
- przesłanie sprawozdania z opisem  na adres mailowy (rkucharski@pk.edu.pl), w sprawozdaniu jeden plik PDF, A4):
+ przesłanie sprawozdania z opisem  na adres mailowy (rkucharski@pk.edu.pl),jeden plik PDF, A4):
+ *Zakres*
  * zakres modelu z tłem mapowym 
  * podział na rejony komunikacyjne 
  * tabela ze zmiennymi objaśniającymi rejonów
  * sieć drogowa (z klasyfikacją i konektorami)
  * rozkład ruchu na sieć (wstęgi)
  * rozkłady w każdym z wariantów:
- ** w0 (wariant bezinwestycyjny)
- ** inwestycja drogowa I
- ** inwestycja drogowa II
- ** generator I (Centrum Handlowe)
- ** genrator II (Fabryka)
- ** generator III (Osiedle)
+ * w0 (wariant bezinwestycyjny)
+ * inwestycja drogowa I
+ * inwestycja drogowa II
+ * generator I (Centrum Handlowe)
+ * genrator II (Fabryka)
+ * generator III (Osiedle)
  * tabela prac przewozowych i prędkości średnich dla każdego z wariantów
+ * opis (max 2000 słów)
  
 
 
