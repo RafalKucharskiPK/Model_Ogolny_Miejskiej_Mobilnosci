@@ -145,7 +145,7 @@ Interesują nas trzy podstawowe wskaźniki funkcjonowania sieci:
 
 ## Inwestycje drogowe
 
-W osobnych plikach zapisz modyfikacje ukłądu drogowego. Zakoduj trzy osobne nowe inwestycje drogowe. Szukaj inwestycji rozwiązujących faktyczne porblemy komunikacyjne. Dobierz inwestycje tak, by skorzystała z niej jak największa liczba kierwców (pojazdów). Zaproponuj trzy inwestycje, z czego jedna lokalna o małej skali (łącznik, nowy krótki odcinek) a jedna o dużej (arteria, obwdnica, trasa śródmiejska). 
+W osobnych plikach zapisz modyfikacje ukłądu drogowego. Zakoduj dwie osobne nowe inwestycje drogowe. Szukaj inwestycji rozwiązujących faktyczne porblemy komunikacyjne. Dobierz inwestycje tak, by skorzystała z niej jak największa liczba kierwców (pojazdów). Zaproponuj trzy inwestycje, z czego jedna lokalna o małej skali (łącznik, nowy krótki odcinek) a jedna o dużej (arteria, obwdnica, trasa śródmiejska). 
 Wykonaj obliczenia rozkłądu ruchu na siec dla każdej ze zmodyfikowanych sieci i opisz w tabeli jej wpływ na wskaźniki funkcjonowania sieci.
 Każdą z inwestycji zwizualizuj, oraz zapisz w osobnym pliku (`W1.ver, W2.ver, W3.ver`)
 
@@ -179,9 +179,24 @@ W ramach zaliczenia prezentujemy:
 * Wskaźniki i obciążenia sieci dla trzech inwestycji z komentarzem (najlepsza, najgorsza, takie a nie inne efekty realizacji).
 * Wskaźniki i obciążenia dla trzech generatorów ruchu z komentarzem (gdzie i dlaczego budujemy, jaki to ma wpływ na sieć).
 
-Formy zaliczenia (do wyboru):
-* przesłanie sprawozdania z opisem i plikami źródłowiymi na moj adres mailowy
-* zaliczenie projektu wraz z ustnym omówieniem (termin uzgadniany indywidulanie, droga mailowa).
+# Sprawozadnie (zaliczenie)
+
+ przesłanie sprawozdania z opisem  na adres mailowy (rkucharski@pk.edu.pl), w sprawozdaniu jeden plik PDF, A4):
+ * zakres modelu z tłem mapowym 
+ * podział na rejony komunikacyjne 
+ * tabela ze zmiennymi objaśniającymi rejonów
+ * sieć drogowa (z klasyfikacją i konektorami)
+ * rozkład ruchu na sieć (wstęgi)
+ * rozkłady w każdym z wariantów:
+ ** w0 (wariant bezinwestycyjny)
+ ** inwestycja drogowa I
+ ** inwestycja drogowa II
+ ** generator I (Centrum Handlowe)
+ ** genrator II (Fabryka)
+ ** generator III (Osiedle)
+ * tabela prac przewozowych i prędkości średnich dla każdego z wariantów
+ 
+
 
 # Możliwe błędy
 
